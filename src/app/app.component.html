@@ -1,0 +1,7 @@
+<div>
+
+  <zingchart-angular #chart1 [config]="config" [height]="300" (complete)="onComplete($event)"></zingchart-angular>
+  <zingchart-angular [config]="config"></zingchart-angular>
+  <button (click)="log = chart1.getdata()">get data</button>
+  {{log}}
+</div>
