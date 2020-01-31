@@ -1,6 +1,7 @@
 /// <reference path="../zingchart.d.ts" />
 import { Component, AfterViewInit, OnDestroy, Input, Output, EventEmitter, OnChanges, SimpleChanges} from '@angular/core';
 import zingchart from 'zingchart';
+
 import { ZingchartAngularService } from './zingchart-angular.service';
 
 const METHOD_NAMES = ["addplot", "appendseriesdata", "appendseriesvalues", "getseriesdata", "getseriesvalues", "modifyplot", "removenode", "removeplot", "set3dview", "setnodevalue", "setseriesdata", "setseriesvalues", "downloadCSV", "downloadXLS", "downloadRAW", "exportdata", "getimagedata", "print", "saveasimage", "exportimage", "addmenuitem", "addscalevalue", "destroy", "load", "modify", "reload", "removescalevalue", "resize", "setdata", "setguide", "update", "clearfeed", "getinterval", "setinterval", "startfeed", "stopfeed", "getcharttype", "getdata", "getgraphlength", "getnodelength", "getnodevalue", "getobjectinfo", "getplotlength", "getplotvalues", "getrender", "getrules", "getscales", "getversion", "getxyinfo", "get3dview", "goback", "goforward", "addnote", "removenote", "updatenote", "addobject", "removeobject", "repaintobjects", "updateobject", "addrule", "removerule", "updaterule", "Selection", "clearselection", "deselect", "getselection", "select", "setselection", "clicknode", "closemodal", "disable", "enable", "exitfullscreen", "fullscreen", "hideguide", "hidemenu", "hideplot/plothide", "legendmaximize", "legendminimize", "openmodal", "showhoverstate", "showguide", "showmenu", "showplot/plotshow", "toggleabout", "togglebugreport", "toggledimension", "togglelegend", "togglesource", "toggleplot", "hidetooltip", "locktooltip", "showtooltip", "unlocktooltip",  "viewall", "zoomin", "zoomout", "zoomto", "zoomtovalues"];
@@ -249,6 +250,13 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
 
   ngAfterViewInit() {
     let data = this.config;
+    if(typeof data === 'string') {
+      try {
+        data = JSON.parse(data);
+      } catch(e) {
+        throw new Error('Invalid object');
+      }
+    }
     if(this.series) {
       data['series'] = this.series;
     }

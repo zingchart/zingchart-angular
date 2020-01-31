@@ -12653,7 +12653,7 @@ export interface graphset {
            width?: any;
        };
    };
-   series?: [series];
+   series?: series[];
    shapes?: [
        {
            /**
