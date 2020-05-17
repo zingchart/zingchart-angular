@@ -1,6 +1,6 @@
 /// <reference path="../zingchart.d.ts" />
 import { Component, AfterViewInit, OnDestroy, Input, Output, EventEmitter, OnChanges, SimpleChanges} from '@angular/core';
-import zingchart from 'zingchart';
+import { data as zingchart } from 'zingchart';
 
 import { ZingchartAngularService } from './zingchart-angular.service';
 
