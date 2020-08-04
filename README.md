@@ -7,7 +7,6 @@
 ![](https://img.shields.io/david/peer/zingchart/zingchart-angular)
 ![](https://img.shields.io/david/dev/zingchart/zingchart-angular)
 
-# zingchart-angular
 
 Quickly add charts to your Angular application with our ZingChart component
 
