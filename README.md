@@ -1,3 +1,12 @@
+![](https://img.shields.io/npm/v/zingchart-angular)
+![](https://github.com/zingchart/zingchart-angular/workflows/Build/badge.svg?branch=master)
+![](https://github.com/zingchart/zingchart-angular/workflows/Test/badge.svg?branch=master)
+![](https://img.shields.io/npm/dw/zingchart-angular)
+
+![](https://img.shields.io/david/zingchart/zingchart-angular)
+![](https://img.shields.io/david/peer/zingchart/zingchart-angular)
+![](https://img.shields.io/david/dev/zingchart/zingchart-angular)
+
 # zingchart-angular
 
 Quickly add charts to your Angular application with our ZingChart component
@@ -79,6 +88,10 @@ The width of the chart. Defaults to 100%
 
 ### height [string or number] (optional)
 The height of the chart. Defaults to 480px.
+
+### output [string] (optional)
+
+The render type of the chart. **The default is `svg`** but you can also pass the string `canvas` to render the charts in canvas. 
 
 ### theme [object] (optional)
 The theme or 'defaults' object defined by ZingChart. More information available here: https://www.zingchart.com/docs/api/themes
