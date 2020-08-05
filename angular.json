@@ -133,7 +133,7 @@
           "preserveSymlinks": true,
           "options": {
             "tsConfig": "projects/zingchart-angular/tsconfig.lib.json",
-            "project": "projects/zingchart-angular/ng-package.json",
+            "project": "projects/zingchart-angular/ng-package.json"
           }
         },
         "test": {

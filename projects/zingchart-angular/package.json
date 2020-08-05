@@ -1,10 +1,11 @@
 {
   "name": "zingchart-angular",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14",
     "zingchart": "^2.8.8"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }
