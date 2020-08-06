@@ -4,10 +4,13 @@
 name: Publish RC to NPM
 
 # only run when a release has been "published"
-on:
-  release:
-    types: [prereleased]
-
+# on:
+#   release:
+#     types: [prereleased]
+on: 
+  push:
+    branches:
+      - test
 jobs:
 
   # publish to npm on release
