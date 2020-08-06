@@ -157,11 +157,13 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
     }
     this.chartWidth = this.width || DEFAULT_WIDTH;
     this.chartHeight = this.height || DEFAULT_HEIGHT;
+    this.output = this.output || DEFAULT_OUTPUT;
     this.renderObject = {
       id: this.chartId,
       data: data,
       width: this.chartWidth,
       height: this.chartHeight,
+      output: this.output,
     }
     if(this.theme) {
       this.renderObject['defaults'] = this.theme;
@@ -190,8 +192,9 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
       });
     } else if(changes.series) {
       this.config.series = changes.series.currentValue;
-      zingchart.exec(this.chartId, 'setdata', {
-        data: this.config,
+      zingchart.exec(this.chartId, 'setseriesdata', {
+        graphid: 0,
+        data: this.config.series,
       });
     } else if(changes.width || changes.height) {
       const width = (changes.width && changes.width.currentValue) || this.width;

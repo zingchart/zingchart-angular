@@ -7,10 +7,15 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
+  interval: any;
+
   title = 'zing-app';
-  series:zingchart.series = {
+  series:zingchart.series = [{
     alpha: 1,
     values: [2,3,5,5],
+  }]
+  shell: zingchart.graphset = {
+    type: 'area', 
   }
   config:zingchart.graphset = {
     type: 'line',
@@ -19,7 +24,20 @@ export class AppComponent {
     }]
   };
   log=''
-  onComplete() {
-    console.log('on complete!');
+  onComplete(event) {
+    console.log('zingchart on complete fired!', event);
+  }
+
+  ngOnDestroy() {
+    window.clearTimeout(this.interval);
+  }
+
+  ngAfterContentInit()	{
+    this.interval = setInterval(() => {
+      this.series = [{
+        alpha: 1,
+        values: [5,11,15,25].map(val => Math.floor(Math.random() * val)),
+      }]
+    }, 2000)
   }
 }
