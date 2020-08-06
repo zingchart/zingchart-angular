@@ -1,12 +1,12 @@
 
 # Name is optional and if present must be used
 # in the url path for badges
-name: Publish to NPM
+name: Publish RC to NPM
 
 # only run when a release has been "published"
 on:
   release:
-    types: [published]
+    types: [prereleased]
 
 jobs:
 
@@ -27,6 +27,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm install
       - run: npm run build
-      - run: npm run publish
+      - run: npm run publish:tag
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
