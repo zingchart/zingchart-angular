@@ -1,7 +1,15 @@
 <div>
+  <h3>Simple Chart</h3>
+  <zingchart-angular #chart1 [config]="config" [height]="300"></zingchart-angular>
+  <hr>
 
-  <zingchart-angular #chart1 [config]="config" [height]="300" (complete)="onComplete($event)"></zingchart-angular>
-  <zingchart-angular [config]="config"></zingchart-angular>
+  <h3>Dynamic Chart</h3>
+  <zingchart-angular [config]="shell" [series]="series"></zingchart-angular>
+  <hr>
+  
+
+  <h3>Method Event Chart</h3>
+  <zingchart-angular [config]="config" (complete)="onComplete($event)"></zingchart-angular>
   <button (click)="log = chart1.getdata()">get data</button>
   {{log}}
 </div>
