@@ -7,6 +7,13 @@
 ![](https://img.shields.io/david/peer/zingchart/zingchart-angular)
 ![](https://img.shields.io/david/dev/zingchart/zingchart-angular)
 
+<iframe
+  src="https://codesandbox.io/embed/zingchart-angular-wrapper-example-jm7jb?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:550px; border:0; border-radius: 4px; overflow:hidden;"
+  title="zingchart-react-wrapper-example"
+  allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+  sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+></iframe>
 
 ## Quickstart Guide
 
