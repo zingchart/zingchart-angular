@@ -17,6 +17,10 @@ This guide assumes some basic working knowledge of Angular and its Object Orient
 
 ## 1. Install
 
+Install the `zingchart` package via npm
+
+`npm install zingchart`
+
 Install the `zingchart-angular` package via npm
 
 `npm install zingchart-angular`
@@ -39,7 +43,7 @@ import { ZingchartAngularModule } from 'zingchart-angular';
 
 ## 3. Define ZingChart in your component
 
-The `zingchart/es6` library is a direct dependency of the `ZingchartAngularModule` and you **do not** have to explicitly import the ZingChart library. 
+The `zingchart/zingchart-es6` library is a direct dependency of the `ZingchartAngularModule` and you **do not** have to explicitly import the ZingChart library. 
 
 ### Default Use Case
 
@@ -107,7 +111,7 @@ If you need access to the `window.zingchart` objects for licensing or developmen
 
 ```javascript
 import { Component } from '@angular/core';
-import zingchart from 'zingchart/es6';
+import zingchart from 'zingchart/zingchart-es6';
 
 // zingchart object for performance flags
 zingchart.DEV.KEEPSOURCE = 0; // prevents lib from storing the original data package
@@ -202,7 +206,7 @@ All [zingchart events](https://www.zingchart.com/docs/api/events) are readily av
   }
 ```
 
-For a list of all the events that you can listen to, refer to the complete documentation on https://www.zingchart.com/docs/events
+For a list of all the events that you can listen to, refer to the complete documentation on https://www.zingchart.com/docs/api/events
 
 ## Methods
 
@@ -226,7 +230,7 @@ All [zingchart methods](https://www.zingchart.com/docs/api/methods) are readily 
   }
 ```
 
-For a list of all the methods that you can call and the parameters each method can take, refer to the complete documentation on https://www.zingchart.com/docs/methods
+For a list of all the methods that you can call and the parameters each method can take, refer to the complete documentation on https://www.zingchart.com/docs/api/methods
 
 ## Working Example
 
