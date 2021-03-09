@@ -25,6 +25,8 @@ Install the `zingchart-angular` package via npm
 
 `npm install zingchart-angular`
 
+**Note:** If using the angular-cli to generate a project, you will need to use `npm install zingchart-angular --legacy-peer-deps`.
+
 ## 2. Include the `zingchartAngular` module in your project
 
 You can import the module in your module declaration file. This is typically `app.module.ts` for many hello world examples. 
