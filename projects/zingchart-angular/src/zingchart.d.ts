@@ -10274,6 +10274,7 @@ export interface graphset {
             */
            'wrap-text'?: boolean;
        };
+       labels?: any;
        markers?: [
            {
                /**
@@ -12657,7 +12658,7 @@ export interface graphset {
            width?: any;
        };
    };
-   series?: [series];
+   series?: series[];
    shapes?: [
        {
            /**
@@ -17510,6 +17511,7 @@ export interface series {
         */
        'shadow-distance'?: any;
    };
+   text?: string;
    tooltip?: {
        /**
         * Sets the transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comp
