@@ -3,7 +3,7 @@
 // Definitions by: Danny Juergens
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 3.3
-import * as zingchart from '.';
+// import * as zingchart from '.';
 export as namespace zingchart;
 export function render(config: object): null;
 
