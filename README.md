@@ -87,6 +87,7 @@ import { Component } from '@angular/core';
 // EXPLICITLY IMPORT MODULE from node_modules
 import "zingchart/modules-es6/zingchart-maps.min.js";
 import "zingchart/modules-es6/zingchart-maps-usa.min.js";
+import zingchart from 'zingchart/es6';
 
 @Component({
   templateUrl: '...',
