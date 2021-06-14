@@ -46,7 +46,7 @@ import { ZingchartAngularModule } from 'zingchart-angular';
 
 ## 3. Define ZingChart in your component
 
-The `zingchart/zingchart-es6` library is a direct dependency of the `ZingchartAngularModule` and you **do not** have to explicitly import the ZingChart library. 
+The `zingchart/es6` library is a direct dependency of the `ZingchartAngularModule` and you **do not** have to explicitly import the ZingChart library. 
 
 ### Default Use Case
 
@@ -87,6 +87,7 @@ import { Component } from '@angular/core';
 // EXPLICITLY IMPORT MODULE from node_modules
 import "zingchart/modules-es6/zingchart-maps.min.js";
 import "zingchart/modules-es6/zingchart-maps-usa.min.js";
+import zingchart from 'zingchart/es6';
 
 @Component({
   templateUrl: '...',
@@ -114,7 +115,7 @@ If you need access to the `window.zingchart` objects for licensing or developmen
 
 ```javascript
 import { Component } from '@angular/core';
-import zingchart from 'zingchart/zingchart-es6';
+import zingchart from 'zingchart/es6';
 
 // zingchart object for performance flags
 zingchart.DEV.KEEPSOURCE = 0; // prevents lib from storing the original data package
