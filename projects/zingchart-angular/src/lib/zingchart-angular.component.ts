@@ -20,7 +20,7 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
   @Input() width: string | number;
   @Input() output: string;
   @Input() height: string | number;
-  @Input() series: [zingchart.series];
+  @Input() series: zingchart.series[];
   // @Input() series: any;
   @Input() theme: Object;
 
