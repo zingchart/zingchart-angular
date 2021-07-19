@@ -17,9 +17,16 @@ This guide assumes some basic working knowledge of Angular and its Object Orient
 
 ## 1. Install
 
+Install the `zingchart` package via npm
+
+`npm install zingchart`
+
 Install the `zingchart-angular` package via npm
 
 `npm install zingchart-angular`
+
+**Note:** If using the angular-cli to generate a project, you will need to use `npm install zingchart-angular --legacy-peer-deps`.
+**Note:** If using the Ivy compiler, add `“postinstall”:”ngcc”` to your `package.json`.
 
 ## 2. Include the `zingchartAngular` module in your project
 
@@ -80,6 +87,7 @@ import { Component } from '@angular/core';
 // EXPLICITLY IMPORT MODULE from node_modules
 import "zingchart/modules-es6/zingchart-maps.min.js";
 import "zingchart/modules-es6/zingchart-maps-usa.min.js";
+import zingchart from 'zingchart/es6';
 
 @Component({
   templateUrl: '...',
@@ -202,7 +210,7 @@ All [zingchart events](https://www.zingchart.com/docs/api/events) are readily av
   }
 ```
 
-For a list of all the events that you can listen to, refer to the complete documentation on https://www.zingchart.com/docs/events
+For a list of all the events that you can listen to, refer to the complete documentation on https://www.zingchart.com/docs/api/events
 
 ## Methods
 
@@ -226,7 +234,7 @@ All [zingchart methods](https://www.zingchart.com/docs/api/methods) are readily 
   }
 ```
 
-For a list of all the methods that you can call and the parameters each method can take, refer to the complete documentation on https://www.zingchart.com/docs/methods
+For a list of all the methods that you can call and the parameters each method can take, refer to the complete documentation on https://www.zingchart.com/docs/api/methods
 
 ## Working Example
 

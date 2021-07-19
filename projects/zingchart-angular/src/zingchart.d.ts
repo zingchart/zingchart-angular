@@ -1,9 +1,9 @@
-// Type definitions for zingchart 2.8
+// Type definitions for zingchart 2.9.3
 // Project: https://github.com/zingchart
-// Definitions by: Mike Schultz <https://github.com/mike-schultz>
+// Definitions by: Danny Juergens
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 3.3
-// import * as zingchart from 'zingchart';
+// import * as zingchart from '.';
 export as namespace zingchart;
 export function render(config: object): null;
 
@@ -1444,6 +1444,10 @@ export interface graphset {
             * Sets the distance between the shadow and the object. 4 | "6px" | ...
             */
            'shadow-distance'?: any;
+           /**
+            * Sets the text of the tooltip.
+            */
+           'text'?: string;
            /**
             * Sets the transparency of the text. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comple
             * tely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
@@ -3337,6 +3341,10 @@ export interface graphset {
             */
            'callout-width'?: any;
            /**
+            * Sets the style of the cursor when hovering over a node. "hand" | "normal"
+            */
+            cursor?: string;
+           /**
             * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
             */
            'fill-angle'?: number;
@@ -3500,6 +3508,10 @@ export interface graphset {
             */
            'border-width'?: any;
            /**
+            * Sets the style of the cursor when hovering over a node. "hand" | "normal"
+            */
+           cursor?: string;
+           /**
             * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
             */
            'fill-angle'?: number;
@@ -3574,6 +3586,10 @@ export interface graphset {
             * Sets the distance between the shadow and the object. 4 | "6px" | ...
             */
            'shadow-distance'?: any;
+           /**
+            * Sets the size of the object/shape. 4 | "6px" | ...
+            */
+           size?: any;
            /**
             * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
             */
@@ -5173,6 +5189,10 @@ export interface graphset {
         */
        description?: string;
        /**
+        * Turns off click on slices
+        */
+       detached?: boolean;
+       /**
         * By default ZingChart uses sampling when rendering charts. This helps improve rendering speeds and typically does not effect the ap
         * pearance of the chart. However, using the attribute "exact": true within the "plot": { } object forces ZingChart to render all nod
         * es. true | false | 1 | 0
@@ -5405,6 +5425,10 @@ export interface graphset {
         * Bubble Charts and Bubble Pie Charts Only: Sets a multiplier (default 1) used to increase/decrease the bubble size 5 | 10 | ...
         */
        'size-factor'?: number;
+       /**
+        * Hole size in middle of chart
+        */
+       slice?: number;
        /**
         * Nested Pie Charts Only: Sets the initial offset of the pie layers when making a nestedpie 5 | 10 | ...
         */
@@ -7482,6 +7506,10 @@ export interface graphset {
             */
            'shadow-distance'?: any;
            /**
+            * Sets the text content of the object. "Some Text" | ...
+            */
+           text?: string;
+           /**
             * Sets the transparency of the text. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comple
             * tely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
             */
@@ -7685,6 +7713,10 @@ export interface graphset {
             * Sets whether or not the object's shadow is visible. Has limited effect on HTML5 implementation. true | false | 1 | 0
             */
            shadow?: boolean;
+            /**
+             * Sets the text content of the object. "Some Text" | ...
+             */
+            text?: string;
            /**
             * Sets the transparency of the text. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comple
             * tely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
@@ -10270,6 +10302,7 @@ export interface graphset {
             */
            'wrap-text'?: boolean;
        };
+       labels?: any;
        markers?: [
            {
                /**
@@ -14305,19 +14338,22 @@ export interface graphset {
        };
    };
 }
+
+export interface behavior {
+    /**
+     * To enable or disable individual context menu item behaviors. "all" | "none"
+     */
+    enabled?: string;
+    /**
+     * To specify the behavior ID of the context menu item that is being accessed. "3D" | "LogScale" | "LinScale" | ...
+     */
+    id?: string;
+}
 export interface gui {
-   behaviors?: [
-       {
-           /**
-            * To enable or disable individual context menu item behaviors. "all" | "none"
-            */
-           enabled?: string;
-           /**
-            * To specify the behavior ID of the context menu item that is being accessed. "3D" | "LogScale" | "LinScale" | ...
-            */
-           id?: string;
-       },
-   ];
+    /**
+     * To create custom context menu items
+     */
+   behaviors?: behavior[];
    'context-menu'?: {
        /**
         * To fix the position of the context menu to one side of the chart. true | false
@@ -17503,6 +17539,7 @@ export interface series {
         */
        'shadow-distance'?: any;
    };
+   text?: string;
    tooltip?: {
        /**
         * Sets the transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comp

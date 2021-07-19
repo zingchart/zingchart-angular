@@ -10,12 +10,9 @@ const { DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_OUTPUT, EVENT_NAMES, METHOD_NAMES
 
 @Component({
   selector: 'zingchart-angular',
-  template: `
-    <div id="{{chartId}}"></div>
-  `,
-  styles: [],
-  // providers: [
-  
+  template: '',
+  host: {'[id]': 'chartId'},
+  styles: [':host {display: block;}'],
 })
 export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnChanges {
   @Input() config: zingchart.graphset;
@@ -23,7 +20,7 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
   @Input() width: string | number;
   @Input() output: string;
   @Input() height: string | number;
-  @Input() series: [zingchart.series];
+  @Input() series: zingchart.series[];
   // @Input() series: any;
   @Input() theme: Object;
 
@@ -177,6 +174,7 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
         }));
       }
     });
+    
     zingchart.render(this.renderObject);
   }
   
