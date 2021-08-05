@@ -6,10 +6,4 @@
   <h3>Dynamic Chart</h3>
   <zingchart-angular [config]="shell" [series]="series"></zingchart-angular>
   <hr>
-  
-
-  <h3>Method Event Chart</h3>
-  <zingchart-angular [config]="config" (complete)="onComplete($event)"></zingchart-angular>
-  <button (click)="log = chart1.getdata()">get data</button>
-  {{log}}
 </div>

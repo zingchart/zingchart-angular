@@ -13,9 +13,9 @@ import { AppComponent } from './app.component';
     ZingchartAngularModule,
   ],
   providers: [ 
-    {
-      provide: Window, useValue: window
-    }
+    // {
+    //   // provide: Window, useValue: window
+    // }
   ],
   bootstrap: [AppComponent]
 })

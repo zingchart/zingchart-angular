@@ -47,6 +47,7 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
   @Output() feed_start: EventEmitter<object> = new EventEmitter<object>();
   @Output() feed_stop: EventEmitter<object> = new EventEmitter<object>();
   @Output() gcomplete: EventEmitter<object> = new EventEmitter<object>();
+  @Output() getdata: EventEmitter<object> = new EventEmitter<object>();
   @Output() gload: EventEmitter<object> = new EventEmitter<object>();
   @Output() gparse: EventEmitter<object> = new EventEmitter<object>();
   @Output() guide_mousemove: EventEmitter<object> = new EventEmitter<object>();
