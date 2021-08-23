@@ -204,8 +204,10 @@ All [zingchart events](https://www.zingchart.com/docs/api/events) are readily av
 ```
   export class AppComponent {
     ...
-    nodeClick(event) {
-      console.log('zingchart node clicked!', event);
+    ngAfterViewInit() {
+      zingchart.node_click = function(event) {
+        console.log('zingchart node clicked!', event);
+      }
     }
   }
 ```
