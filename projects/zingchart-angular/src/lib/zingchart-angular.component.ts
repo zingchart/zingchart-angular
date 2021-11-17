@@ -21,7 +21,6 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
   @Input() output: string;
   @Input() height: string | number;
   @Input() series: zingchart.series[];
-  // @Input() series: any;
   @Input() theme: Object;
 
   @Output() about_hide: EventEmitter<object> = new EventEmitter<object>();
@@ -132,10 +131,12 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
   chartHeight: string | number;
   renderObject: Object;
   
-  // constructor(private service: ZingchartAngularService, private ref: ElementRef, private viewRef: ViewContainerRef) { 
   constructor(private service: ZingchartAngularService) { 
     this.service.increment();
-    this.chartId = 'zingchart-ng-' + this.service.getCount();
+  }
+
+  ngOnInit() {
+    this.chartId = this.id || 'zingchart-ng-' + this.service.getCount();
     METHOD_NAMES.forEach((method) => {
       this[method] = (args) => JSON.stringify(zingchart.exec(this.chartId, method, args));
     });
@@ -150,14 +151,18 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
         throw new Error('Invalid object');
       }
     }
+    if(this.id) {
+      this.chartId = this.id;
+    }
     if(this.series) {
       data['series'] = this.series;
     }
     this.chartWidth = this.width || DEFAULT_WIDTH;
     this.chartHeight = this.height || DEFAULT_HEIGHT;
     this.output = this.output || DEFAULT_OUTPUT;
+    
     this.renderObject = {
-      id: this.id || this.chartId,
+      id: this.chartId,
       data: data,
       width: this.chartWidth,
       height: this.chartHeight,
