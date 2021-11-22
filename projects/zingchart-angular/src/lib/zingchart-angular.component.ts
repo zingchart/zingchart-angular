@@ -1,8 +1,7 @@
 /// <reference path="../zingchart.d.ts" />
 import { Component, AfterViewInit, OnDestroy, Input, Output, EventEmitter, OnChanges, SimpleChanges} from '@angular/core';
+import { v4 as uuid } from 'uuid';
 import zingchart from 'zingchart/es6';
-
-import { ZingchartAngularService } from './zingchart-angular.service';
 
 import constants from 'zingchart-constants';
 const { DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_OUTPUT, EVENT_NAMES, METHOD_NAMES } = constants;
@@ -129,14 +128,11 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
   chartId: string;
   chartWidth: string | number;
   chartHeight: string | number;
+  defaultChartId: string;
   renderObject: Object;
-  
-  constructor(private service: ZingchartAngularService) { 
-    this.service.increment();
-  }
 
   ngOnInit() {
-    this.chartId = this.id || 'zingchart-ng-' + this.service.getCount();
+    this.chartId = this.id || `zingchart-ng-${uuid()}`;
     METHOD_NAMES.forEach((method) => {
       this[method] = (args) => JSON.stringify(zingchart.exec(this.chartId, method, args));
     });
@@ -185,7 +181,6 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
   }
   
   ngOnDestroy() {
-    this.service.decrement();
     zingchart.exec(this.chartId, 'destroy');  
   }
 
