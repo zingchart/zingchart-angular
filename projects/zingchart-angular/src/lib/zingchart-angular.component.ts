@@ -1,10 +1,10 @@
 /// <reference path="../zingchart.d.ts" />
 import { Component, AfterViewInit, OnDestroy, Input, Output, EventEmitter, OnChanges, SimpleChanges} from '@angular/core';
 import { v4 as uuid } from 'uuid';
+import zingchart from 'zingchart/es6';
 import constants from 'zingchart-constants';
-import ZingchartAngular from 'zingchart-angular/zingchart';
-const { DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_OUTPUT, EVENT_NAMES, METHOD_NAMES } = constants;
 
+const { DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_OUTPUT, EVENT_NAMES, METHOD_NAMES } = constants;
 
 @Component({
   selector: 'zingchart-angular',
