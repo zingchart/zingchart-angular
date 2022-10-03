@@ -1,9 +1,8 @@
 /// <reference path="../zingchart.d.ts" />
 import { Component, AfterViewInit, OnDestroy, Input, Output, EventEmitter, OnChanges, SimpleChanges} from '@angular/core';
 import { v4 as uuid } from 'uuid';
-import zingchart from 'zingchart/es6';
-
 import constants from 'zingchart-constants';
+import ZingchartAngular from 'zingchart-angular/zingchart';
 const { DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_OUTPUT, EVENT_NAMES, METHOD_NAMES } = constants;
 
 
@@ -14,12 +13,12 @@ const { DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_OUTPUT, EVENT_NAMES, METHOD_NAMES
   styles: [':host {display: block;}'],
 })
 export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnChanges {
-  @Input() config: zingchart.graphset;
+  @Input() config: ZingchartAngular.graphset;
   @Input() id: string;
   @Input() width: string | number;
   @Input() output: string;
   @Input() height: string | number;
-  @Input() series: zingchart.series[];
+  @Input() series: ZingchartAngular.series[];
   @Input() theme: Object;
 
   @Output() about_hide: EventEmitter<object> = new EventEmitter<object>();

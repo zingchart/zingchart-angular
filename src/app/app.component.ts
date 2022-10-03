@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import ZingchartAngular from 'projects/zingchart-angular/src/zingchart';
 
 @Component({
   selector: 'app-root',
@@ -10,14 +11,14 @@ export class AppComponent {
   interval: any;
 
   title = 'zing-app';
-  series:zingchart.series = [{
+  series: ZingchartAngular.series = [{
     alpha: 1,
     values: [2,3,5,5],
   }]
-  shell: zingchart.graphset = {
+  shell: ZingchartAngular.graphset = {
     type: 'area', 
   }
-  config:zingchart.graphset = {
+  config: ZingchartAngular.graphset = {
     type: 'line',
     series: [{
       values: [3,4,5,5,6,7,5,3]

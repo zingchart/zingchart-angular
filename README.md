@@ -50,7 +50,7 @@ The `zingchart/es6` library is a direct dependency of the `ZingchartAngularModul
 
 ### Default Use Case
 
-The simple use case is defining a config (`zingchart.graphset`) object in your `.component.ts` file:
+The simple use case is defining a config (`ZingchartAngular.graphset`) object in your `.component.ts` file:
 
  
 ```
@@ -62,7 +62,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  config:zingchart.graphset = {
+  config: ZingchartAngular.graphset = {
     type: 'line',
     series: [{
       values: [3,6,4,6,4,6,4,6]
@@ -95,7 +95,7 @@ import zingchart from 'zingchart/es6';
 })
 
 export class AppComponent {
-  config:zingchart.graphset = {
+  config: ZingchartAngular.graphset = {
     shapes: [
       {
         type: "zingchart.maps",
@@ -132,7 +132,7 @@ zingchart.BUILDCODE = ['your_zingchart_license_buildcode'];
 })
 
 export class AppComponent {
-  config:zingchart.graphset = {
+  config: ZingchartAngular.graphset = {
     type: 'line',
     series: [{
       values: [3,6,4,6,4,6,4,6]
@@ -148,7 +148,7 @@ export class AppComponent {
 The chart configuration (graphset)
 
 ```
-config:zingchart.graphset = {
+config: ZingchartAngular.graphset = {
   type: 'line',
   series: [{
     values: [3,6,4,6,4,6,4,6]
@@ -167,10 +167,10 @@ The id for the DOM element for ZingChart to attach to. If no id is specified, th
 Accepts an array of series objects, and overrides a series if it was supplied into the config object. Varies by chart type used - **Refer to the [ZingChart documentation](https://zingchart.com/docs) for more details.**
 
 ```
-  series:zingchart.series = {
+  series: ZingchartAngular.series = {
     values: [3,6,4,6,4,6,4,6]
   }
-  config:zingchart.graphset = {
+  config: ZingchartAngular.graphset = {
     type: 'line',
   };
     <zingchart-angular [config]="config" [height]="500" [series] = "[series]"></zingchart-angular>
@@ -196,7 +196,7 @@ All [zingchart events](https://www.zingchart.com/docs/api/events) are readily av
 `.component.html` file:
 
 ```
-<zingchart-angular[config]="config" [height]="300" (node_click)="nodeClick($event)"></zingchart-angular>
+<zingchart-angular [config]="config" [height]="300" (node_click)="nodeClick($event)"></zingchart-angular>
 ```
 
 `.component.ts` file:
@@ -222,7 +222,7 @@ All [zingchart methods](https://www.zingchart.com/docs/api/methods) are readily 
 
 ```
 <zingchart-angular #chart1 [config]="config"></zingchart-angular></zingchart-angular>
-<button "chart1.getdata()">Fetch Data</button>
+<button (click)="chart1.getdata()">Fetch Data</button>
 ```
 
 `.component.ts` file:
