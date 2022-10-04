@@ -10658,7 +10658,7 @@ declare namespace ZingchartAngular {
       uniform?: boolean;
     };
   }
-  interface scrollXSCrollY {
+  interface scrollXScrollY {
     /**
      * Sets an x offset that will be applied to the scroll-x object. 4 | '6px' | ...
      */
@@ -15674,8 +15674,8 @@ declare namespace ZingchartAngular {
       'size-factor'?: number;
       sizeFactor?: number;
     };
-    'scroll-x-scroll-y'?: scrollXSCrollY;
-    scrollXScrollY?: scrollXSCrollY;
+    'scroll-x-scroll-y'?: scrollXScrollY;
+    scrollXScrollY?: scrollXScrollY;
     selectionTool?: {
       mask?: {
         /**
