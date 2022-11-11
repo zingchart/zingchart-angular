@@ -19,6 +19,7 @@ export interface contextMenu extends _ZingchartAngular.contextMenu {}
 export interface contextMenuGui extends _ZingchartAngular.contextMenuGui {}
 export interface crosshairX extends _ZingchartAngular.crosshairX {}
 export interface crosshairY extends _ZingchartAngular.crosshairY {}
+export interface gridStyles extends _ZingchartAngular.gridStyles {}
 export interface guideLabel extends _ZingchartAngular.guideLabel {}
 export interface highlightMarker extends _ZingchartAngular.highlightMarker {}
 export interface highlightState extends _ZingchartAngular.highlightState {}
