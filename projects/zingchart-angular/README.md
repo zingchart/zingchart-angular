@@ -137,13 +137,38 @@ export class AppComponent {
 
 ### config [object]
 
+### config [object]
+
 The chart configuration (graphset)
 
+To set the configuration for a single chart, set the type of `config` to `ZingchartAngular.graphset`.
+
 ```
-config:zingchart.graphset = {
+config: ZingchartAngular.graphset = {
   type: 'line',
   series: [{
     values: [3,6,4,6,4,6,4,6]
+  }],
+};
+
+<zingchart-angular [config]="config" [height]="500"></zingchart-angular>
+```
+
+To define multiple charts within a config, set the type of `config` to `ZingchartAngular.data`.
+Then use the `graphset` attribute to define your chart(s).
+
+```
+config: ZingchartAngular.data = {
+  graphset: [{
+    type: 'line',
+    series: [{
+      values: [3,6,4,6,4,6,4,6]
+    }],
+  }, {
+    type: 'bar',
+    series: [{
+      values: [2,3,4,5,6,8,10]
+    }]
   }],
 };
 
@@ -158,11 +183,13 @@ The id for the DOM element for ZingChart to attach to. If no id is specified, th
 
 Accepts an array of series objects, and overrides a series if it was supplied into the config object. Varies by chart type used - **Refer to the [ZingChart documentation](https://zingchart.com/docs) for more details.**
 
+Note that the `series` attribute should only be used if a single chart is defined in `config`. The `series` value will not be applied if multiple charts are defined.
+
 ```
-  series:zingchart.series = {
+  series: ZingchartAngular.series = {
     values: [3,6,4,6,4,6,4,6]
   }
-  config:zingchart.graphset = {
+  config: ZingchartAngular.graphset = {
     type: 'line',
   };
     <zingchart-angular [config]="config" [height]="500" [series] = "[series]"></zingchart-angular>
