@@ -150,8 +150,17 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
     if(this.id) {
       this.chartId = this.id;
     }
-    if(this.series) {
-      data['series'] = this.series;
+    // if (this.series) {
+    //   data["series"] = this.series;
+    // }
+    if (this.series) {
+      if ("series" in this.config) {
+        data["series"] = this.series;
+      } else if ("graphset" in this.config) {
+        if (this.config.graphset.length === 1) {
+          data["graphset"][0].series = this.series;
+        }
+      }
     }
     this.chartWidth = this.width || DEFAULT_WIDTH;
     this.chartHeight = this.height || DEFAULT_HEIGHT;
