@@ -27,6 +27,7 @@
     "tslib": "^1.13.0",
     "uuid": "^8.3.2",
     "zingchart": "latest",
+    "zingchart-angular": "^1.0.14",
     "zingchart-constants": "github:zingchart/zingchart-constants#master",
     "zone.js": "~0.9.1"
   },

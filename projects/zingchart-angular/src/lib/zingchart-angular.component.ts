@@ -1,8 +1,9 @@
-/// <reference path="../zingchart.d.ts" />
+/// <reference path='../zingchart.d.ts' />
 import { Component, AfterViewInit, OnDestroy, Input, Output, EventEmitter, OnChanges, SimpleChanges} from '@angular/core';
 import { v4 as uuid } from 'uuid';
 import zingchart from 'zingchart/es6';
 import constants from 'zingchart-constants';
+import { graphset } from 'zingchart-angular/zingchart';
 
 const { DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_OUTPUT, EVENT_NAMES, METHOD_NAMES } = constants;
 
@@ -13,7 +14,7 @@ const { DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_OUTPUT, EVENT_NAMES, METHOD_NAMES
   styles: [':host {display: block;}'],
 })
 export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnChanges {
-  @Input() config: ZingchartAngular.graphset;
+  @Input() config: ZingchartAngular.graphset | ZingchartAngular.data;
   @Input() id: string;
   @Input() width: string | number;
   @Input() output: string;
@@ -149,8 +150,14 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
     if(this.id) {
       this.chartId = this.id;
     }
-    if(this.series) {
-      data['series'] = this.series;
+    if (this.series) {
+      if ('graphset' in this.config) {
+        if (this.config.graphset.length === 1) {
+          data['graphset'][0].series = this.series;
+        }
+      } else {
+        data['series'] = this.series;
+      }
     }
     this.chartWidth = this.width || DEFAULT_WIDTH;
     this.chartHeight = this.height || DEFAULT_HEIGHT;
@@ -184,24 +191,34 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if(changes.config) {
+    if (changes.config) {
       zingchart.exec(this.chartId, 'setdata', {
         data: changes.config.currentValue,
       });
-    } else if(changes.series) {
-      this.config.series = changes.series.currentValue;
-      zingchart.exec(this.chartId, 'setseriesdata', {
-        graphid: 0,
-        data: this.config.series,
-      });
-    } else if(changes.width || changes.height) {
+    } else if (changes.series) {
+      let setSeriesData = (id, data) =>{
+        return zingchart.exec(id, 'setseriesdata', {
+          graphid: 0,
+          data: data,
+        });
+      }
+      if ('series' in this.config) {
+        this.config.series = changes.series.currentValue;
+        setSeriesData(this.chartId, this.config.series);
+      } else if ('graphset' in this.config) {
+        if (this.config.graphset.length === 1) {
+          this.config.graphset[0].series = changes.series.currentValue;
+          setSeriesData(this.chartId, this.config.graphset[0].series);
+        }
+      }
+    } else if (changes.width || changes.height) {
       const width = (changes.width && changes.width.currentValue) || this.width;
-      const height = (changes.height && changes.height.currentValue) || this.height;
+      const height =
+        (changes.height && changes.height.currentValue) || this.height;
       zingchart.exec(this.chartId, 'resize', {
         width,
         height,
       });
     }
   }
-
 }
