@@ -1,4 +1,4 @@
-/// <reference path="../zingchart.d.ts" />
+/// <reference path='../zingchart.d.ts' />
 import { Component, AfterViewInit, OnDestroy, Input, Output, EventEmitter, OnChanges, SimpleChanges} from '@angular/core';
 import { v4 as uuid } from 'uuid';
 import zingchart from 'zingchart/es6';
@@ -151,12 +151,12 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
       this.chartId = this.id;
     }
     if (this.series) {
-      if ("graphset" in this.config) {
+      if ('graphset' in this.config) {
         if (this.config.graphset.length === 1) {
-          data["graphset"][0].series = this.series;
+          data['graphset'][0].series = this.series;
         }
       } else {
-        data["series"] = this.series;
+        data['series'] = this.series;
       }
     }
     this.chartWidth = this.width || DEFAULT_WIDTH;
@@ -192,20 +192,20 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
 
   ngOnChanges(changes: SimpleChanges) {
     if (changes.config) {
-      zingchart.exec(this.chartId, "setdata", {
+      zingchart.exec(this.chartId, 'setdata', {
         data: changes.config.currentValue,
       });
     } else if (changes.series) {
       let setSeriesData = (id, data) =>{
-        return zingchart.exec(id, "setseriesdata", {
+        return zingchart.exec(id, 'setseriesdata', {
           graphid: 0,
           data: data,
         });
       }
-      if ("series" in this.config) {
+      if ('series' in this.config) {
         this.config.series = changes.series.currentValue;
         setSeriesData(this.chartId, this.config.series);
-      } else if ("graphset" in this.config) {
+      } else if ('graphset' in this.config) {
         if (this.config.graphset.length === 1) {
           this.config.graphset[0].series = changes.series.currentValue;
           setSeriesData(this.chartId, this.config.graphset[0].series);
@@ -215,7 +215,7 @@ export class ZingchartAngularComponent implements AfterViewInit, OnDestroy, OnCh
       const width = (changes.width && changes.width.currentValue) || this.width;
       const height =
         (changes.height && changes.height.currentValue) || this.height;
-      zingchart.exec(this.chartId, "resize", {
+      zingchart.exec(this.chartId, 'resize', {
         width,
         height,
       });
