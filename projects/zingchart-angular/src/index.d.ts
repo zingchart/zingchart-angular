@@ -18287,6 +18287,11 @@ declare namespace ZingchartAngular {
        */
       type?: string;
     };
+    /**
+     * Position your chart using x/y attributes
+     */
+    x?: string | number;
+    y?: string | number;
     zoom?: {
       /**
        * Sets the transparency level of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 be
