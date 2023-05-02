@@ -15,6 +15,7 @@ export function render(config: object): null;
 export interface backgroundMarker extends _ZingchartAngular.backgroundMarker {}
 export interface backgroundState extends _ZingchartAngular.backgroundState {}
 export interface calloutTip extends _ZingchartAngular.calloutTip {}
+export interface choropleth extends _ZingchartAngular.choropleth {}
 export interface contextMenu extends _ZingchartAngular.contextMenu {}
 export interface contextMenuGui extends _ZingchartAngular.contextMenuGui {}
 export interface crosshairX extends _ZingchartAngular.crosshairX {}

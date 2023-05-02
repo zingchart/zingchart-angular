@@ -328,6 +328,18 @@ declare namespace ZingchartAngular {
      */
     type?: string;
   }
+  interface choropleth {
+    aspect?: string;
+    color?: string;
+    effect?: string;
+    steps?: number[];
+    colors?: string[];
+    intervals?: number;
+    progression?: string;
+    maxPercent?: number;
+    mirrored?: boolean;
+    labels?: label[];
+  }
   interface contextMenu {
     button?: {
       /**
@@ -15543,6 +15555,10 @@ declare namespace ZingchartAngular {
        */
       color?: string;
       /**
+       * Use the choropleth object to configure how the map is colored with the following properties.
+       */
+      choropleth?: choropleth;
+      /**
        * To set the type of color arrangement applied to the word cloud. Use the "color" value with the "color" attribute. Use the "palette
        * " value with the "palette" array. "random" (default) | "color" | "palette"
        */
@@ -16785,16 +16801,16 @@ declare namespace ZingchartAngular {
     'scale-y-8'?: scaleY;
     'scale-y-9'?: scaleY;
     'scale-y-10'?: scaleY;
-    scaleY1?: scaleY;
-    scaleY2?: scaleY;
-    scaleY3?: scaleY;
-    scaleY4?: scaleY;
-    scaleY5?: scaleY;
-    scaleY6?: scaleY;
-    scaleY7?: scaleY;
-    scaleY8?: scaleY;
-    scaleY9?: scaleY;
-    scaleY10?: scaleY;
+     scaleY1?: scaleY;
+     scaleY2?: scaleY;
+     scaleY3?: scaleY;
+     scaleY4?: scaleY;
+     scaleY5?: scaleY;
+     scaleY6?: scaleY;
+     scaleY7?: scaleY;
+     scaleY8?: scaleY;
+     scaleY9?: scaleY;
+     scaleY10?: scaleY;
     scale?: {
       /**
        * To modify the size of the chart. Provide a value in relation to 1.0 or 100%. 0.3 | 0.9 | "30%" | "90%" | ...
@@ -18288,9 +18304,12 @@ declare namespace ZingchartAngular {
       type?: string;
     };
     /**
-     * Position your chart using x/y attributes
+     * Sets the x position of the chart
      */
     x?: string | number;
+    /**
+     * Sets the y position of the chart
+     */
     y?: string | number;
     zoom?: {
       /**
@@ -19172,7 +19191,7 @@ declare namespace ZingchartAngular {
       'wrap-text'?: boolean;
       wrapText?: boolean;
     };
-  }
+  }  
 }
 
 export default ZingchartAngular;
