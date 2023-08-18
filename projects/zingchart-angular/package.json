@@ -1,6 +1,6 @@
 {
   "name": "zingchart-angular",
-  "version": "1.0.10",  
+  "version": "1.1.0",
   "description": "ZingChart Angular Component wrapper to allow native Angular syntax for javascript charts, chart events, chart methods and chart styling.",
   "author": "ZingSoft Inc.",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "angular"
   ],
   "peerDependencies": {
-    "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14"
+    "@angular/common": "latest",
+    "@angular/core": "latest"
   },
   "dependencies": {
     "zingchart": "latest",

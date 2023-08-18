@@ -119,8 +119,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
-          "preserveSymlinks": true,
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/zingchart-angular/tsconfig.lib.json",
             "project": "projects/zingchart-angular/ng-package.json"

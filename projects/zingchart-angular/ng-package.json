@@ -3,10 +3,5 @@
   "dest": "../../dist/zingchart-angular",
   "lib": {
     "entryFile": "src/projects.ts"
-  },
-  "whitelistedNonPeerDependencies": [
-    "zingchart",
-    "zingchart-constants"
-  ]
-
+  }
 }

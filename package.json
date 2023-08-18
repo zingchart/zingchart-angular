@@ -26,7 +26,7 @@
     "rxjs": "~7.8.1",
     "tslib": "^2.6.1",
     "zingchart": "latest",
-    "zingchart-angular": "^1.0.17",
+    "zingchart-angular": "file:./projects/zingchart-angular",
     "zingchart-constants": "github:zingchart/zingchart-constants#master",
     "zone.js": "~0.13.1"
   },
