@@ -15,9 +15,7 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["ES2022", "dom"],
     "paths": {
-      "zingchart-angular": ["dist/zingchart-angular"],
-      "zingchart-angular/*": ["dist/zingchart-angular/*"],
-      "@angular/*": ["../node_modules/@angular/*"]
+      "zingchart-angular": ["dist/zingchart-angular"]
     }
   },
   "angularCompilerOptions": {

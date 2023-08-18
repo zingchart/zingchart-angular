@@ -6,9 +6,9 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
+  title = "zing-app";
   interval: any;
 
-  title = "zing-app";
   series: ZingchartAngular.series = [
     {
       alpha: 1,
@@ -26,10 +26,6 @@ export class AppComponent {
       },
     ],
   };
-  log = "";
-  onComplete(event) {
-    console.log("zingchart on complete fired!", event);
-  }
 
   ngOnDestroy() {
     window.clearTimeout(this.interval);

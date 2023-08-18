@@ -1,12 +1,9 @@
-import { NgModule } from '@angular/core';
-import { ZingchartAngularComponent } from './zingchart-angular.component';
-
-
+import { NgModule } from "@angular/core";
+import { ZingchartAngularComponent } from "./zingchart-angular.component";
 
 @NgModule({
   declarations: [ZingchartAngularComponent],
-  imports: [
-  ],
-  exports: [ZingchartAngularComponent]
+  imports: [],
+  exports: [ZingchartAngularComponent],
 })
-export class ZingchartAngularModule { }
+export class ZingchartAngularModule {}

@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
 
-import { ZingchartAngularComponent } from './zingchart-angular.component';
+import { ZingchartAngularComponent } from "./zingchart-angular.component";
 
-describe('ZingchartAngularComponent', () => {
+describe("ZingchartAngularComponent", () => {
   let component: ZingchartAngularComponent;
   let fixture: ComponentFixture<ZingchartAngularComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ZingchartAngularComponent ]
-    })
-    .compileComponents();
+      declarations: [ZingchartAngularComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('ZingchartAngularComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

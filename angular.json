@@ -128,9 +128,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/zingchart-angular/src/test.ts",
             "tsConfig": "projects/zingchart-angular/tsconfig.spec.json",
-            "karmaConfig": "projects/zingchart-angular/karma.conf.js"
+            "karmaConfig": "projects/zingchart-angular/karma.conf.js",
+            "polyfills": ["zone.js", "zone.js/testing"]
           }
         },
         "lint": {

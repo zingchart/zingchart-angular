@@ -15,9 +15,7 @@
   ],
   "peerDependencies": {
     "@angular/common": "latest",
-    "@angular/core": "latest"
-  },
-  "dependencies": {
+    "@angular/core": "latest",
     "zingchart": "latest",
     "zingchart-constants": "github:zingchart/zingchart-constants#master"
   }
