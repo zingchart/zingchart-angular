@@ -266,6 +266,5 @@ This repository contains a "Hello world" example to give you an easy way to see 
 To start the sample application:
 
 ```
-npm install zingchart-angular
 npm run start
 ```
