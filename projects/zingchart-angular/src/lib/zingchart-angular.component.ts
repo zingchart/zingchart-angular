@@ -1,4 +1,4 @@
-/// <reference path='../zingchart.d.ts' />
+/// <reference path='../zingchart.ts' />
 import {
   AfterViewInit,
   Component,
@@ -12,6 +12,7 @@ import {
 import { v4 as uuid } from "uuid";
 import constants from "zingchart-constants";
 import zingchart from "zingchart/es6";
+import ZingchartAngular from "../zingchart";
 
 const {
   DEFAULT_WIDTH,

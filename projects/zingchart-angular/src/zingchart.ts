@@ -22,92 +22,92 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -117,28 +117,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the size of the object/shape. 4 | "6px" | ...
@@ -177,82 +177,82 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -262,28 +262,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
   }
   interface calloutTip {
@@ -297,27 +297,27 @@ declare namespace ZingchartAngular {
      * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
      *  15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object. 1 | 3 | | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Sets the line width of the object. 1 | 3 | | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Sets the size of the object. 4 | "6px" | ...
@@ -355,7 +355,7 @@ declare namespace ZingchartAngular {
       /**
        * To specify the font color of the context menu items. 'gray' | '##666699'
        */
-      'font-color'?: any;
+      "font-color"?: any;
       fontColor?: any;
       /**
        * To display or remove the Save Image context menu item. true | false
@@ -398,38 +398,38 @@ declare namespace ZingchartAngular {
        * Sets the background color of the object. A single color will create a solid background, while two colors will create a gradient. "
        * none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the width of the object's border. 4 | "6px" | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
        * | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the object's font family. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the object's font size. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the object's font style. Similar to italic. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the object's font weight. Similar to bold. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -439,23 +439,23 @@ declare namespace ZingchartAngular {
        * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
        * the text is cut and appended with "..." 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the padding around the object's text. Up to four values can be used to set the padding around the text, with the first value
@@ -466,22 +466,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the bottom padding for the object's text. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the left padding for the object's text. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the right padding for the object's text. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the top padding for the object's text. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -495,19 +495,19 @@ declare namespace ZingchartAngular {
        * Sets the horizontal alignment for the object's text. Horizontal alignment can be left, center, or right. "left" | "center" | "righ
        * t"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the transparency of the object's text. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 bei
        * ng completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
        * arts are rendered using SVG. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the context-menu button is visible or not. true | false | 1 | 0
@@ -520,7 +520,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
       /**
        * Sets the X position of the object. The context-menu gear object must be positioned separately. 10 | "20px" | 0.3 | "30%" | ...
@@ -531,7 +531,7 @@ declare namespace ZingchartAngular {
        */
       y?: any;
     };
-    'custom-items'?: Array<{
+    "custom-items"?: Array<{
       /**
        * Sets a JavaScript function/portion of code that will be executed when the respective menu item is selected. "doSomething()" | "ale
        * rt(1)" | ...
@@ -562,80 +562,80 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -660,27 +660,27 @@ declare namespace ZingchartAngular {
       /**
        * Sets the background color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object. 4 | "6px" | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the font color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets how the context menu item appears when a user hovers over it. Use the backgroundColor and fontColor attributes. {...}
        */
-      'hover-state'?: any;
+      "hover-state"?: any;
       hoverState?: any;
     };
   }
@@ -698,34 +698,34 @@ declare namespace ZingchartAngular {
     /**
      * Sets the line color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
      * en each line segment. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
      * t of line. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object. 4 | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Reverses the order of items in plotLabel. Generally used with positive stacked charts.
      */
-    'reverse-series'?: boolean;
+    "reverse-series"?: boolean;
     reverseSeries?: boolean;
     /**
      * X-Axis Crosshairs Only: For graphsets with multiple chart objects, setting the attribute to true in "crosshair-x" will allow you t
@@ -759,18 +759,18 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See the square points between the lines. "none" | "transparent"
        * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See the square points between the lines. 4 | "6px" | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -786,9 +786,9 @@ declare namespace ZingchartAngular {
        */
       visible?: boolean;
     };
-    'plot-label'?: plotLabel;
+    "plot-label"?: plotLabel;
     plotLabel?: plotLabel;
-    'scale-label'?: scaleLabel;
+    "scale-label"?: scaleLabel;
     scaleLabel?: scaleLabel;
   }
   interface crosshairY {
@@ -805,34 +805,34 @@ declare namespace ZingchartAngular {
     /**
      * Sets the line color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
      * en each line segment. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
      * t of line. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object. 4 | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Reverses the order of items in plotLabel. Generally used with positive stacked charts.
      */
-    'reverse-series'?: boolean;
+    "reverse-series"?: boolean;
     reverseSeries?: boolean;
     /**
      * X-Axis Crosshairs Only: For graphsets with multiple chart objects, setting the attribute to true in "crosshair-x" will allow you t
@@ -866,18 +866,18 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See the square points between the lines. "none" | "transparent"
        * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See the square points between the lines. 4 | "6px" | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -893,9 +893,9 @@ declare namespace ZingchartAngular {
        */
       visible?: boolean;
     };
-    'plot-label'?: plotLabel;
+    "plot-label"?: plotLabel;
     plotLabel?: plotLabel;
-    'scale-label'?: scaleLabel;
+    "scale-label"?: scaleLabel;
     scaleLabel?: scaleLabel;
   }
   interface data {
@@ -909,111 +909,111 @@ declare namespace ZingchartAngular {
     align?: string;
     alpha?: number;
     backgroundColor?: string;
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor1?: string;
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor2?: string;
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     bold?: boolean;
     borderAlpha?: number;
-    'border-alpha'?: number;
+    "border-alpha"?: number;
     borderBottom?: number;
-    'border-bottom'?: number;
+    "border-bottom"?: number;
     borderColor?: string;
-    'border-color'?: string;
+    "border-color"?: string;
     borderLeft?: number;
-    'border-left'?: number;
+    "border-left"?: number;
     borderRadius?: number;
-    'border-radius'?: number;
+    "border-radius"?: number;
     borderRadiusBottomLeft?: number;
-    'border-radius-bottom-left'?: number;
+    "border-radius-bottom-left"?: number;
     borderRadiusBottomRight?: number;
-    'border-radius-bottom-right'?: number;
+    "border-radius-bottom-right"?: number;
     borderRadiusTopLeft?: number;
-    'border-radius-top-left'?: number;
+    "border-radius-top-left"?: number;
     borderRadiusTopRight?: number;
-    'border-radius-top-right'?: number;
+    "border-radius-top-right"?: number;
     borderRight?: number;
-    'border-right'?: number;
+    "border-right"?: number;
     borderTop?: number;
-    'border-top'?: number;
+    "border-top"?: number;
     borderWidth?: number;
-    'border-width'?: number;
+    "border-width"?: number;
     class?: string;
     clipText?: boolean;
-    'clip-text'?: boolean;
+    "clip-text"?: boolean;
     color?: string;
     cursor?: string;
     dataN?: any;
-    'data-n'?: any;
+    "data-n"?: any;
     fillAngle?: number;
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillOffsetX?: number;
-    'fill-offset-x'?: number;
+    "fill-offset-x"?: number;
     fillOffsetY?: number;
-    'fill-offset-y'?: number;
+    "fill-offset-y"?: number;
     fillType?: string;
-    'fill-type'?: string;
+    "fill-type"?: string;
     fontColor?: string;
-    'font-color'?: string;
+    "font-color"?: string;
     fontFamily?: string;
-    'font-family'?: string;
+    "font-family"?: string;
     fontSize?: number;
-    'font-size'?: number;
+    "font-size"?: number;
     fontStyle?: string;
-    'font-style'?: string;
-    fontWeight?: string|number;
-    'font-weight'?: string|number;
+    "font-style"?: string;
+    fontWeight?: string | number;
+    "font-weight"?: string | number;
     gradientColors?: string;
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientStops?: string;
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     id?: string;
     italic?: boolean;
     lineGapSize?: number;
-    'line-gap-size'?: number;
+    "line-gap-size"?: number;
     lineHeight?: number;
-    'line-height'?: number;
+    "line-height"?: number;
     lineSegmentSize?: number;
-    'line-segment-size'?: number;
+    "line-segment-size"?: number;
     lineStyle?: string;
-    'line-style'?: string;
+    "line-style"?: string;
     maxChars?: number;
-    'max-chars'?: number;
+    "max-chars"?: number;
     mediaRules?: Array<{}>;
-    'media-rules'?: Array<{}>;
+    "media-rules"?: Array<{}>;
     offsetX?: number;
-    'offset-x'?: number;
+    "offset-x"?: number;
     offsetY?: number;
-    'offset-y'?: number;
+    "offset-y"?: number;
     overlap?: boolean;
     padding?: number;
     paddingBottom?: number;
-    'padding-bottom'?: number;
+    "padding-bottom"?: number;
     paddingLeft?: number;
-    'padding-left'?: number;
+    "padding-left"?: number;
     paddingRight?: number;
-    'padding-right'?: number;
+    "padding-right"?: number;
     paddingTop?: number;
-    'padding-top'?: number;
+    "padding-top"?: number;
     rectShortcut?: boolean;
-    'rect-shortcut'?: boolean;
+    "rect-shortcut"?: boolean;
     rtl?: boolean;
     text?: string;
     textAlign?: string;
-    'text-align'?: string;
+    "text-align"?: string;
     textAlpha?: number;
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textDecoration?: string;
-    'text-decoration'?: string;
+    "text-decoration"?: string;
     underline?: boolean;
     verticalAlign?: string;
-    'vertical-align'?: string;
+    "vertical-align"?: string;
     visible?: boolean;
     wrapText?: boolean;
-    'wrap-text'?: boolean;
+    "wrap-text"?: boolean;
     zIndex?: number;
-    'z-index'?: number;
+    "z-index"?: number;
   }
   interface guideLabel {
     /**
@@ -1027,47 +1027,47 @@ declare namespace ZingchartAngular {
      * 000", "#0000FF"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "#f00" | "#f00 #00f" | "red yel
      * low" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the border color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the font color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the font family of the object. "Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the font size of the object. 4 | "6px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the font style of the object. "none" | "italic"
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the font weight of the object. "none" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed" | "dashdot"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the padding around the text of the object. 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
@@ -1094,32 +1094,32 @@ declare namespace ZingchartAngular {
      * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
      *  15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object. 1 | 3 | | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Sets the line style of the object. "solid" | "dotted" | "dashed" | "dashdot"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object. 1 | 3 | | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * The type of the marker object to render. square | circle | diamond | triangle | star5 | star6 | star7 | star8 | rpoly5 | gear5 | g
@@ -1138,32 +1138,32 @@ declare namespace ZingchartAngular {
      * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
      *  15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object. 1 | 3 | | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Sets the line style of the object. "solid" | "dotted" | "dashed" | "dashdot"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object. 1 | 3 | | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * The type of the marker object to render. square | circle | diamond | triangle | star5 | star6 | star7 | star8 | rpoly5 | gear5 | g
@@ -1187,120 +1187,120 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes. "none" | "transparent
      * " | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
      * en each line segment. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
      * t of line. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes. 4 | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets an Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -1310,28 +1310,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the size of the object/shape. 4 | "6px" | ...
@@ -1358,127 +1358,127 @@ declare namespace ZingchartAngular {
      * letely transparent and 1.0 being completely opaque. Note that values require the leading zero before the decimal point. 0.3 | 0.9
      * | ...
      */
-    'alpha-area'?: number;
+    "alpha-area"?: number;
     alphaArea?: number;
     /**
      * Sets the background color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666
      * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
      * , 15, 15)' | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
      * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
      * , 15)' | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border radius of the object. 2 | 3 | '5px' | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the border width of the object. 1 | 3 | '6px' | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the font color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
      */
-    'font-color'?: any;
+    "font-color"?: any;
     fontColor?: any;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
      * en each line segment. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
      * t of line. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object. 1 | 3 | | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Sets the padding of the object. 3 | '5px' | '10px' | ...
@@ -1492,34 +1492,34 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the text transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 bei
      * ng completely opaque. Note that the leading zero is required before the decimal. 0.3 | 0.4 | 0.9 | ...
      */
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textAlpha?: number;
     /**
      * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -1542,55 +1542,55 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-bottom'?: string;
+    "border-bottom"?: string;
     borderBottom?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-left'?: string;
+    "border-left"?: string;
     borderLeft?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -1598,47 +1598,47 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-right'?: string;
+    "border-right"?: string;
     borderRight?: string;
     /**
      * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
      * es. "2px solid #f00" | ...
      */
-    'border-top'?: string;
+    "border-top"?: string;
     borderTop?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
@@ -1647,98 +1647,98 @@ declare namespace ZingchartAngular {
     /**
      * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
      */
-    'callout-extension'?: any;
+    "callout-extension"?: any;
     calloutExtension?: any;
     /**
      * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
      */
-    'callout-height'?: any;
+    "callout-height"?: any;
     calloutHeight?: any;
     /**
      * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
      * top left corner of the chart. [200, 50] | ...
      */
-    'callout-hook'?: any;
+    "callout-hook"?: any;
     calloutHook?: any;
     /**
      * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
      * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
      */
-    'callout-offset'?: any;
+    "callout-offset"?: any;
     calloutOffset?: any;
     /**
      * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
      */
-    'callout-position'?: string;
+    "callout-position"?: string;
     calloutPosition?: string;
     /**
      * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
      */
-    'callout-width'?: any;
+    "callout-width"?: any;
     calloutWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | .../p>
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
      * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
      */
-    'font-angle'?: number;
+    "font-angle"?: number;
     fontAngle?: number;
     /**
      * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
      * | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the text's font size. 4 | "6px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the text's font weight. Similar to bold. "normal" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -1748,17 +1748,17 @@ declare namespace ZingchartAngular {
      * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
      * the text is cut and appended with "..." 5 | 10 | ...
      */
-    'max-chars'?: number;
+    "max-chars"?: number;
     maxChars?: number;
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -1768,28 +1768,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the object's width. 10 | "20px" | 0.3 | "30%" | ...
@@ -1816,39 +1816,39 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets whether the text is displayed with bold characters or not. true | false | 1 | 0
@@ -1857,18 +1857,18 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-bottom'?: string;
+    "border-bottom"?: string;
     borderBottom?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-left'?: string;
+    "border-left"?: string;
     borderLeft?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -1876,47 +1876,47 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-right'?: string;
+    "border-right"?: string;
     borderRight?: string;
     /**
      * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
      * es. "2px solid #f00" | ...
      */
-    'border-top'?: string;
+    "border-top"?: string;
     borderTop?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
@@ -1925,39 +1925,39 @@ declare namespace ZingchartAngular {
     /**
      * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
      */
-    'callout-extension'?: any;
+    "callout-extension"?: any;
     calloutExtension?: any;
     /**
      * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
      */
-    'callout-height'?: any;
+    "callout-height"?: any;
     calloutHeight?: any;
     /**
      * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
      * top left corner of the chart. [200, 50] | ...
      */
-    'callout-hook'?: any;
+    "callout-hook"?: any;
     calloutHook?: any;
     /**
      * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
      * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
      */
-    'callout-offset'?: any;
+    "callout-offset"?: any;
     calloutOffset?: any;
     /**
      * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
      */
-    'callout-position'?: string;
+    "callout-position"?: string;
     calloutPosition?: string;
     /**
      * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
      */
-    'callout-width'?: any;
+    "callout-width"?: any;
     calloutWidth?: any;
     /**
      * Truncates text based on the setting of width. true | false | 1 | 0
      */
-    'clip-text'?: boolean;
+    "clip-text"?: boolean;
     clipText?: boolean;
     /**
      * Sets the object's font color. Similar to font-color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15,
@@ -1971,66 +1971,66 @@ declare namespace ZingchartAngular {
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
      * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
      */
-    'font-angle'?: number;
+    "font-angle"?: number;
     fontAngle?: number;
     /**
      * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
      * | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the text's font size. 4 | "6px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the text's font weight. Similar to bold. "normal" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -2054,34 +2054,34 @@ declare namespace ZingchartAngular {
      * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
      * en each line segment. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
      * t of line. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
      * the text is cut and appended with "..." 5 | 10 | ...
      */
-    'max-chars'?: number;
+    "max-chars"?: number;
     maxChars?: number;
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -2092,22 +2092,22 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom padding around the text. 4 | "6px" | ...
      */
-    'padding-bottom'?: any;
+    "padding-bottom"?: any;
     paddingBottom?: any;
     /**
      * Sets the object's left padding around the text. 4 | "6px" | ...
      */
-    'padding-left'?: any;
+    "padding-left"?: any;
     paddingLeft?: any;
     /**
      * Sets the object's right padding around the text. 4 | "6px" | ...
      */
-    'padding-right'?: any;
+    "padding-right"?: any;
     paddingRight?: any;
     /**
      * Sets the object's top padding around the text. 4 | "6px" | ...
      */
-    'padding-top'?: any;
+    "padding-top"?: any;
     paddingTop?: any;
     /**
      * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -2121,28 +2121,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the url's target for the link associated with the object. Use with "url". "_blank" | ...
@@ -2155,19 +2155,19 @@ declare namespace ZingchartAngular {
     /**
      * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
      */
-    'text-align'?: string;
+    "text-align"?: string;
     textAlign?: string;
     /**
      * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
      * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
      */
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textAlpha?: number;
     /**
      * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
      * arts are rendered using SVG. "none" | "underline"
      */
-    'text-decoration'?: string;
+    "text-decoration"?: string;
     textDecoration?: string;
     /**
      * Sets whether the text is displayed with underlined characters or not. Similar to text-decoration. May not display properly in Mozi
@@ -2182,7 +2182,7 @@ declare namespace ZingchartAngular {
      * Sets the text's vertical alignment to one of the three applicable values, relative to the object's box. "top" | "middle" | "bottom
      * "
      */
-    'vertical-align'?: string;
+    "vertical-align"?: string;
     verticalAlign?: string;
     /**
      * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -2195,7 +2195,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
      */
-    'wrap-text'?: boolean;
+    "wrap-text"?: boolean;
     wrapText?: boolean;
     /**
      * Sets the X position of the object. 10 | "20px" | 0.3 | "30%" | ...
@@ -2205,7 +2205,7 @@ declare namespace ZingchartAngular {
      * Sets the Y position of the object. 10 | "20px" | 0.3 | "30%" | ...
      */
     y?: any;
-    'callout-tip'?: calloutTip;
+    "callout-tip"?: calloutTip;
     calloutTip?: calloutTip;
   }
   interface legendItem {
@@ -2226,45 +2226,45 @@ declare namespace ZingchartAngular {
      * Used only inside individual series rather than Plot. See red text in upper right box. "none" | "transparent" | "#f00" | "#f00 #00f
      * " | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. Requires Legend. Used onl
      * y inside individual series rather than Plot. See red text in upper right box. "none" | "transparent" | "#f00" | "#f00 #00f" | "red
      *  yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. Requires Legend. Used on
      * ly inside individual series rather than Plot. See red text in upper right box. "none" | "transparent" | "#f00" | "#f00 #00f" | "re
      * d yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". Requires Legend. Used only inside individual series rathe
      * r than Plot. See red text in upper right box. "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. Requires Legend. Used only inside ind
      * ividual series rather than Plot. See red text in upper right box. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. Requires Legend. Used only inside individual se
      * ries rather than Plot. See red text in upper right box. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. Requires Legend. Used only inside individual series rather than Plot. See red te
      * xt in upper right box. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets whether the text is displayed with bold characters or not. Requires Legend. Used only inside individual series rather than Pl
@@ -2275,19 +2275,19 @@ declare namespace ZingchartAngular {
      * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. Requires Legend. Used only inside individual seri
      * es rather than Plot. See red text in upper right box. "2px solid #f00" | ...
      */
-    'border-bottom'?: string;
+    "border-bottom"?: string;
     borderBottom?: string;
     /**
      * Sets the border color of the object. Requires Legend. Used only inside individual series rather than Plot. See red text in upper r
      * ight box. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's left border style. Accepts solid, dashed, and dotted styles. Requires Legend. Used only inside individual series
      *  rather than Plot. See red text in upper right box. "2px solid #f00" | ...
      */
-    'border-left'?: string;
+    "border-left"?: string;
     borderLeft?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -2296,53 +2296,53 @@ declare namespace ZingchartAngular {
      *  Legend. Used only inside individual series rather than Plot. See red text in upper right box. 4 | "6px" | "6px 10px 3px 5px" | "-
      * 10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. Requires Legend. Used only inside individual series ra
      * ther than Plot. See red text in upper right box. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. Requires Legend. Used only inside individual series r
      * ather than Plot. See red text in upper right box. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. Requires Legend. Used only inside individual series rathe
      * r than Plot. See red text in upper right box. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. Requires Legend. Used only inside individual series rath
      * er than Plot. See red text in upper right box. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the object's right border style. Accepts solid, dashed, and dotted styles. Requires Legend. Used only inside individual serie
      * s rather than Plot. See red text in upper right box. "2px solid #f00" | ...
      */
-    'border-right'?: string;
+    "border-right"?: string;
     borderRight?: string;
     /**
      * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
      * es. Requires Legend. Used only inside individual series rather than Plot. See red text in upper right box. "2px solid #f00" | ...
      */
-    'border-top'?: string;
+    "border-top"?: string;
     borderTop?: string;
     /**
      * Sets the border width of the object. Requires Legend. Used only inside individual series rather than Plot. See red text in upper r
      * ight box. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. Requires Legend. Used only inside individual series rather than Plot. See
@@ -2353,39 +2353,39 @@ declare namespace ZingchartAngular {
      * Sets the length of the extension that extends beyond the tip of the callout arrow. Requires Legend. Used only inside individual se
      * ries rather than Plot. See red text in upper right box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'callout-extension'?: any;
+    "callout-extension"?: any;
     calloutExtension?: any;
     /**
      * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. Requires Legend. Used only insid
      * e individual series rather than Plot. See red text in upper right box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'callout-height'?: any;
+    "callout-height"?: any;
     calloutHeight?: any;
     /**
      * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
      * top left corner of the chart.. Requires Legend. Used only inside individual series rather than Plot. See red text in upper right b
      * ox. Works with output canvas and svg. [200, 50] | ...
      */
-    'callout-hook'?: any;
+    "callout-hook"?: any;
     calloutHook?: any;
     /**
      * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
      * row up, down, left, or right depending on the callout-position. Requires Legend. Used only inside individual series rather than Pl
      * ot. See red text in upper right box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'callout-offset'?: any;
+    "callout-offset"?: any;
     calloutOffset?: any;
     /**
      * Sets the position for the object's callout arrow. The position is "bottom" by default. Requires Legend. Used only inside individua
      * l series rather than Plot. See red text in upper right box. Works with output canvas and svg. "top" | "right" | "bottom" | "left"
      */
-    'callout-position'?: string;
+    "callout-position"?: string;
     calloutPosition?: string;
     /**
      * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. Requires Legend. Used only inside
      * individual series rather than Plot. See red text in upper right box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'callout-width'?: any;
+    "callout-width"?: any;
     calloutWidth?: any;
     /**
      * Sets the color of the text in the legend box. Requires Legend. Used only inside individual series rather than Plot. See red text i
@@ -2400,76 +2400,76 @@ declare namespace ZingchartAngular {
      * Sets the angle of the axis along which the linear gradient is drawn. Requires Legend. Used only inside individual series rather th
      * an Plot. See red text in upper right box. Works with output canvas and svg. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. Requires Legend. Used only inside individual series rather than Plot. See red text in upper
      *  right box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. Requires Legend. Used only inside individual series rather than Plot. See red text in upper
      *  right box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. Requires Legend. Used only inside individual series rather than
      *  Plot. See red text in upper right box. Works with output canvas and svg. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
      * will rotate the object by that number of degrees counter-clockwise. For the text in the legend box. Requires Legend. Used only ins
      * ide individual series rather than Plot. See red text in upper right box. -45 | 115 | ...
      */
-    'font-angle'?: number;
+    "font-angle"?: number;
     fontAngle?: number;
     /**
      * Sets the font color of the text in the legend box. Works like color. Requires Legend. Used only inside individual series rather th
      * an Plot. See red text in upper right box. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the text's font family in the legend box. Requires Legend. Used only inside individual series rather than Plot. See red text
      * in upper right box. "Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the text's font size in the legend box. Requires Legend. Used only inside individual series rather than Plot. See red text in
      *  upper right box. 4 | "6px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the text's font style in the legend box. Requires Legend. Used only inside individual series rather than Plot. See red text i
      * n upper right box. "none" | "italic" | "oblique"
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the text's font weight in the legend box. Similar to bold. Requires Legend. Used only inside individual series rather than Pl
      * ot. See red text in upper right box. "normal" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. Requires Le
      * gend. Used only inside individual series rather than Plot. See red text in upper right box. Works with output canvas and svg. "#f0
      * 0 #0f0 #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. Require
      * s Legend. Used only inside individual series rather than Plot. See red text in upper right box. Works with output canvas and svg.
      * "0.1 0.5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the object's height. Requires Legend. Used only inside individual series rather than Plot. See red text in upper right box. W
@@ -2490,51 +2490,51 @@ declare namespace ZingchartAngular {
      * Sets the object's bottom margin. Requires Legend. Used only inside individual series rather than Plot. See red text in upper right
      *  box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'margin-bottom'?: any;
+    "margin-bottom"?: any;
     marginBottom?: any;
     /**
      * Sets the object's left margin. Requires Legend. Used only inside individual series rather than Plot. See red text in upper right b
      * ox. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'margin-left'?: any;
+    "margin-left"?: any;
     marginLeft?: any;
     /**
      * Sets the object's right margin. Requires Legend. Used only inside individual series rather than Plot. See red text in upper right
      * box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'margin-right'?: any;
+    "margin-right"?: any;
     marginRight?: any;
     /**
      * Sets the object's top margin. Requires Legend. Used only inside individual series rather than Plot. See red text in upper right bo
      * x. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'margin-top'?: any;
+    "margin-top"?: any;
     marginTop?: any;
     /**
      * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
      * the text is cut and appended with "..." Requires Legend. Used only inside individual series rather than Plot. See red text in uppe
      * r right box. 5 | 10 | ...
      */
-    'max-chars'?: number;
+    "max-chars"?: number;
     maxChars?: number;
     /**
      * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
      * ext is set to true. Requires Legend. Used only inside individual series rather than Plot. See red text in upper right box. Works w
      * ith output canvas and svg. 10 | "20px" | 0.3 | "30%" | ...
      */
-    'max-width'?: any;
+    "max-width"?: any;
     maxWidth?: any;
     /**
      * Sets an X offset to apply when positioning the object/shape. Requires Legend. Used only inside individual series rather than Plot.
      *  See red text in upper right box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets an Y offset to apply when positioning the object/shape. Requires Legend. Used only inside individual series rather than Plot.
      *  See red text in upper right box. Works with output canvas and svg. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * To specify the order of the legend items in the legend. 1 | 2 | 3 | 4 | ...
@@ -2550,25 +2550,25 @@ declare namespace ZingchartAngular {
      * Sets the object's bottom padding around the text. For single item in Legend. Requires Legend. Used only inside individual series r
      * ather than Plot. See red text in upper right box. 4 | "6px" | ...
      */
-    'padding-bottom'?: any;
+    "padding-bottom"?: any;
     paddingBottom?: any;
     /**
      * Sets the object's left padding around the text. For single item in Legend. Requires Legend. Used only inside individual series rat
      * her than Plot. See red text in upper right box. 4 | "6px" | ...
      */
-    'padding-left'?: any;
+    "padding-left"?: any;
     paddingLeft?: any;
     /**
      * Sets the object's right padding around the text. For single item in Legend. Requires Legend. Used only inside individual series ra
      * ther than Plot. See red text in upper right box. 4 | "6px" | ...
      */
-    'padding-right'?: any;
+    "padding-right"?: any;
     paddingRight?: any;
     /**
      * Sets the object's top padding around the text. For single item in Legend. Requires Legend. Used only inside individual series rath
      * er than Plot. See red text in upper right box. 4 | "6px" | ...
      */
-    'padding-top'?: any;
+    "padding-top"?: any;
     paddingTop?: any;
     /**
      * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -2586,35 +2586,35 @@ declare namespace ZingchartAngular {
      * uires Legend. Used only inside individual series rather than Plot. See red text in upper right box. Works with output flash. Has l
      * imited effect on HTML5 implementation. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. For single item in Legend. Requires Legend. Used only inside individual series
      *  rather than Plot. See red text in upper right box. Works with output flash. Has limited effect on HTML5 implementation. -45 | 115
      *  | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. For single item in Legend. Requires Legend. Used only inside individual se
      * ries rather than Plot. See red text in upper right box. Works with output flash. Has limited effect on HTML5 implementation. 4 | "
      * 6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. For single item in Legend. Requires Legend. Used only inside individual series rather
      * than Plot. See red text in upper right box. Works with output flash. Has limited effect on HTML5 implementation. "none" | "transpa
      * rent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. For single item in Legend. Requires Legend. Used only inside individual serie
      * s rather than Plot. See red text in upper right box. Works with output flash. Has limited effect on HTML5 implementation. 4 | "6px
      * " | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the size of the object/shape. 4 | "6px" | ...
@@ -2629,20 +2629,20 @@ declare namespace ZingchartAngular {
      * Sets the text's horizontal alignment relative to the object's box. For single item in Legend. Requires Legend. Used only inside in
      * dividual series rather than Plot. See red text in upper right box. "left" | "center" | "right"
      */
-    'text-align'?: string;
+    "text-align"?: string;
     textAlign?: string;
     /**
      * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
      * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. For single item in Legend. Requires Legend. Used
      * only inside individual series rather than Plot. See red text in upper right box. 0.3 | 0.9 | ...
      */
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textAlpha?: number;
     /**
      * Sets the text's decoration. Similar to underline. For single item in Legend. Requires Legend. Used only inside individual series r
      * ather than Plot. See red text in upper right box. Use output canvas or flash. "none" | "underline"
      */
-    'text-decoration'?: string;
+    "text-decoration"?: string;
     textDecoration?: string;
     /**
      * Sets whether the text is displayed with underlined characters or not. For single item in Legend. Requires Legend. Used only inside
@@ -2653,7 +2653,7 @@ declare namespace ZingchartAngular {
      * Sets whether the text will wrap, depending on the width of the object. For single item in Legend. Requires Legend. Used only insid
      * e individual series rather than Plot. See red text in upper right box. Use output canvas or flash. "top" | "middle" | "bottom"
      */
-    'vertical-align'?: string;
+    "vertical-align"?: string;
     verticalAlign?: string;
     /**
      * Sets the visibility of the object. true | false | 1 | 0
@@ -2667,7 +2667,7 @@ declare namespace ZingchartAngular {
      * Sets whether the text will wrap, depending on the width of the object. See red text in upper right box. Use output canvas or flash
      * . true | false | 1 | 0
      */
-    'wrap-text'?: boolean;
+    "wrap-text"?: boolean;
     wrapText?: boolean;
   }
   interface legendMarker {
@@ -2688,52 +2688,52 @@ declare namespace ZingchartAngular {
      * ,0,255)", "rgb(255,255,0)"). Requires Legend. Used only inside individual series rather than Plot. See the orange shape to the lef
      * t of the text in the upper right box. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. Requires Legend. Used onl
      * y inside individual series rather than Plot. See the shape to the left of the text in the upper right box. "none" | "transparent"
      * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. Requires Legend. Used on
      * ly inside individual series rather than Plot. See the shape to the left of the text in the upper right box. "none" | "transparent"
      *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". Requires Legend. Used only inside individual series rathe
      * r than Plot. See the shape to the left of the text in the upper right box. "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. Requires Legend. Used only inside ind
      * ividual series rather than Plot. See the shape to the left of the text in the upper right box. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. Requires Legend. Used only inside individual se
      * ries rather than Plot. See the shape to the left of the text in the upper right box. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. Requires Legend. Used only inside individual series rather than Plot. See the sh
      * ape to the left of the text in the upper right box. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. Requires Legend. Used onl
      * y inside individual series rather than Plot. See the shape to the left of the text in the upper right box. "none" | "transparent"
      * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -2741,38 +2741,38 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. See also line-color for c
      * losed shapes. Requires Legend. Used only inside individual series rather than Plot. See the shape to the left of the text in the u
      * pper right box. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the style of the cursor when hovering over a node. "hand" | "normal"
@@ -2782,56 +2782,56 @@ declare namespace ZingchartAngular {
      * Sets the angle of the axis along which the linear gradient is drawn. Requires Legend. Used only inside individual series rather th
      * an Plot. See the shape to the left of the text in the upper right box. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. Requires Legend. Used only inside individual series rather than Plot. See the shape to the
      * left of the text in the upper right box. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. Requires Legend. Used only inside individual series rather than Plot. See the shape to the
      * left of the text in the upper right box. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. Requires Legend. Used only inside individual series rather than
      *  Plot. See the shape to the left of the text in the upper right box. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. Requires Le
      * gend. Used only inside individual series rather than Plot. See the shape to the left of the text in the upper right box. "#f00 #0f
      * 0 #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. Require
      * s Legend. Used only inside individual series rather than Plot. See the shape to the left of the text in the upper right box. "0.1
      * 0.5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets an X offset to apply when positioning the object/shape. Requires Legend. Used only inside individual series rather than Plot.
      *  See the shape to the left of the text in the upper right box. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets an Y offset to apply when positioning the object/shape. Requires Legend. Used only inside individual series rather than Plot.
      *  See the shape to the left of the text in the upper right box. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets the size of the object/shape. Requires Legend. Used only inside individual series rather than Plot. See the shape to the left
@@ -2873,7 +2873,7 @@ declare namespace ZingchartAngular {
      * @description Sets the transparency level of area in chart. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 being
      * completely opaque. Note that values require the leading 0 before the decimal point.
      */
-    'alpha-area'?: any;
+    "alpha-area"?: any;
     /**
      * @description Sets the rotation angle of the object.
      */
@@ -2885,7 +2885,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the end angle of a pie shape.
      */
-    'angle-end'?: any;
+    "angle-end"?: any;
     /**
      * @description Sets the beginning angle of a pie shape.
      */
@@ -2893,7 +2893,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the beginning angle of a pie shape.
      */
-    'angle-start'?: any;
+    "angle-start"?: any;
     /**
      * @description Sets the aspect of the chart.
      */
@@ -2905,7 +2905,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Clips the background image to the margins of the shape/box.
      */
-    'background-clip'?: any;
+    "background-clip"?: any;
     /**
      * @description Sets the background color of the object. Colors can be entered by name (e.g., "purple", "blue"), hexadecimal notation
      * (e.g., "#666699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)")
@@ -2915,7 +2915,7 @@ declare namespace ZingchartAngular {
      * @description Sets the background color of the object. Colors can be entered by name (e.g., "purple", "blue"), hexadecimal notation
      * (e.g., "#666699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)")
      */
-    'background-color'?: string;
+    "background-color"?: string;
     /**
      * @description Sets the first color of a 2 color background gradient of the object. To be used with background-color-2.
      */
@@ -2923,7 +2923,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the first color of a 2 color background gradient of the object. To be used with background-color-2.
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     /**
      * @description Sets the second color of a 2 color background gradient of the object. To be used with background-color-1.
      */
@@ -2931,7 +2931,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the second color of a 2 color background gradient of the object. To be used with background-color-1.
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     /**
      * @description Sets the direction/s on which the background image is being "stretched".
      */
@@ -2939,7 +2939,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the direction/s on which the background image is being "stretched".
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     /**
      * @description Sets a background image for the object. Value can be a local file or a web image's location.
      */
@@ -2947,7 +2947,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a background image for the object. Value can be a local file or a web image's location.
      */
-    'background-image'?: string;
+    "background-image"?: string;
     /**
      * @description Sets the position of the background when the background-repeat value is no-repeat.
      */
@@ -2955,7 +2955,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the position of the background when the background-repeat value is no-repeat.
      */
-    'background-position'?: string;
+    "background-position"?: string;
     /**
      * @description Sets the repeating mode for the background image.
      */
@@ -2963,7 +2963,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the repeating mode for the background image.
      */
-    'background-repeat'?: any;
+    "background-repeat"?: any;
     /**
      * @description Scales the background image using the specified ratio.
      */
@@ -2971,7 +2971,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Scales the background image using the specified ratio.
      */
-    'background-scale'?: any;
+    "background-scale"?: any;
     /**
      * @description Sets the border width of the object. Can be a single value or a string of values, setting
      * the values in the order "top right bottom left"
@@ -2988,7 +2988,7 @@ declare namespace ZingchartAngular {
      * with 0.0 being completely transparent and 1.0 being completely opaque. Note that values require the leading
      * 0 before the decimal point.
      */
-    'border-alpha'?: any;
+    "border-alpha"?: any;
     /**
      * @description Sets the border color of the object.
      */
@@ -2996,7 +2996,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the border color of the object.
      */
-    'border-color'?: string;
+    "border-color"?: string;
     /**
      * @description Sets the object's border radius for rounded corners. Larger values create rounder corners,
      * while smaller values create sharper corners. A single value will affect all 4 corners; multiple values
@@ -3010,7 +3010,7 @@ declare namespace ZingchartAngular {
      * will have separate effects on each corner, with the first value affecting the top-left corner, the second
      * value affecting the top-right corner, and so on, in a clockwise direction. A negative value will cut a corner off without rounding.
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     /**
      * @description Sets the border width of the object.
      */
@@ -3018,7 +3018,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the border width of the object.
      */
-    'border-width'?: any;
+    "border-width"?: any;
     /**
      * @description Sets a class value on the object.
      */
@@ -3034,7 +3034,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Set true to enable optimization for large data set when connecting two points.
      */
-    'fast-vector-path'?: any;
+    "fast-vector-path"?: any;
     /**
      * @description Sets the angle of the axis along which the linear gradient is drawn.
      */
@@ -3042,7 +3042,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the angle of the axis along which the linear gradient is drawn.
      */
-    'fill-angle'?: any;
+    "fill-angle"?: any;
     /**
      * @description Sets an X offset to apply to the fill.
      */
@@ -3050,7 +3050,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets an X offset to apply to the fill.
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     /**
      * @description Sets a Y offset to apply to the fill.
      */
@@ -3058,7 +3058,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a Y offset to apply to the fill.
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     /**
      * @description Sets the background gradient fill type to either linear or radial.
      */
@@ -3066,7 +3066,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the background gradient fill type to either linear or radial.
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     /**
      * @description Set to true disables the chart interactivity.
      */
@@ -3078,7 +3078,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops.
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     /**
      * @description Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors.
      */
@@ -3086,7 +3086,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors.
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     /**
      * @description Specifies the group the object is placed in.
      */
@@ -3114,7 +3114,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the stroke-linecap attribute on SVGs
      */
-    'line-cap'?: string;
+    "line-cap"?: string;
     /**
      * @description Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes.
      */
@@ -3122,7 +3122,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes.
      */
-    'line-color'?: string;
+    "line-color"?: string;
     /**
      * @description Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps between each line segment.
      */
@@ -3130,7 +3130,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps between each line segment.
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     /**
      * @description Sets the stroke-linejoin attribute on SVGs
      */
@@ -3138,7 +3138,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the stroke-linejoin attribute on SVGs
      */
-    'line-join'?: string;
+    "line-join"?: string;
     /**
      * @description Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segment of line.
      */
@@ -3146,7 +3146,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segment of line.
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     /**
      * @description Sets the line style of the object.
      */
@@ -3154,7 +3154,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the line style of the object.
      */
-    'line-style'?: string;
+    "line-style"?: string;
     /**
      * @description Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes.
      */
@@ -3162,7 +3162,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes.
      */
-    'line-width'?: any;
+    "line-width"?: any;
     /**
      * @description Sets the map id of the map on which the object/shape is being added.
      */
@@ -3174,7 +3174,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets an R offset to apply when positioning the object.
      */
-    'offset-r'?: any;
+    "offset-r"?: any;
     /**
      * @description Sets an x-offset to apply when positioning the object.
      */
@@ -3182,7 +3182,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets an x-offset to apply when positioning the object.
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     /**
      * @description Sets a y-offset to apply when positioning the object.
      */
@@ -3190,7 +3190,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a y-offset to apply when positioning the object.
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     /**
      * @description Sets a Z offset to apply when positioning the object.
      */
@@ -3198,7 +3198,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a Z offset to apply when positioning the object.
      */
-    'offset-z'?: any;
+    "offset-z"?: any;
     /**
      * @description Sets the object's padding around the text.
      */
@@ -3218,7 +3218,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the transparency of the shadow of the object. The higher the value, the less transparent the shadow will be.
      */
-    'shadow-alpha'?: any;
+    "shadow-alpha"?: any;
     /**
      * @description Sets the angle of the shadow underneath the object.
      */
@@ -3226,7 +3226,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the angle of the shadow underneath the object.
      */
-    'shadow-angle'?: any;
+    "shadow-angle"?: any;
     /**
      * @description Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation.
      */
@@ -3234,7 +3234,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation.
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     /**
      * @description Sets the color of the shadow of the object.
      */
@@ -3242,7 +3242,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the color of the shadow of the object.
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     /**
      * @description Sets the distance between the shadow and the object.
      */
@@ -3250,7 +3250,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the distance between the shadow and the object.
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     /**
      * @description Sets the size of the object.
      */
@@ -3262,7 +3262,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the secondary size of the object. Used on ellipses or rectangle shapes.
      */
-    'size-2'?: any;
+    "size-2"?: any;
     /**
      * @description Sets the radius of the ring in chart. Accepts percentage or pixel value.
      */
@@ -3306,7 +3306,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values.
      */
-    'z-index'?: any;
+    "z-index"?: any;
     /**
      * @description Used to force the sorting of the active areas (which trigger the tooltip) of two shapes in case they overlap.
      */
@@ -3314,7 +3314,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Used to force the sorting of the active areas (which trigger the tooltip) of two shapes in case they overlap.
      */
-    'z-sort'?: any;
+    "z-sort"?: any;
   }
   interface minorGuide {
     /**
@@ -3327,29 +3327,29 @@ declare namespace ZingchartAngular {
      * '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15,
      * 15)' | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
      * en each line segment. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
      * t of line. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object. 1 | 3 | '6px' | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -3367,29 +3367,29 @@ declare namespace ZingchartAngular {
      * '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15,
      * 15)' | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
      * en each line segment. See the red lines across the bottom between the ticks. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
      * t of line. See the red lines across the bottom between the ticks. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object. 1 | 3 | '6px' | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Sets the placement of the object. 'outer' | 'inner' | 'cross'
@@ -3414,7 +3414,7 @@ declare namespace ZingchartAngular {
      * Sets the text's vertical alignment to one of the three applicable values, relative to the object's box. "top" | "middle" | "bottom
      * "
      */
-    'vertical-align'?: string;
+    "vertical-align"?: string;
     verticalAlign?: string;
     /**
      * Sets the transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comp
@@ -3427,39 +3427,39 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets whether the text is displayed with bold characters or not. true | false | 1 | 0
@@ -3468,18 +3468,18 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-bottom'?: string;
+    "border-bottom"?: string;
     borderBottom?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-left'?: string;
+    "border-left"?: string;
     borderLeft?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -3487,47 +3487,47 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-right'?: string;
+    "border-right"?: string;
     borderRight?: string;
     /**
      * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
      * es. "2px solid #f00" | ...
      */
-    'border-top'?: string;
+    "border-top"?: string;
     borderTop?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the object's font color. Similar to font-color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15,
@@ -3537,66 +3537,66 @@ declare namespace ZingchartAngular {
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
      * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
      */
-    'font-angle'?: number;
+    "font-angle"?: number;
     fontAngle?: number;
     /**
      * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
      * | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the text's font size. 4 | "6px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the text's font weight. Similar to bold. "normal" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -3609,12 +3609,12 @@ declare namespace ZingchartAngular {
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -3625,22 +3625,22 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom padding around the text. 4 | "6px" | ...
      */
-    'padding-bottom'?: any;
+    "padding-bottom"?: any;
     paddingBottom?: any;
     /**
      * Sets the object's left padding around the text. 4 | "6px" | ...
      */
-    'padding-left'?: any;
+    "padding-left"?: any;
     paddingLeft?: any;
     /**
      * Sets the object's right padding around the text. 4 | "6px" | ...
      */
-    'padding-right'?: any;
+    "padding-right"?: any;
     paddingRight?: any;
     /**
      * Sets the object's top padding around the text. 4 | "6px" | ...
      */
-    'padding-top'?: any;
+    "padding-top"?: any;
     paddingTop?: any;
     /**
      * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -3654,28 +3654,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the text content of the object. "Some Text" | ...
@@ -3684,19 +3684,19 @@ declare namespace ZingchartAngular {
     /**
      * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
      */
-    'text-align'?: string;
+    "text-align"?: string;
     textAlign?: string;
     /**
      * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
      * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
      */
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textAlpha?: number;
     /**
      * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
      * arts are rendered using SVG. "none" | "underline"
      */
-    'text-decoration'?: string;
+    "text-decoration"?: string;
     textDecoration?: string;
     /**
      * Sets whether the text is displayed with underlined characters or not. Similar to text-decoration. May not display properly in Mozi
@@ -3718,7 +3718,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
      */
-    'wrap-text'?: boolean;
+    "wrap-text"?: boolean;
     wrapText?: boolean;
     /**
      * Sets the X position of the object. 10 | "20px" | 0.3 | "30%" | ...
@@ -3741,7 +3741,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the transparency level of area in chart.
      */
-    'alpha-area'?: any;
+    "alpha-area"?: any;
     /**
      * @description Sets the rotation angle of the object.
      */
@@ -3753,7 +3753,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the end angle of a pie shape.
      */
-    'angle-end'?: any;
+    "angle-end"?: any;
     /**
      * @description Sets the beginning angle of a pie shape.
      */
@@ -3761,7 +3761,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the beginning angle of a pie shape.
      */
-    'angle-start'?: any;
+    "angle-start"?: any;
     /**
      * @description Clips the background image to the margins of the shape/box.
      */
@@ -3769,7 +3769,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Clips the background image to the margins of the shape/box.
      */
-    'background-clip'?: any;
+    "background-clip"?: any;
     /**
      * @description Sets the background color of the object.
      */
@@ -3777,7 +3777,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the background color of the object.
      */
-    'background-color'?: string;
+    "background-color"?: string;
     /**
      * @description Sets the first color of a 2 color background gradient of the object. To be used with background-color-2.
      */
@@ -3785,7 +3785,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the first color of a 2 color background gradient of the object. To be used with background-color-2.
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     /**
      * @description Sets the second color of a 2 color background gradient of the object. To be used with background-color-1.
      */
@@ -3793,7 +3793,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the second color of a 2 color background gradient of the object. To be used with background-color-1.
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     /**
      * @description Sets the direction/s on which the background image is being "stretched".
      */
@@ -3801,7 +3801,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the direction/s on which the background image is being "stretched".
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     /**
      * @description Sets a background image for the object. Value can be a local file or a web image's location.
      */
@@ -3809,7 +3809,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a background image for the object. Value can be a local file or a web image's location.
      */
-    'background-image'?: string;
+    "background-image"?: string;
     /**
      * @description Sets the position of the background when the background-repeat value is no-repeat.
      */
@@ -3817,7 +3817,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the position of the background when the background-repeat value is no-repeat.
      */
-    'background-position'?: string;
+    "background-position"?: string;
     /**
      * @description Sets the repeating mode for the background image.
      */
@@ -3825,7 +3825,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the repeating mode for the background image.
      */
-    'background-repeat'?: any;
+    "background-repeat"?: any;
     /**
      * @description Scales the background image using the specified ratio.
      */
@@ -3833,7 +3833,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Scales the background image using the specified ratio.
      */
-    'background-scale'?: any;
+    "background-scale"?: any;
     /**
      * @description Sets the border width of the object.
      */
@@ -3845,7 +3845,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the transparency level of the border on the object.
      */
-    'border-alpha'?: any;
+    "border-alpha"?: any;
     /**
      * @description Sets the border color of the object.
      */
@@ -3853,7 +3853,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the border color of the object.
      */
-    'border-color'?: string;
+    "border-color"?: string;
     /**
      * @description Sets the object's border radius for rounded corners.
      */
@@ -3861,7 +3861,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the object's border radius for rounded corners.
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     /**
      * @description Sets the border width of the object.
      */
@@ -3869,7 +3869,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the border width of the object.
      */
-    'border-width'?: any;
+    "border-width"?: any;
     /**
      * @description Sets a class value on the object.
      */
@@ -3885,7 +3885,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the angle of the axis along which the linear gradient is drawn.
      */
-    'fill-angle'?: any;
+    "fill-angle"?: any;
     /**
      * @description Sets an X offset to apply to the fill.
      */
@@ -3893,7 +3893,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets an X offset to apply to the fill.
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     /**
      * @description Sets a Y offset to apply to the fill.
      */
@@ -3901,7 +3901,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a Y offset to apply to the fill.
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     /**
      * @description Sets the background gradient fill type to either linear or radial.
      */
@@ -3909,7 +3909,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the background gradient fill type to either linear or radial.
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     /**
      * @description Set to true disables the chart interactivity.
      */
@@ -3921,7 +3921,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops.
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     /**
      * @description Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors.
      */
@@ -3929,7 +3929,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors.
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     /**
      * @description Specifies the group the object is placed in.
      */
@@ -3945,7 +3945,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the hover state styles of the object.
      */
-    'hover-state'?: hoverState;
+    "hover-state"?: hoverState;
     /**
      * @description Sets the id of the object.
      */
@@ -3965,7 +3965,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the stroke-linecap attribute on SVGs
      */
-    'line-cap'?: string;
+    "line-cap"?: string;
     /**
      * @description Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes.
      */
@@ -3973,7 +3973,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes.
      */
-    'line-color'?: string;
+    "line-color"?: string;
     /**
      * @description Can be used to create custom dashed or dotted lines when used with line-segment-size.
      */
@@ -3981,7 +3981,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Can be used to create custom dashed or dotted lines when used with line-segment-size.
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     /**
      * @description Sets the stroke-linejoin attribute on SVGs
      */
@@ -3989,7 +3989,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the stroke-linejoin attribute on SVGs
      */
-    'line-join'?: string;
+    "line-join"?: string;
     /**
      * @description Can be used to create custom dashed or dotted lines when used with line-gap-size.
      */
@@ -3997,7 +3997,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Can be used to create custom dashed or dotted lines when used with line-gap-size.
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     /**
      * @description Sets the line style of the object.
      */
@@ -4005,7 +4005,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the line style of the object.
      */
-    'line-style'?: string;
+    "line-style"?: string;
     /**
      * @description Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes.
      */
@@ -4013,7 +4013,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes.
      */
-    'line-width'?: any;
+    "line-width"?: any;
     /**
      * @description Sets the map id of the map on which the object/shape is being added.
      */
@@ -4025,7 +4025,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets an R offset to apply when positioning the object.
      */
-    'offset-r'?: any;
+    "offset-r"?: any;
     /**
      * @description Sets an x-offset to apply when positioning the object.
      */
@@ -4033,7 +4033,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets an x-offset to apply when positioning the object.
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     /**
      * @description Sets a y-offset to apply when positioning the object.
      */
@@ -4041,7 +4041,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a y-offset to apply when positioning the object.
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     /**
      * @description Sets a Z offset to apply when positioning the object.
      */
@@ -4049,7 +4049,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets a Z offset to apply when positioning the object.
      */
-    'offset-z'?: any;
+    "offset-z"?: any;
     /**
      * @description Sets the object's padding around the text.
      */
@@ -4069,7 +4069,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the transparency of the shadow of the object. The higher the value, the less transparent the shadow will be.
      */
-    'shadow-alpha'?: any;
+    "shadow-alpha"?: any;
     /**
      * @description Sets the angle of the shadow underneath the object.
      */
@@ -4077,7 +4077,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the angle of the shadow underneath the object.
      */
-    'shadow-angle'?: any;
+    "shadow-angle"?: any;
     /**
      * @description Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation.
      */
@@ -4085,7 +4085,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation.
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     /**
      * @description Sets the color of the shadow of the object.
      */
@@ -4093,7 +4093,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the color of the shadow of the object.
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     /**
      * @description Sets the distance between the shadow and the object.
      */
@@ -4101,7 +4101,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the distance between the shadow and the object.
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     /**
      * @description Sets the size of the object.
      */
@@ -4113,7 +4113,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the secondary size of the object. Used on ellipses or rectangle shapes.
      */
-    'size-2'?: any;
+    "size-2"?: any;
     /**
      * @description Sets the radius of the ring in chart. Accepts percentage or pixel value.
      */
@@ -4157,7 +4157,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values.
      */
-    'z-index'?: any;
+    "z-index"?: any;
     /**
      * @description Used to force the sorting of the active areas (which trigger the tooltip) of two shapes in case they overlap.
      */
@@ -4165,7 +4165,7 @@ declare namespace ZingchartAngular {
     /**
      * @description Used to force the sorting of the active areas (which trigger the tooltip) of two shapes in case they overlap.
      */
-    'z-sort'?: any;
+    "z-sort"?: any;
   }
   interface pageOff {
     /**
@@ -4183,92 +4183,92 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets an Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -4278,28 +4278,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -4322,92 +4322,92 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets an Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -4417,28 +4417,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -4461,39 +4461,39 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets whether the text is displayed with bold characters or not. true | false | 1 | 0
@@ -4502,18 +4502,18 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-bottom'?: string;
+    "border-bottom"?: string;
     borderBottom?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-left'?: string;
+    "border-left"?: string;
     borderLeft?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -4521,47 +4521,47 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-right'?: string;
+    "border-right"?: string;
     borderRight?: string;
     /**
      * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
      * es. "2px solid #f00" | ...
      */
-    'border-top'?: string;
+    "border-top"?: string;
     borderTop?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
@@ -4570,39 +4570,39 @@ declare namespace ZingchartAngular {
     /**
      * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
      */
-    'callout-extension'?: any;
+    "callout-extension"?: any;
     calloutExtension?: any;
     /**
      * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
      */
-    'callout-height'?: any;
+    "callout-height"?: any;
     calloutHeight?: any;
     /**
      * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
      * top left corner of the chart. [200, 50] | ...
      */
-    'callout-hook'?: any;
+    "callout-hook"?: any;
     calloutHook?: any;
     /**
      * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
      * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
      */
-    'callout-offset'?: any;
+    "callout-offset"?: any;
     calloutOffset?: any;
     /**
      * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
      */
-    'callout-position'?: string;
+    "callout-position"?: string;
     calloutPosition?: string;
     /**
      * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
      */
-    'callout-width'?: any;
+    "callout-width"?: any;
     calloutWidth?: any;
     /**
      * Cuts off extra text in the legend box if width is set. true | false | 1 | 0
      */
-    'clip-text'?: boolean;
+    "clip-text"?: boolean;
     clipText?: boolean;
     /**
      * Sets whether the text is displayed with bold characters or not. "#f00" | "rgb(100,15,15)" | ...
@@ -4611,65 +4611,65 @@ declare namespace ZingchartAngular {
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
      * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
      */
-    'font-angle'?: number;
+    "font-angle"?: number;
     fontAngle?: number;
     /**
      * Sets the object's font color. Similar to color. "#f00" | "blue" | "rgb(100,15,15)" | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the text's font family. ""Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the text's font size. 4 | "6px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique" | ...
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the text's font weight. Similar to bold. "normal" | "bold" | ...
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -4683,23 +4683,23 @@ declare namespace ZingchartAngular {
      * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
      * the text is cut and appended with "..." 5 | 10 | ...
      */
-    'max-chars'?: number;
+    "max-chars"?: number;
     maxChars?: number;
     /**
      * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
      * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
      */
-    'max-width'?: number;
+    "max-width"?: number;
     maxWidth?: number;
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, starting with t
@@ -4709,22 +4709,22 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom padding around the text. 4 | "6px" | ...
      */
-    'padding-bottom'?: any;
+    "padding-bottom"?: any;
     paddingBottom?: any;
     /**
      * Sets the object's left padding around the text. 4 | "6px" | ...
      */
-    'padding-left'?: any;
+    "padding-left"?: any;
     paddingLeft?: any;
     /**
      * Sets the object's right padding around the text. 4 | "6px" | ...
      */
-    'padding-right'?: any;
+    "padding-right"?: any;
     paddingRight?: any;
     /**
      * Sets the object's top padding around the text. 4 | "6px" | ...
      */
-    'padding-top'?: any;
+    "padding-top"?: any;
     paddingTop?: any;
     /**
      * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -4737,18 +4737,18 @@ declare namespace ZingchartAngular {
     /**
      * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right" | ...
      */
-    'text-align'?: string;
+    "text-align"?: string;
     textAlign?: string;
     /**
      * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
      * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
      */
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textAlpha?: number;
     /**
      * Sets the text's decoration. Similar to underline. "none" | "underline" | ...
      */
-    'text-decoration'?: string;
+    "text-decoration"?: string;
     textDecoration?: string;
     /**
      * Sets whether the text is displayed with underlined characters or not. true | false | 1 | 0
@@ -4758,7 +4758,7 @@ declare namespace ZingchartAngular {
      * Sets the text's vertical alignment to one of the three applicable values, relative to the object's box. "top" | "Middle" | "Bottom
      * "
      */
-    'vertical-align'?: string;
+    "vertical-align"?: string;
     verticalAlign?: string;
     /**
      * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -4771,7 +4771,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
      */
-    'wrap-text'?: boolean;
+    "wrap-text"?: boolean;
     wrapText?: boolean;
   }
   interface plot {
@@ -4791,81 +4791,81 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use "gradient-c
      * olors" and "gradient-stops". "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with "background-color-2". "none" | "transparent"
      * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with "background-color-1". "none" | "transparent"
      *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the "background-repeat" value is "no-repeat". "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Nested Pie Charts Only: This attribute is used to set the space between band in nested pie charts ("type":"nestedpie"). 5 | 10 | .
      * ..
      */
-    'band-space'?: number;
+    "band-space"?: number;
     bandSpace?: number;
     /**
      * Bar Charts and Bullet Charts Only: Sets the max width of bars. "10" | "10%" | "10px"
      */
-    'bar-max-width'?: number;
+    "bar-max-width"?: number;
     barMaxWidth?: number;
     /**
      * Bar Charts and Bullet Charts Only: Sets the amount of space between each bar in a single plot index. "10" | "10%" | "10px"
      */
-    'bar-space'?: number;
+    "bar-space"?: number;
     barSpace?: number;
     /**
      * Bar Charts and Bullet Charts Only: Sets the width of each bar. "10" | "10%" | "10px"
      */
-    'bar-width'?: any;
+    "bar-width"?: any;
     barWidth?: any;
     /**
      * Bar Charts and Bullet Charts Only: Defines how much the bars in each plot index should overlap. "10" | "10%" | "10px"
      */
-    'bars-overlap'?: number;
+    "bars-overlap"?: number;
     barsOverlap?: number;
     /**
      * Bar Charts and Bullet Charts Only: Defines the spacing to the left of the bars at each index position. "10" | "10%" | "10px"
      */
-    'bars-space-left'?: number;
+    "bars-space-left"?: number;
     barsSpaceLeft?: number;
     /**
      * Bar Charts and Bullet Charts Only: Defines the spacing to the right of the bars at each index position. "10" | "10%" | "10px"
      */
-    'bars-space-right'?: number;
+    "bars-space-right"?: number;
     barsSpaceRight?: number;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also "line-color" for closed shapes. "none" | "transparent"
      * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -4873,36 +4873,36 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also "line-width" for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
@@ -4911,42 +4911,42 @@ declare namespace ZingchartAngular {
     /**
      * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
      */
-    'callout-height'?: any;
+    "callout-height"?: any;
     calloutHeight?: any;
     /**
      * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
      * top left corner of the chart. [200, 50] | ...
      */
-    'callout-hook'?: any;
+    "callout-hook"?: any;
     calloutHook?: any;
     /**
      * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
      * row up, down, left, or right depending on the "callout-position". 4 | "6px" | ...
      */
-    'callout-offset'?: any;
+    "callout-offset"?: any;
     calloutOffset?: any;
     /**
      * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
      */
-    'callout-position'?: string;
+    "callout-position"?: string;
     calloutPosition?: string;
     /**
      * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
      */
-    'callout-width'?: any;
+    "callout-width"?: any;
     calloutWidth?: any;
     /**
      * By defalut null values within series arrays will create a blank space within a plot. Setting connected-nulls to true will connect
      * values through a null data point. true | false | 1 | 0
      */
-    'connect-nulls'?: boolean;
+    "connect-nulls"?: boolean;
     connectNulls?: boolean;
     /**
      * Area Charts Only: Sets whether the contour lines on area plots will be on top of all areas or will be hidden by the next area plot
      *  on top of it. You will notice when the attribute is set to true the lines are all set above the shaded regions. true | false | 1
      * | 0
      */
-    'contour-on-top'?: boolean;
+    "contour-on-top"?: boolean;
     contourOnTop?: boolean;
     /**
      * Sets the style of the cursor when hovering over a node. "hand" | "normal"
@@ -4956,16 +4956,16 @@ declare namespace ZingchartAngular {
      * This attribute allows you to create custom tokens and associate static or dynamic data to them. This attribute can be used almost
      * anywhere in a chart. "Some Text" | ...
      */
-    'data-...'?: string;
+    "data-..."?: string;
     /**
      * Certain plot to add in selection tool.
      */
-    'data-append-selection'?: boolean;
+    "data-append-selection"?: boolean;
     dataAppendSelection?: boolean;
     /**
      * Certain plot to ignore in selection tool.
      */
-    'data-ignore-selection'?: boolean;
+    "data-ignore-selection"?: boolean;
     dataIgnoreSelection?: boolean;
     /**
      * Using the decimals attribute will allow you to set the number of decimal places associated to each value. 5 | 10 | ...
@@ -4975,7 +4975,7 @@ declare namespace ZingchartAngular {
      * The "decimals-separator": attribute allows you to set what type of punctuation the will be used in the decimal place. "." | "," |
      * ...
      */
-    'decimals-separator'?: string;
+    "decimals-separator"?: string;
     decimalsSeparator?: string;
     /**
      * This attribute sets description text for the plot which can be addressed in various areas with the %plot-description token. "Some
@@ -5003,22 +5003,22 @@ declare namespace ZingchartAngular {
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Bullet Charts Only: Accepts numerical values. Determines where goals are set for all plots. The "goals": [ ] values can also be se
@@ -5029,19 +5029,19 @@ declare namespace ZingchartAngular {
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with "gradient-stops". "#f00 #0f
      * 0 #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with "gradient-colors". "0.1
      * 0.5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * When true, automatically selects all nodes with the same scale index as the selected node. The selection-mode attribute must also
      * be set. true | false | 1 | 0
      */
-    'group-selections'?: boolean;
+    "group-selections"?: boolean;
     groupSelections?: boolean;
     /**
      * When set to true, it highlights the corresponding series when the user hovers over it in the legend. Note: This attribute may be used in conjunction with the "highlight-state" and/or
@@ -5057,75 +5057,75 @@ declare namespace ZingchartAngular {
      * The "legend-text": attribute is typically used within "series": [ ] value sets. Using this attribute allows you to associate both
      * a "text":" " and "legend-text":" " to each value set "Some Text" | ...
      */
-    'legend-text'?: string;
+    "legend-text"?: string;
     legendText?: string;
     /**
      * Sets the line color of the object, applicable on non-closed shapes. See also "border-color"for closed shapes. "none" | "transparen
      * t" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with "line-segment-size". This will control the size of the gaps bet
      * ween each line segment. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with "line-gap-size". This will control the size of the visible segm
      * ent of line. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object, applicable on non-closed shapes. See also "border-width" for closed shapes. 4 | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Applies to charts such as line and area which have markers. When there are too many markers for the chart ZingChart does not displ
      * ay all markers. Example 1000 nodes on a 300px wide chart. Setting max-nodes will override the default setting and force nodes to b
      * e displayed. 5 | 10 | ...
      */
-    'max-nodes'?: number;
+    "max-nodes"?: number;
     maxNodes?: number;
     /**
      * Heat Maps Only: Sets a maximum ratio applied to the value of the node when calculating its aspect. 0 | 0.4 | ...
      */
-    'max-ratio'?: number;
+    "max-ratio"?: number;
     maxRatio?: number;
     /**
      * Bubble Charts and Bubble Pie Charts Only: Defines the maximum size of the bubble if the value representing size is not sharing the
      *  same ratio with the value scale. 5 | 10 | ...
      */
-    'max-size'?: number;
+    "max-size"?: number;
     maxSize?: number;
     /**
      * Sets the maximum numbers of nodes for which a tracking area will be created. This is best used to optimize charts with large sets
      * of data. 5 | 10 | ...
      */
-    'max-trackers'?: number;
+    "max-trackers"?: number;
     maxTrackers?: number;
     /**
      * Sets whether or not a node is wrapped equally before and after its position. true | false | 1 | 0
      */
-    'mid-point'?: boolean;
+    "mid-point"?: boolean;
     midPoint?: boolean;
     /**
      * Heat Maps Only: Sets a minimum ratio applied to the value of the node when calculating its aspect. 0 | 0.4 | ...
      */
-    'min-ratio'?: number;
+    "min-ratio"?: number;
     minRatio?: number;
     /**
      * Bubble Charts and Bubble Pie Charts Only: Defines the minimum size of the bubble if the value representing size is not sharing the
      *  same ratio with the value scale. 5 | 10 | ...
      */
-    'min-size'?: number;
+    "min-size"?: number;
     minSize?: number;
     /**
      * Sets whether monotone interpolation is used for charts using the "spline" aspect. true | false | 1 | 0
@@ -5146,21 +5146,21 @@ declare namespace ZingchartAngular {
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Pie Charts Only: Use this to transform the shape of the pie slices.
      */
-    'pie-transformpieTransform'?: string;
+    "pie-transformpieTransform"?: string;
     /**
      * Pie Charts Only: Provides the ability to rotate the chart. 5 | 10 | ...
      */
-    'ref-angle'?: number;
+    "ref-angle"?: number;
     refAngle?: number;
     /**
      * Heat Maps Only: Sets the value (default 'plot-max') which is used as a reference for calculating node aspect. "plot-max" | "plot-t
@@ -5174,7 +5174,7 @@ declare namespace ZingchartAngular {
      * ng-step":10 it will show point 1,10,20,... Also note the "exact": true attribute if you want to force all data points. 5 | 10 | ..
      * .
      */
-    'sampling-step'?: number;
+    "sampling-step"?: number;
     samplingStep?: number;
     /**
      * Specifies the scales used by the series item. scale-x,scale-y | scale-x,scale-y-2 | ...
@@ -5191,13 +5191,13 @@ declare namespace ZingchartAngular {
      * ltiplier:2). Setting scroll-step-multiplier to 1 will force the library to sample every data point, essentially disabling sampling
      * . 5 | 10 | ...
      */
-    'scroll-step-multiplier'?: number;
+    "scroll-step-multiplier"?: number;
     scrollStepMultiplier?: number;
     /**
      * Line Charts and Area Charts Only: Allows you to specify whether tooltips are activated by the markers and lines (default) or the m
      * arkers only. true (default) | false
      */
-    'segment-trackers'?: boolean;
+    "segment-trackers"?: boolean;
     segmentTrackers?: boolean;
     /**
      * To set how data points are selected on a chart. 'none' (default) prevents any selection. 'plot' allows you to select one node (or data point) per series (or dataset). 'graph' allows
@@ -5205,12 +5205,12 @@ declare namespace ZingchartAngular {
      * allow you specify the styling attributes you want applied.
      * Accepted Values: ['none', 'plot', 'graph', 'multiple']
      */
-    'selection-mode'?: string;
+    "selection-mode"?: string;
     selectionMode?: string;
     /**
      * A boolean to smart sample and render data at a sampled size. Used in conjuction with exact:false true | false
      */
-    'smart-sampling'?: boolean;
+    "smart-sampling"?: boolean;
     smartSampling?: boolean;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -5220,28 +5220,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Setting "short": true will abbreviate long numbers such as 100000 to 1K or 1000000 to 1M. When set within the "plot": {} object th
@@ -5255,18 +5255,18 @@ declare namespace ZingchartAngular {
      * hanges will only effect values which are pulled from the series values. Things such as scale are set separately. "k" | "K" | "m" |
      *  "M" | "b" | "B"
      */
-    'short-unit'?: string;
+    "short-unit"?: string;
     shortUnit?: string;
     /**
      * On bar charts, when the value of a bar is 0, setting `show-zero`: true will add 1 pixel to the height of the bar so that it is onl
      * y just visible. true | false | 1 | 0
      */
-    'show-zero'?: boolean;
+    "show-zero"?: boolean;
     showZero?: boolean;
     /**
      * Bubble Charts and Bubble Pie Charts Only: Sets a multiplier (default 1) used to increase/decrease the bubble size 5 | 10 | ...
      */
-    'size-factor'?: number;
+    "size-factor"?: number;
     sizeFactor?: number;
     /**
      * Hole size in middle of chart
@@ -5275,7 +5275,7 @@ declare namespace ZingchartAngular {
     /**
      * Nested Pie Charts Only: Sets the initial offset of the pie layers when making a nestedpie 5 | 10 | ...
      */
-    'slice-start'?: number;
+    "slice-start"?: number;
     sliceStart?: number;
     /**
      * Using the "stack": attribute allows you to assign which plot index you want to each value set associated with when using a stacked
@@ -5289,7 +5289,7 @@ declare namespace ZingchartAngular {
     /**
      * Applicable on aspect=stepped, sets the location of the stepping relative to two consecutive nodes. "before" | "middle" | "after"
      */
-    'step-start'?: string;
+    "step-start"?: string;
     stepStart?: string;
     /**
      * Sets the url's target for the link associated with the object. Use with "url". "_blank" | ...
@@ -5304,13 +5304,13 @@ declare namespace ZingchartAngular {
      * 000's 10,000's etc. When placed in the "plot": { } object this will only effect values which are pulled directly from the series d
      * ata. Objects such as "scale-y": { }, "scale-x": { }, etc..., will need to be set separately. "." | "," | ...
      */
-    'thousands-separator'?: string;
+    "thousands-separator"?: string;
     thousandsSeparator?: string;
     /**
      * Using the "tooltip-text":" " attribute allows you to set text for tooltips. This can also be done using a variety of other tokens
      * "Some Text" | ...
      */
-    'tooltip-text'?: string;
+    "tooltip-text"?: string;
     tooltipText?: string;
     /**
      * Sets the URL for the link associated with the object. "http://www.domain.com/link.php" | "link.asp" | ...
@@ -5323,26 +5323,26 @@ declare namespace ZingchartAngular {
     /**
      * Sets the z-axis end point on 3d charts. 10 | "10px" | ...
      */
-    'z-end'?: number;
+    "z-end"?: number;
     zEnd?: number;
     /**
      * Sets the z-axis start point on 3d charts. 10 | "10px" | ...
      */
-    'z-start'?: number;
+    "z-start"?: number;
     animation?: {
-      '1'?: any;
-      '2'?: any;
-      '3'?: any;
-      '4'?: any;
-      '5'?: any;
-      '6'?: any;
-      '7'?: any;
-      '8'?: any;
-      '9'?: any;
-      '10'?: any;
-      '11'?: any;
-      '12'?: any;
-      '13'?: any;
+      "1"?: any;
+      "2"?: any;
+      "3"?: any;
+      "4"?: any;
+      "5"?: any;
+      "6"?: any;
+      "7"?: any;
+      "8"?: any;
+      "9"?: any;
+      "10"?: any;
+      "11"?: any;
+      "12"?: any;
+      "13"?: any;
       /**
        * Sets the delay in milliseconds between each step of the animation. 5 | 10 | ...
        */
@@ -5351,8 +5351,8 @@ declare namespace ZingchartAngular {
        * Determines whether or not animation occurs when a change is made to the chart via an API event (e.g., adding node, adding plot, re
        * moving node). true (default) | false | 1 | 0
        */
-      'on-change'?: boolean;
-      'on-legend-toggle'?: any;
+      "on-change"?: boolean;
+      "on-legend-toggle"?: any;
       onLegendToggle?: any;
       /**
        * Sets the animation effect. Numeric Code String Name 1 `ANIMGATION_FADE_IN` 2 `ANIMATION_EXPAND_VERTICAL` 3 `ANIMATION_EXPAND_TOP`
@@ -5365,9 +5365,9 @@ declare namespace ZingchartAngular {
       sequence?: number;
       speed?: number;
     };
-    'background-marker'?: backgroundMarker;
+    "background-marker"?: backgroundMarker;
     backgroundMarker?: backgroundMarker;
-    'background-state'?: backgroundState;
+    "background-state"?: backgroundState;
     backgroundState?: backgroundState;
     error?: {
       /**
@@ -5378,29 +5378,29 @@ declare namespace ZingchartAngular {
       /**
        * Sets the line color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
        * en each line segment. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
        * t of line. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes. 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -5417,23 +5417,23 @@ declare namespace ZingchartAngular {
       /**
        * Sets the background color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: any;
+      "background-color"?: any;
       backgroundColor?: any;
       /**
        * Sets the border color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: any;
+      "border-color"?: any;
       borderColor?: any;
       /**
        * Sets the border radius of the object, for rounded corners. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the border width of the object. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the height of the object. 10 | "20px"
        */
@@ -5441,27 +5441,27 @@ declare namespace ZingchartAngular {
       /**
        * Sets the line style of the object. "solid" | "dotted" | "dashed" | "dashdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Only applies to Horizontal Bar Charts: Sets the width of the object. 10 | "20px"
        */
       width?: number;
     };
-    'guide-label'?: guideLabel;
+    "guide-label"?: guideLabel;
     guideLabel?: guideLabel;
     highlight?: boolean;
-    'highlight-marker'?: highlightMarker;
+    "highlight-marker"?: highlightMarker;
     highlightMarker?: highlightMarker;
-    'highlight-state'?: highlightState;
+    "highlight-state"?: highlightState;
     highlightState?: highlightState;
-    'hover-marker'?: hoverMarker;
+    "hover-marker"?: hoverMarker;
     hoverMarker?: hoverMarker;
-    'hover-state'?: hoverState;
+    "hover-state"?: hoverState;
     hoverState?: hoverState;
-    'legend-item'?: legendItem;
+    "legend-item"?: legendItem;
     legendItem?: legendItem;
-    'legend-marker'?: legendMarker;
+    "legend-marker"?: legendMarker;
     legendMarker?: legendMarker;
     marker?: {
       /**
@@ -5481,86 +5481,86 @@ declare namespace ZingchartAngular {
        * lors and gradient-stops. See the square points between the lines. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "
        * rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. See the square points bet
        * ween the lines. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. See the square points be
        * tween the lines. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". Used with background-image. See the square points between
        *  the lines. "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. See the square points between the lin
        * es. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. See the square points between the lines. "0 0"
        * | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. See the square points between the lines. "no-repeat" | "repeat" | "repeat-x" | "
        * repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See the square points between the lines. "none" | "transparent"
        * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See the square points between the lines. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. See the square points between the lines. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. See the square points between the lines. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. See the square points between the lines. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. See the square points between the lines. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the map id of the map on which the object/shape is being added. "mapid" | ...
@@ -5569,12 +5569,12 @@ declare namespace ZingchartAngular {
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -5584,28 +5584,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -5631,7 +5631,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values. 5 | 10 | ...
        */
-      'z-index'?: number;
+      "z-index"?: number;
       zIndex?: number;
     };
     preview?: {
@@ -5644,29 +5644,29 @@ declare namespace ZingchartAngular {
        * Area Chart only: Sets the transparency level of the object. Values must range between 0.0 and 1.0, with 0.0 being completely trans
        * parent and 1.0 being completely opaque. Note that values require the leading 0 before the decimal point. 0.3 | 0.4 | 0.9 | ...
        */
-      'alpha-area'?: number;
+      "alpha-area"?: number;
       alphaArea?: number;
       /**
        * Sets the background color of the object. Colors can be entered by name (e.g., "purple", "blue"), hexadecimal notation (e.g., "#666
        * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
        *  15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. "solid" | "dotted" | "dashed" | "dashdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 2 | 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -5678,9 +5678,9 @@ declare namespace ZingchartAngular {
       type?: string;
     };
     rules?: plotRules[];
-    'selected-marker'?: selectedMarker;
+    "selected-marker"?: selectedMarker;
     selectedMarker?: selectedMarker;
-    'selected-state'?: selectedState;
+    "selected-state"?: selectedState;
     selectedState?: selectedState;
     tooltip?: tooltip;
     trend?: {
@@ -5694,30 +5694,30 @@ declare namespace ZingchartAngular {
        * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
        *  15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object. 1 | 3 | | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line width of the object. 1 | 3 | | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
     };
-    'value-box'?: valueBox;
+    "value-box"?: valueBox;
     valueBox?: valueBox;
   }
   interface plotRules extends plot {
@@ -5742,39 +5742,39 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets whether the text is displayed with bold characters or not. true | false | 1 | 0
@@ -5784,23 +5784,23 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the border. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comp
      * letely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'border-alpha'?: number;
+    "border-alpha"?: number;
     borderAlpha?: number;
     /**
      * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-bottom'?: string;
+    "border-bottom"?: string;
     borderBottom?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-left'?: string;
+    "border-left"?: string;
     borderLeft?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -5808,47 +5808,47 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-right'?: string;
+    "border-right"?: string;
     borderRight?: string;
     /**
      * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
      * es. "2px solid #f00" | ...
      */
-    'border-top'?: string;
+    "border-top"?: string;
     borderTop?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
@@ -5857,12 +5857,12 @@ declare namespace ZingchartAngular {
     /**
      * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
      */
-    'callout-height'?: any;
+    "callout-height"?: any;
     calloutHeight?: any;
     /**
      * Clips text that runs longer than the width of the parent object. true | false | 1 | 0
      */
-    'clip-text'?: boolean;
+    "clip-text"?: boolean;
     clipText?: boolean;
     /**
      * Sets the text's color of the crosshair xy label when you hover over the graph items. "none" | "transparent" | "#f00" | "#f00 #00f"
@@ -5872,65 +5872,65 @@ declare namespace ZingchartAngular {
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the rotation angle of the crosshair xy label when you hover over the graph items. Similar with angle. -45 | 115 | ...
      */
-    'font-angle'?: number;
+    "font-angle"?: number;
     fontAngle?: number;
     /**
      * Sets the text's color of the crosshair xy label when you hover over the graph items. Similar with color. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the text's font family of the crosshair xy label when you hover over the graph items. "Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the text's font size of the crosshair xy label when you hover over the graph items. 4 | "6px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the text's font style of the crosshair xy label when you hover over the graph items. "none" | "italic" | "oblique"
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the text's font weight of the crosshair xy label when you hover over the graph items. Similar with bold. "normal" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -5945,13 +5945,13 @@ declare namespace ZingchartAngular {
      * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
      * the text is cut and appended with "..." 5 | 10 | ...
      */
-    'max-chars'?: number;
+    "max-chars"?: number;
     maxChars?: number;
     /**
      * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
      * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
      */
-    'max-width'?: any;
+    "max-width"?: any;
     maxWidth?: any;
     /**
      * To separate the plot labels so that a label appears for each series. You can assign unique text and styling to each label by going
@@ -5962,12 +5962,12 @@ declare namespace ZingchartAngular {
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -5978,22 +5978,22 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom padding around the text. 4 | "6px" | ...
      */
-    'padding-bottom'?: any;
+    "padding-bottom"?: any;
     paddingBottom?: any;
     /**
      * Sets the object's left padding around the text. 4 | "6px" | ...
      */
-    'padding-left'?: any;
+    "padding-left"?: any;
     paddingLeft?: any;
     /**
      * Sets the object's right padding around the text. 4 | "6px" | ...
      */
-    'padding-right'?: any;
+    "padding-right"?: any;
     paddingRight?: any;
     /**
      * Sets the object's top padding around the text. 4 | "6px" | ...
      */
-    'padding-top'?: any;
+    "padding-top"?: any;
     paddingTop?: any;
     /**
      * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -6007,28 +6007,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the text content of the object. "Some Text" | ...
@@ -6037,19 +6037,19 @@ declare namespace ZingchartAngular {
     /**
      * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
      */
-    'text-align'?: string;
+    "text-align"?: string;
     textAlign?: string;
     /**
      * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
      * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
      */
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textAlpha?: number;
     /**
      * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
      * arts are rendered using SVG. "none" | "underline"
      */
-    'text-decoration'?: string;
+    "text-decoration"?: string;
     textDecoration?: string;
     /**
      * Allows the underlying data to be 'transformed' to a new format if it was in that format originally. For example, if data is coded
@@ -6066,7 +6066,7 @@ declare namespace ZingchartAngular {
      * Sets the text's vertical alignment to one of the three applicable values, relative to the object's box. "top" | "middle" | "bottom
      * "
      */
-    'vertical-align'?: string;
+    "vertical-align"?: string;
     verticalAlign?: string;
     /**
      * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -6079,7 +6079,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
      */
-    'wrap-text'?: boolean;
+    "wrap-text"?: boolean;
     wrapText?: boolean;
   }
   interface refLine {
@@ -6091,29 +6091,29 @@ declare namespace ZingchartAngular {
     /**
      * Sets the line color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
      * en each line segment. See the space between orange bar. Works for output canvas and svg. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
      * t of line. See the length of the pieces of the orange bar. Works for output canvas and svg. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object. 1 | 3 | '6px' | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Sets the visibility of the object. true | false
@@ -6137,76 +6137,76 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use "gradient-c
      * olors" and "gradient-stops". "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with "background-color-2". "none" | "transparent"
      * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with "background-color-1". "none" | "transparent"
      *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the "background-repeat" value is "no-repeat". "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Nested Pie Charts Only: This attribute is used to set the space between band in nested pie charts ("type":"nestedpie"). 5 | 10 | .
      * ..
      */
-    'band-space'?: number;
+    "band-space"?: number;
     bandSpace?: number;
     /**
      * Bar Charts and Bullet Charts Only: Sets the amount of space between each bar in a single plot index. "10" | "10%" | "10px"
      */
-    'bar-space'?: number;
+    "bar-space"?: number;
     barSpace?: number;
     /**
      * Bar Charts and Bullet Charts Only: Sets the width of each bar. "10" | "10%" | "10px"
      */
-    'bar-width'?: any;
+    "bar-width"?: any;
     barWidth?: any;
     /**
      * Bar Charts and Bullet Charts Only: Defines how much the bars in each plot index should overlap. "10" | "10%" | "10px"
      */
-    'bars-overlap'?: number;
+    "bars-overlap"?: number;
     barsOverlap?: number;
     /**
      * Bar Charts and Bullet Charts Only: Defines the spacing to the left of the bars at each index position. "10" | "10%" | "10px"
      */
-    'bars-space-left'?: number;
+    "bars-space-left"?: number;
     barsSpaceLeft?: number;
     /**
      * Bar Charts and Bullet Charts Only: Defines the spacing to the right of the bars at each index position. "10" | "10%" | "10px"
      */
-    'bars-space-right'?: number;
+    "bars-space-right"?: number;
     barsSpaceRight?: number;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also "line-color" for closed shapes. "none" | "transparent"
      * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -6214,36 +6214,36 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also "line-width" for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
@@ -6252,42 +6252,42 @@ declare namespace ZingchartAngular {
     /**
      * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
      */
-    'callout-height'?: any;
+    "callout-height"?: any;
     calloutHeight?: any;
     /**
      * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
      * top left corner of the chart. [200, 50] | ...
      */
-    'callout-hook'?: any;
+    "callout-hook"?: any;
     calloutHook?: any;
     /**
      * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
      * row up, down, left, or right depending on the "callout-position". 4 | "6px" | ...
      */
-    'callout-offset'?: any;
+    "callout-offset"?: any;
     calloutOffset?: any;
     /**
      * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
      */
-    'callout-position'?: string;
+    "callout-position"?: string;
     calloutPosition?: string;
     /**
      * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
      */
-    'callout-width'?: any;
+    "callout-width"?: any;
     calloutWidth?: any;
     /**
      * Area Charts Only: Sets whether the contour lines on area plots will be on top of all areas or will be hidden by the next area plot
      *  on top of it. You will notice when the attribute is set to true the lines are all set above the shaded regions. true | false | 1
      * | 0
      */
-    'contour-on-top'?: boolean;
+    "contour-on-top"?: boolean;
     contourOnTop?: boolean;
     /**
      * By defalut null values within series arrays will create a blank space within a plot. Setting connect-nulls to true will connect va
      * lues through a null data point. true | false | 1 | 0
      */
-    'connect-nulls'?: boolean;
+    "connect-nulls"?: boolean;
     connectNulls?: boolean;
     /**
      * Sets the style of the cursor when hovering over a node. "hand" | "normal"
@@ -6297,11 +6297,11 @@ declare namespace ZingchartAngular {
      * This attribute allows you to create custom tokens and associate static or dynamic data to them. This attribute can be used almost
      * anywhere in a chart. "Some Text" | ...
      */
-    'data-...'?: string;
+    "data-..."?: string;
     /**
      * This attribute allows you to click and drag a bar's height in a bar chart. true | false | 1 | 0
      */
-    'data-dragging'?: boolean;
+    "data-dragging"?: boolean;
     dataDragging?: boolean;
     /**
      * Using the decimals attribute will allow you to set the number of decimal places associated to each value. 5 | 10 | ...
@@ -6311,7 +6311,7 @@ declare namespace ZingchartAngular {
      * The "decimals-separator": attribute allows you to set what type of punctuation the will be used in the decimal place. "." | "," |
      * ...
      */
-    'decimals-separator'?: string;
+    "decimals-separator"?: string;
     decimalsSeparator?: string;
     /**
      * This attribute sets description text for the plot which can be addressed in various areas with the %plot-description token. "Some
@@ -6331,27 +6331,27 @@ declare namespace ZingchartAngular {
     /**
      * This attribute set the number of decimals to be used when using exponents for scientific notation 5 | 10 | ...
      */
-    'exponent-decimals'?: number;
+    "exponent-decimals"?: number;
     exponentDecimals?: number;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Bullet Charts Only: Accepts numerical values. Determines where goals are set for all plots. The "goals": [ ] values can also be se
@@ -6362,19 +6362,19 @@ declare namespace ZingchartAngular {
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with "gradient-stops". "#f00 #0f
      * 0 #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with "gradient-colors". "0.1
      * 0.5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * When true, automatically selects all nodes with the same scale index as the selected node. The selection-mode attribute must also
      * be set. true | false | 1 | 0
      */
-    'group-selections'?: boolean;
+    "group-selections"?: boolean;
     groupSelections?: boolean;
     /**
      * Sets the ID of the object. "myid" | "f1" | ...
@@ -6388,75 +6388,75 @@ declare namespace ZingchartAngular {
      * The "legend-text": attribute is typically used within "series": [ ] value sets. Using this attribute allows you to associate both
      * a "text":" " and "legend-text":" " to each value set "Some Text" | ...
      */
-    'legend-text'?: string;
+    "legend-text"?: string;
     legendText?: string;
     /**
      * Sets the line color of the object, applicable on non-closed shapes. See also "border-color" for closed shapes. "none" | "transpare
      * nt" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with "line-segment-size". This will control the size of the gaps bet
      * ween each line segment. 4 | "6px" | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with "line-gap-size". This will control the size of the visible segm
      * ent of line. 4 | "6px" | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object, applicable on non-closed shapes. See also "border-width" for closed shapes. 4 | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Applies to charts such as line and area which have markers. When there are too many markers for the chart ZingChart does not displ
      * ay all markers. Example 1000 nodes on a 300px wide chart. Setting max-nodes will override the default setting and force nodes to b
      * e displayed. 5 | 10 | ...
      */
-    'max-nodes'?: number;
+    "max-nodes"?: number;
     maxNodes?: number;
     /**
      * Heat Maps Only: Sets a maximum ratio applied to the value of the node when calculating its aspect. 0 | 0.4 | ...
      */
-    'max-ratio'?: number;
+    "max-ratio"?: number;
     maxRatio?: number;
     /**
      * Bubble Charts and Bubble Pie Charts Only: Defines the maximum size of the bubble if the value representing size is not sharing the
      *  same ratio with the value scale. 5 | 10 | ...
      */
-    'max-size'?: number;
+    "max-size"?: number;
     maxSize?: number;
     /**
      * Sets the maximum numbers of nodes for which a tracking area will be created. This is best used to optimize charts with large sets
      * of data. 5 | 10 | ...
      */
-    'max-trackers'?: number;
+    "max-trackers"?: number;
     maxTrackers?: number;
     /**
      * Sets whether or not a node is wrapped equally before and after its position. true | false | 1 | 0
      */
-    'mid-point'?: boolean;
+    "mid-point"?: boolean;
     midPoint?: boolean;
     /**
      * Heat Maps Only: Sets a minimum ratio applied to the value of the node when calculating its aspect. 0 | 0.4 | ...
      */
-    'min-ratio'?: number;
+    "min-ratio"?: number;
     minRatio?: number;
     /**
      * Bubble Charts and Bubble Pie Charts Only: Defines the minimum size of the bubble if the value representing size is not sharing the
      *  same ratio with the value scale. 5 | 10 | ...
      */
-    'min-size'?: number;
+    "min-size"?: number;
     minSize?: number;
     /**
      * Sets whether monotone interpolation is used for charts using the "spline" aspect. true | false | 1 | 0
@@ -6477,22 +6477,22 @@ declare namespace ZingchartAngular {
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Bar, Line and Area Charts only Include object in any series to override style displayed in the preview window. {...}
      */
-    'preview-state'?: any;
+    "preview-state"?: any;
     previewState?: any;
     /**
      * Pie Charts Only: Provides the ability to rotate the chart. 5 | 10 | ...
      */
-    'ref-angle'?: number;
+    "ref-angle"?: number;
     refAngle?: number;
     /**
      * Heat Maps Only: Sets the value (default 'plot-max') which is used as a reference for calculating node aspect. "plot-max" | "plot-t
@@ -6506,7 +6506,7 @@ declare namespace ZingchartAngular {
      * ng-step":10 it will show point 1,10,20,... Also note the "exact": true attribute if you want to force all data points. 5 | 10 | ..
      * .
      */
-    'sampling-step'?: number;
+    "sampling-step"?: number;
     samplingStep?: number;
     /**
      * Specifies the scales used by the series item. scale-x,scale-y | scale-x,scale-y-2 | ...
@@ -6523,13 +6523,13 @@ declare namespace ZingchartAngular {
      * ltiplier:2). Setting scroll-step-multiplier to 1 will force the library to sample every data point, essentially disabling sampling
      * . 5 | 10 | ...
      */
-    'scroll-step-multiplier'?: number;
+    "scroll-step-multiplier"?: number;
     scrollStepMultiplier?: number;
     /**
      * Line Charts and Area Charts Only: Allows you to specify whether tooltips are activated by the markers and lines (default) or the m
      * arkers only. true (default) | false
      */
-    'segment-trackers'?: boolean;
+    "segment-trackers"?: boolean;
     segmentTrackers?: boolean;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -6539,28 +6539,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Setting "short": true will abbreviate long numbers such as 100000 to 1K or 1000000 to 1M. When set within the "plot": {} object th
@@ -6574,23 +6574,23 @@ declare namespace ZingchartAngular {
      * hanges will only effect values which are pulled from the series values. Things such as scale are set separately. "k" | "K" | "m" |
      *  "M" | "b" | "B"
      */
-    'short-unit'?: string;
+    "short-unit"?: string;
     shortUnit?: string;
     /**
      * On bar charts, when the value of a bar is 0, setting `show-zero`: true will add 1 pixel to the height of the bar so that it is onl
      * y just visible. true | false | 1 | 0
      */
-    'show-zero'?: boolean;
+    "show-zero"?: boolean;
     showZero?: boolean;
     /**
      * Bubble Charts and Bubble Pie Charts Only: Sets a multiplier (default 1) used to increase/decrease the bubble size 5 | 10 | ...
      */
-    'size-factor'?: number;
+    "size-factor"?: number;
     sizeFactor?: number;
     /**
      * Nested Pie Charts Only: Sets the initial offset of the pie layers when making a nestedpie 5 | 10 | ...
      */
-    'slice-start'?: number;
+    "slice-start"?: number;
     sliceStart?: number;
     /**
      * Using the "stack": attribute allows you to assign which plot index you want to each value set associated with when using a stacked
@@ -6604,7 +6604,7 @@ declare namespace ZingchartAngular {
     /**
      * Applicable on aspect=stepped, sets the location of the stepping relative to two consecutive nodes. "before" | "middle" | "after"
      */
-    'step-start'?: string;
+    "step-start"?: string;
     stepStart?: string;
     /**
      * Sets the url's target for the link associated with the object. Use with "url". "_blank" | ...
@@ -6619,13 +6619,13 @@ declare namespace ZingchartAngular {
      * 000's 10,000's etc. When placed in the "plot": { } object this will only effect values which are pulled directly from the series d
      * ata. Objects such as "scale-y": { }, "scale-x": { }, etc..., will need to be set separately. "." | "," | ...
      */
-    'thousands-separator'?: string;
+    "thousands-separator"?: string;
     thousandsSeparator?: string;
     /**
      * Using the "tooltip-text":" " attribute allows you to set text for tooltips. This can also be done using a variety of other tokens
      * "Some Text" | ...
      */
-    'tooltip-text'?: string;
+    "tooltip-text"?: string;
     tooltipText?: string;
     /**
      * Sets the type of the object/shape.
@@ -6645,17 +6645,17 @@ declare namespace ZingchartAngular {
     /**
      * Sets the z-axis end point on 3d charts. 10 | "10px" | ...
      */
-    'z-end'?: number;
+    "z-end"?: number;
     zEnd?: number;
     /**
      * Sets the z-index of the series object
      */
-    'z-index'?: number;
+    "z-index"?: number;
     zIndex?: number;
     /**
      * Sets the z-axis start point on 3d charts. 10 | "10px" | ...
      */
-    'z-start'?: number;
+    "z-start"?: number;
     zStart?: number;
     animation?: {
       /**
@@ -6674,13 +6674,13 @@ declare namespace ZingchartAngular {
        * Determines whether or not animation occurs when a change is made to the chart via an API event (e.g., adding node, adding plot, re
        * moving node). true (default) | false | 1 | 0
        */
-      'on-change'?: boolean;
+      "on-change"?: boolean;
       onChange?: boolean;
       /**
        * Determines whether or not animation occurs when users toggle legend items on and off. Note that in the "legend" object, the "toggl
        * e-action" attribute must be set to "remove". true (default) | false | 1 | 0
        */
-      'on-legend-toggle'?: boolean;
+      "on-legend-toggle"?: boolean;
       onLegendToggle?: boolean;
       /**
        * Determines animation groups. ANIMATION_NO_SEQUENCE | ANIMATION_BY_PLOT | 0 | 1 | ...
@@ -6691,9 +6691,9 @@ declare namespace ZingchartAngular {
        */
       speed?: number;
     };
-    'background-marker'?: backgroundMarker;
+    "background-marker"?: backgroundMarker;
     backgroundMarker?: backgroundMarker;
-    'background-state'?: backgroundState;
+    "background-state"?: backgroundState;
     backgroundState?: backgroundState;
     error?: {
       /**
@@ -6704,29 +6704,29 @@ declare namespace ZingchartAngular {
       /**
        * Sets the line color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
        * en each line segment. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
        * t of line. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes. 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -6743,23 +6743,23 @@ declare namespace ZingchartAngular {
       /**
        * Sets the background color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: any;
+      "background-color"?: any;
       backgroundColor?: any;
       /**
        * Sets the border color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: any;
+      "border-color"?: any;
       borderColor?: any;
       /**
        * Sets the border radius of the object, for rounded corners. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the border width of the object. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the height of the object. 10 | "20px"
        */
@@ -6767,22 +6767,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the line style of the object. "solid" | "dotted" | "dashed" | "dashdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
     };
-    'guide-label'?: guideLabel;
+    "guide-label"?: guideLabel;
     guideLabel?: guideLabel;
-    'highlight-marker'?: highlightMarker;
+    "highlight-marker"?: highlightMarker;
     highlightMarker?: highlightMarker;
-    'highlight-state'?: highlightState;
+    "highlight-state"?: highlightState;
     highlightState?: highlightState;
-    'hover-marker'?: hoverMarker;
+    "hover-marker"?: hoverMarker;
     hoverMarker?: hoverMarker;
-    'hover-state'?: hoverState;
+    "hover-state"?: hoverState;
     hoverState?: hoverState;
-    'legend-item'?: legendItem;
+    "legend-item"?: legendItem;
     legendItem?: legendItem;
-    'legend-marker'?: legendMarker;
+    "legend-marker"?: legendMarker;
     legendMarker?: legendMarker;
     marker?: {
       /**
@@ -6802,49 +6802,49 @@ declare namespace ZingchartAngular {
        * lors and gradient-stops. See the square points between the lines. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "
        * rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. See the square points bet
        * ween the lines. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. See the square points be
        * tween the lines. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". Used with background-image. See the square points between
        *  the lines. "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. See the square points between the lin
        * es. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. See the square points between the lines. "0 0"
        * | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. See the square points between the lines. "no-repeat" | "repeat" | "repeat-x" | "
        * repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See the square points between the lines. "none" | "transparent"
        * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -6852,49 +6852,49 @@ declare namespace ZingchartAngular {
        * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction.
        * 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the border width of the object, applicable on closed shapes. See the square points between the lines. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. See the square points between the lines. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. See the square points between the lines. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. See the square points between the lines. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. See the square points between the lines. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the text's font size of the marker. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the map id of the map on which the object/shape is being added. "mapid" | ...
@@ -6903,12 +6903,12 @@ declare namespace ZingchartAngular {
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -6918,28 +6918,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -6948,7 +6948,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the character used to separate thousands. "," | "." | " " | ...
        */
-      'thousands-separator'?: string;
+      "thousands-separator"?: string;
       thousandsSeparator?: string;
       /**
        * The type of the marker object to render. square | circle | diamond | triangle | star5 | star6 | star7 | star8 | rpoly5 | gear5 | g
@@ -6970,7 +6970,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values. 5 | 10 | ...
        */
-      'z-index'?: number;
+      "z-index"?: number;
       zIndex?: number;
     };
     preview?: {
@@ -6983,29 +6983,29 @@ declare namespace ZingchartAngular {
        * Area Chart only: Sets the transparency level of the object. Values must range between 0.0 and 1.0, with 0.0 being completely trans
        * parent and 1.0 being completely opaque. Note that values require the leading 0 before the decimal point. 0.3 | 0.4 | 0.9 | ...
        */
-      'alpha-area'?: number;
+      "alpha-area"?: number;
       alphaArea?: number;
       /**
        * Sets the background color of the object. Colors can be entered by name (e.g., "purple", "blue"), hexadecimal notation (e.g., "#666
        * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
        *  15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. "solid" | "dotted" | "dashed" | "dashdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 2 | 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -7026,19 +7026,19 @@ declare namespace ZingchartAngular {
        */
       rule?: string;
     }>;
-    'selected-marker'?: selectedMarker;
+    "selected-marker"?: selectedMarker;
     selectedMarker?: selectedMarker;
-    'selected-state'?: selectedState;
+    "selected-state"?: selectedState;
     selectedState?: selectedState;
     text?: string;
     tooltip?: tooltip;
-    'trend-down'?: trendDown;
+    "trend-down"?: trendDown;
     trendDown?: trendDown;
-    'trend-equal'?: trendEqual;
+    "trend-equal"?: trendEqual;
     trendEqual?: trendEqual;
-    'trend-up'?: trendUp;
+    "trend-up"?: trendUp;
     trendUp?: trendUp;
-    'value-box'?: valueBox;
+    "value-box"?: valueBox;
     valueBox?: valueBox;
     values?: any;
   }
@@ -7075,22 +7075,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the background color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the line color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 1 | 3 | '6px' | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the visibility of the object. true | false
@@ -7105,17 +7105,17 @@ declare namespace ZingchartAngular {
         /**
          * Sets the background color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border width of the object. 1 | 3 | '6px' | ...
          */
-        'border-width'?: any;
+        "border-width"?: any;
         borderWidth?: any;
       }>;
     };
@@ -7128,55 +7128,55 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the object. -45 | 30 | 120 | ...
        */
-      angle?: number
+      angle?: number;
       /**
        * Sets the background color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
        * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
        * , 15)' | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border radius of the object. 2 | 3 | '5px' | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the border width of the object. 1 | 3 | '6px' | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the font color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the font family of the object. 'Arial' | 'Tahoma,Verdana' | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the font size of the object. 10 | 12 | '20px' | ...
        */
-      'font-size'?: number;
+      "font-size"?: number;
       fontSize?: number;
       /**
        * Sets the font style of the object. 'italic' | 'normal'
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the font weight of the object. 'bold' | 'normal'
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets the padding of the object 3 | '5px' | '10px' | ...
@@ -7186,7 +7186,7 @@ declare namespace ZingchartAngular {
        * Sets the text transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 bei
        * ng completely opaque. Note that the leading zero is required before the decimal. 0.3 | 0.4 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
     };
     tick?: {
@@ -7198,17 +7198,17 @@ declare namespace ZingchartAngular {
       /**
        * Sets the line color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 4 | '6px' | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the placement of the object. 'outer' | 'inner' | 'cross'
@@ -7237,39 +7237,39 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets whether the text of the scale label is displayed with bold characters or not. To see this, hover over the axis to the bottom.
@@ -7280,23 +7280,23 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the border. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comp
      * letely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'border-alpha'?: number;
+    "border-alpha"?: number;
     borderAlpha?: number;
     /**
      * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-bottom'?: string;
+    "border-bottom"?: string;
     borderBottom?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-left'?: string;
+    "border-left"?: string;
     borderLeft?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -7304,47 +7304,47 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-right'?: string;
+    "border-right"?: string;
     borderRight?: string;
     /**
      * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
      * es. "2px solid #f00" | ...
      */
-    'border-top'?: string;
+    "border-top"?: string;
     borderTop?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
@@ -7353,7 +7353,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
      */
-    'callout-width'?: any;
+    "callout-width"?: any;
     calloutWidth?: any;
     /**
      * Sets the text's color of the crosshair xy label when you hover over the graph items. "none" | "transparent" | "#f00" | "#f00 #00f"
@@ -7363,66 +7363,66 @@ declare namespace ZingchartAngular {
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the rotation angle of the crosshair xy label when you hover over the graph items. Similar with angle. -45 | 115 | ...
      */
-    'font-angle'?: number;
+    "font-angle"?: number;
     fontAngle?: number;
     /**
      * Sets the text's color of the crosshair xy label when you hover over the graph items. Similar with color. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the text's font family of the crosshair xy label when you hover over the graph items. "Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the text's font size of the crosshair xy label when you hover over the graph items. 4 | "6px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the text's font style of the crosshair xy label when you hover over the graph items. Similar with italic. "none" | "italic" |
      *  "oblique"
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the text's font weight of the crosshair xy label when you hover over the graph items. Similar with bold. "normal" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -7437,17 +7437,17 @@ declare namespace ZingchartAngular {
      * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
      * the text is cut and appended with "..." 5 | 10 | ...
      */
-    'max-chars'?: number;
+    "max-chars"?: number;
     maxChars?: number;
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -7458,22 +7458,22 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom padding around the text. 4 | "6px" | ...
      */
-    'padding-bottom'?: any;
+    "padding-bottom"?: any;
     paddingBottom?: any;
     /**
      * Sets the object's left padding around the text. 4 | "6px" | ...
      */
-    'padding-left'?: any;
+    "padding-left"?: any;
     paddingLeft?: any;
     /**
      * Sets the object's right padding around the text. 4 | "6px" | ...
      */
-    'padding-right'?: any;
+    "padding-right"?: any;
     paddingRight?: any;
     /**
      * Sets the object's top padding around the text. 4 | "6px" | ...
      */
-    'padding-top'?: any;
+    "padding-top"?: any;
     paddingTop?: any;
     /**
      * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -7487,28 +7487,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * X-Axis Crosshair Scale Labels Only: Sets the text content of the object. "Some Text" | ...
@@ -7517,19 +7517,19 @@ declare namespace ZingchartAngular {
     /**
      * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
      */
-    'text-align'?: string;
+    "text-align"?: string;
     textAlign?: string;
     /**
      * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
      * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
      */
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textAlpha?: number;
     /**
      * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
      * arts are rendered using SVG. "none" | "underline"
      */
-    'text-decoration'?: string;
+    "text-decoration"?: string;
     textDecoration?: string;
     /**
      * Allows the underlying data to be 'transformed' to a new format if it was in that format originally. For example, if data is coded
@@ -7546,7 +7546,7 @@ declare namespace ZingchartAngular {
      * Sets the text's vertical alignment to one of the three applicable values, relative to the object's box. "top" | "middle" | "bottom
      * "
      */
-    'vertical-align'?: string;
+    "vertical-align"?: string;
     verticalAlign?: string;
     /**
      * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -7559,7 +7559,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
      */
-    'wrap-text'?: boolean;
+    "wrap-text"?: boolean;
     wrapText?: boolean;
   }
   interface scaleR {
@@ -7571,7 +7571,7 @@ declare namespace ZingchartAngular {
     /**
      * Gauge Charts Only: To set the number of minor tick marks displayed between the major tick marks. 9 | 5 | 2 | ...
      */
-    'minor-ticks'?: number;
+    "minor-ticks"?: number;
     minorTicks?: number;
     aperture?: number;
     /**
@@ -7589,19 +7589,19 @@ declare namespace ZingchartAngular {
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
        * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
        * , 15)' | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object. 1 | 3 | '6px' | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the size of the pivot point. 4 | "6px" | ...
@@ -7635,24 +7635,24 @@ declare namespace ZingchartAngular {
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the line color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699',
        * '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15,
        * 15)' | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 1 | 3 | '6px' | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the visibility of the object. true | false
@@ -7674,49 +7674,49 @@ declare namespace ZingchartAngular {
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
        * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
        * , 15)' | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border radius of the object. 2 | 3 | '5px' | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the border width of the object. 1 | 3 | '6px' | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the font color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the font family of the object. 'Arial' | 'Tahoma,Verdana' | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the font size of the object. 10 | 12 | '20px' | ...
        */
-      'font-size'?: number;
+      "font-size"?: number;
       fontSize?: number;
       /**
        * Sets the font style of the object. 'italic' | 'normal'
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the font weight of the object. 'bold' | 'normal'
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets the placement of the object. Negative values move the scale items inward. Positive values move the scale items outward. 0 | -
@@ -7731,7 +7731,7 @@ declare namespace ZingchartAngular {
        * Sets the text transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 bei
        * ng completely opaque. Note that the leading zero is required before the decimal. 0.3 | 0.4 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the visibility of the object.
@@ -7749,51 +7749,51 @@ declare namespace ZingchartAngular {
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
        * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
        * , 15)' | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border radius of the object. 2 | 3 | '5px' | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the border width of the object. 1 | 3 | '6px' | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the line color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699',
        * '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15,
        * 15)' | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 1 | 3 | '6px' | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets an ending offset for the scale marker. 0.1 | ...
        */
-      'offset-end'?: any;
+      "offset-end"?: any;
       offsetEnd?: any;
       /**
        * Sets a starting offset for the scale marker. 0.5 | ...
        */
-      'offset-start'?: any;
+      "offset-start"?: any;
       offsetStart?: any;
       /**
        * Sets the range of the scale marker. Provide one value for line scale markers and two values (starting and ending) for area scale m
@@ -7819,54 +7819,54 @@ declare namespace ZingchartAngular {
          * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
          * , 15, 15)' | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
          * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
          * , 15)' | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border radius of the object. 2 | 3 | '5px' | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the border width of the object. 1 | 3 | '6px' | ...
          */
-        'border-width'?: any;
+        "border-width"?: any;
         borderWidth?: any;
         /**
          * Sets the font color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'font-color'?: string;
+        "font-color"?: string;
         fontColor?: string;
         /**
          * Sets the font family of the object. 'Arial' | 'Tahoma,Verdana' | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the font size of the object. 10 | 12 | '20px' | ...
          */
-        'font-size'?: number;
+        "font-size"?: number;
         fontSize?: number;
         /**
          * Sets the font style of the object. 'italic' | 'normal'
          */
-        'font-style'?: string;
+        "font-style"?: string;
         fontStyle?: string;
         /**
          * Sets the font weight of the object. 'bold' | 'normal'
          */
-        'font-weight'?: string;
+        "font-weight"?: string;
         fontWeight?: string;
         /**
          * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
          */
-        'line-style'?: string;
+        "line-style"?: string;
         lineStyle?: string;
         /**
          * Sets the placement of the object. Negative values move the scale items inward. Positive values move the scale items outward. 0 | -
@@ -7880,13 +7880,13 @@ declare namespace ZingchartAngular {
         /**
          * Sets the text alignment of the object. 'left' | 'center' | 'right'
          */
-        'text-align'?: string;
+        "text-align"?: string;
         textAlign?: string;
         /**
          * Sets the text transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 bei
          * ng completely opaque. Note that the leading zero is required before the decimal. 0.3 | 0.4 | 0.9 | ...
          */
-        'text-alpha'?: number;
+        "text-alpha"?: number;
         textAlpha?: number;
         /**
          * Sets the width of the object. 50 | '200px' | ...
@@ -7894,9 +7894,9 @@ declare namespace ZingchartAngular {
         width?: number;
       };
     }>;
-    'minor-guide'?: minorGuide;
+    "minor-guide"?: minorGuide;
     minorGuide?: minorGuide;
-    'minor-tick'?: minorTick;
+    "minor-tick"?: minorTick;
     minorTick?: minorTick;
     ring?: {
       /**
@@ -7909,24 +7909,24 @@ declare namespace ZingchartAngular {
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
        * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
        * , 15)' | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object. 1 | 3 | '6px' | ...
        */
-      'border-width'?: any;
+      "border-width"?: any;
       borderWidth?: any;
       /**
        * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the size of the object. 30 | '40px' | ...
@@ -7943,24 +7943,24 @@ declare namespace ZingchartAngular {
          * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
          * , 15, 15)' | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
          * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
          * , 15)' | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border width of the object. 1 | 3 | '6px' | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
          */
-        'line-style'?: string;
+        "line-style"?: string;
         lineStyle?: string;
         /**
          * Sets the size of the object. 30 | '40px' | ...
@@ -7979,17 +7979,17 @@ declare namespace ZingchartAngular {
        * '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15,
        * 15)' | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 1 | 3 | '6px' | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the placement of the object. 'outer' | 'inner' | 'cross'
@@ -8036,22 +8036,22 @@ declare namespace ZingchartAngular {
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the line color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 1 | 3 | '6px' | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the visibility of the object. true | false
@@ -8066,7 +8066,7 @@ declare namespace ZingchartAngular {
         /**
          * Sets the background color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
       }>;
     };
     item?: {
@@ -8084,49 +8084,49 @@ declare namespace ZingchartAngular {
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
        * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
        * , 15)' | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border radius of the object. 2 | 3 | '5px' | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the border width of the object. 1 | 3 | '6px' | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the font color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the font family of the object. 'Arial' | 'Tahoma,Verdana' | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the font size of the object. 10 | 12 | '20px' | ...
        */
-      'font-size'?: number;
+      "font-size"?: number;
       fontSize?: number;
       /**
        * Sets the font style of the object. 'italic' | 'normal'
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the font weight of the object. 'bold' | 'normal'
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets the padding of the object 3 | '5px' | '10px' | ...
@@ -8136,10 +8136,10 @@ declare namespace ZingchartAngular {
        * Sets the text transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 bei
        * ng completely opaque. Note that the leading zero is required before the decimal. 0.3 | 0.4 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
     };
-    'ref-line'?: refLine;
+    "ref-line"?: refLine;
     refLine?: refLine;
     tick?: {
       /**
@@ -8150,17 +8150,17 @@ declare namespace ZingchartAngular {
       /**
        * Sets the line color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 4 | '6px' | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the placement of the object. 'outer' | 'inner' | 'cross'
@@ -8181,7 +8181,7 @@ declare namespace ZingchartAngular {
     /**
      * true | false | 1 | 0
      */
-    'auto-fit'?: boolean;
+    "auto-fit"?: boolean;
     autoFit?: boolean;
     itemsOverlap?: boolean;
     /**
@@ -8192,7 +8192,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets the number of decimals that will be displayed when using scientific notation. Use with the 'exponent' attribute. 5 | 10 | ...
      */
-    'exponent-decimals'?: number;
+    "exponent-decimals"?: number;
     exponentDecimals?: number;
     /**
      * ''horizontal' | 'h' | 'vertical' | 'v' | 'row x col' | 'x col' | 'row x' | 'float''
@@ -8201,23 +8201,23 @@ declare namespace ZingchartAngular {
     /**
      * Sets the color of the axis line. 'none' | 'transparent' | '#f00' | '#f00 #00f' | 'red yellow' | 'rgb(100, 15, 15)' | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Sets the gap size in case of a non-contiguous line style. 4 | '6px' | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Sets the segment size in case of a non-contiguous line style. 4 | '6px' | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Logarithmic Scales only: To set the base value, which defaults to Math.E (Euler's number, the base of natural logarithms). Math.E
      * | 10 | 2 | ...
      */
-    'log-base'?: any;
+    "log-base"?: any;
     logBase?: any;
     /**
      * Sets the object's margin/s. 10 | '5px' | '10 20' | '5px 10px 15px 20px' | ...
@@ -8226,55 +8226,55 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom margin. 4 | '6px' | ...
      */
-    'margin-bottom'?: any;
+    "margin-bottom"?: any;
     marginBottom?: any;
     /**
      * Sets the object's left margin. 4 | '6px' | ...
      */
-    'margin-left'?: any;
+    "margin-left"?: any;
     marginLeft?: any;
     /**
      * Sets the object's right margin. 4 | '6px' | ...
      */
-    'margin-right'?: any;
+    "margin-right"?: any;
     marginRight?: any;
     /**
      * Sets the object's top margin. 4 | '6px' | ...
      */
-    'margin-top'?: any;
+    "margin-top"?: any;
     marginTop?: any;
     /**
      * Sets the max number of values displaying along the bottom horizontal line. 5 | 10 | ...
      */
-    'max-items'?: number;
+    "max-items"?: number;
     maxItems?: number;
     /**
      * Sets the maximum number of labels that will display along the axis. 5 | 10 | ...
      */
-    'max-labels'?: number;
+    "max-labels"?: number;
     maxLabels?: number;
     /**
      * Sets the maximum number of ticks to display on the x axis. 5 | 10 | ...
      */
-    'max-ticks'?: number;
+    "max-ticks"?: number;
     maxTicks?: number;
     /**
      * Sets the maximum value for the x axis. 'max-value': is one of the multiple ways you can set x axis values. Commonly used with time
      *  series data. Also see 'mix-value': and 'step': 4 | '6px' | ...
      */
-    'max-value'?: number;
+    "max-value"?: number;
     maxValue?: number;
     /**
      * Sets the minimum value for the y axis. 'min-value': is one of the multiple ways you can set y axis values. Commonly used with time
      *  series data. Also see 'max-value': and 'step': 'auto' | 4 | '6px' | ...
      */
-    'min-value'?: number;
+    "min-value"?: number;
     minValue?: number;
     /**
      * Sets the number of minor tick marks displayed between the major tick marks. Note that this attribute is required to style the mino
      * r tick marks and/or guides. 5 | 10 | ...
      */
-    'minor-ticks'?: number;
+    "minor-ticks"?: number;
     minorTicks?: number;
     /**
      * Setting 'mirrored': true will reverse/mirror the x axis values. 'scale-x': {} values will read right to left. true | false | 1 | 0
@@ -8288,18 +8288,18 @@ declare namespace ZingchartAngular {
      * Sets an offset from the end of the plotted data. This will cause the data to appear as if it were 'squeezed' from the right side.
      * 4 | '6px' | '5%' | 35%' | ...
      */
-    'offset-end'?: any;
+    "offset-end"?: any;
     offsetEnd?: any;
     /**
      * Sets an offset at the start of the plotted data. This will cause the data to appear as if it were 'squeezed' from the left side. 4
      *  | '6px' | '5%' | '35%' | ...
      */
-    'offset-start'?: any;
+    "offset-start"?: any;
     offsetStart?: any;
     /**
      * Sets an x offset that will be applied to the scale-x object. 4 | '6px' | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets the placement of the scale object. 'default' | 'opposite'
@@ -8312,17 +8312,17 @@ declare namespace ZingchartAngular {
     /**
      * Used on radial charts (pie, radar, gauge) to specify the starting angle of the nodes. -45 | 115 | ...
      */
-    'ref-angle'?: number;
+    "ref-angle"?: number;
     refAngle?: number;
     /**
      * To set the value the reference line is drawn at. 1 | 5 | 10 | ...
      */
-    'ref-value'?: number;
+    "ref-value"?: number;
     refValue?: number;
     /**
      * 5 | 10 | ...
      */
-    'scale-factor'?: number;
+    "scale-factor"?: number;
     scaleFactor?: number;
     /**
      * Setting to true will cause the values on the x axis to use an abbreviated notation with a short unit such as K,M,B, etc. true | fa
@@ -8332,12 +8332,12 @@ declare namespace ZingchartAngular {
     /**
      * Specifies which unit of measure to use when short is set to true. K | M | B | KB | MB | GB | TB | PB
      */
-    'short-unit'?: string;
+    "short-unit"?: string;
     shortUnit?: string;
     /**
      * ['A', 'B'] | ...
      */
-    'show-labels'?: any;
+    "show-labels"?: any;
     showLabels?: any;
     /**
      * Sets the value of each step along an axis.
@@ -8348,7 +8348,7 @@ declare namespace ZingchartAngular {
      * this will only effect values which are pulled directly from the series data. Objects such as 'scale-y': { }, 'scale-x': { }, etc..., will need to be set separately.
      * Default Value: null
      */
-    'thousands-separator'?: string;
+    "thousands-separator"?: string;
     thousandsSeparator?: string;
     /**
      * Sets the size of the object/shape. 4 | '6px' | ...
@@ -8374,7 +8374,7 @@ declare namespace ZingchartAngular {
      * When zooming is enabled, setting zoom-snap to true snaps the zoom area to the nearest data node as a zoom area is selected. By def
      * ault, zoom-snap is set to false. true | false | 1 | 0
      */
-    'zoom-snap'?: boolean;
+    "zoom-snap"?: boolean;
     zoomSnap?: boolean;
     guide?: {
       /**
@@ -8385,49 +8385,49 @@ declare namespace ZingchartAngular {
        * Sets the background color of the scale-x / scale-y guide. See the blue background in between the red lines. "none" | "transparent"
        *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the line color of the scale-x / scale-y guide. See the red lines. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow
        * " | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * When using a dashed or dotted line-type, this will set the size of each gap between line segments. Can be used with line-segment-s
        * ize to create unique dashed or dotted lines. For the scale-x / scale-y guide. See the space between red lines. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * When using a dashed or dotted line-type, this will set the size of each visible segment of line. Can be used with line-gap-size to
        *  create unique dashed or dotted lines. For the scale-x / scale-y guide. See the red lines. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the scale-x / scale-y guide. See the red lines. "solid" | "dotted" | "dashed" | "da
        * shdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object, applicable on non-closed shapes. For the scale-x / scale-y guide. See the red lines. 4 | "6px"
        * | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -8442,17 +8442,17 @@ declare namespace ZingchartAngular {
         /**
          * Sets the background color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border width of the object. 1 | 3 | '6px' | ...
          */
-        'border-width'?: any
+        "border-width"?: any;
       }>;
     };
     item?: {
@@ -8471,39 +8471,39 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a two-color background gradient of the object. To be used with background-color-2. "none" | "transparent"
        * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a two-color background gradient of the object. To be used with background-color-1. "none" | "transparent"
        *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets whether the text is displayed with bold characters or not. true | false | 1 | 0
@@ -8512,18 +8512,18 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -8531,48 +8531,48 @@ declare namespace ZingchartAngular {
        * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
        * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
        */
@@ -8580,39 +8580,39 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
        * top left corner of the chart. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
        * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * true | false | 1 | 0
        */
-      'clip-text'?: boolean;
+      "clip-text"?: boolean;
       clipText?: boolean;
       /**
        * Sets the object's font color. Similar to font-color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15,
@@ -8622,66 +8622,66 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
        * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
        * | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the text's font size. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the text's font weight. Similar to bold. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -8694,29 +8694,29 @@ declare namespace ZingchartAngular {
       /**
        * If set to 'true', scale labels will lock in place and not rotate based upon the viewing angle in 3D charts. true | false | 1 | 0
        */
-      'lock-rotation'?: boolean;
+      "lock-rotation"?: boolean;
       lockRotation?: boolean;
       /**
        * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
        * the text is cut and appended with "..." 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -8727,22 +8727,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom padding around the text. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the object's left padding around the text. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the object's right padding around the text. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the object's top padding around the text. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -8755,19 +8755,19 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
        * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
        * arts are rendered using SVG. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the text is displayed with underlined characters or not. Similar to text-decoration. May not display properly in Mozi
@@ -8785,7 +8785,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
     };
     items?: Array<{
@@ -8804,39 +8804,39 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a two-color background gradient of the object. To be used with background-color-2. "none" | "transparent"
        * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a two-color background gradient of the object. To be used with background-color-1. "none" | "transparent"
        *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets whether the text is displayed with bold characters or not. true | false | 1 | 0
@@ -8845,18 +8845,18 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -8864,48 +8864,48 @@ declare namespace ZingchartAngular {
        * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
        * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
        */
@@ -8913,39 +8913,39 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
        * top left corner of the chart. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
        * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * true | false | 1 | 0
        */
-      'clip-text'?: boolean;
+      "clip-text"?: boolean;
       clipText?: boolean;
       /**
        * Sets the object's font color. Similar to font-color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15,
@@ -8955,66 +8955,66 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
        * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
        * | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the text's font size. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the text's font weight. Similar to bold. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -9027,29 +9027,29 @@ declare namespace ZingchartAngular {
       /**
        * If set to 'true', scale labels will lock in place and not rotate based upon the viewing angle in 3D charts. true | false | 1 | 0
        */
-      'lock-rotation'?: boolean;
+      "lock-rotation"?: boolean;
       lockRotation?: boolean;
       /**
        * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
        * the text is cut and appended with "..." 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -9060,22 +9060,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom padding around the text. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the object's left padding around the text. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the object's right padding around the text. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the object's top padding around the text. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -9088,19 +9088,19 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
        * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
        * arts are rendered using SVG. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the text is displayed with underlined characters or not. Similar to text-decoration. May not display properly in Mozi
@@ -9118,7 +9118,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
     }>;
     label?: {
@@ -9138,39 +9138,39 @@ declare namespace ZingchartAngular {
        * g. "#FF0000", "#0000FF", "#FFFF00"), or in RGB notation (e.g. "rgb(255,0,0)", "rgb(0,0,255)", "rgb(255,255,0)"). In the scale-x /
        * scale-y label. See the red text. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. See the red text. Works f
        * or output canvas and svg. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets whether the text is displayed with bold characters or not in the scale-x / scale-y label. See the red text. true | false | 1
@@ -9180,18 +9180,18 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -9199,48 +9199,48 @@ declare namespace ZingchartAngular {
        * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
        * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
        */
@@ -9248,39 +9248,39 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
        * top left corner of the chart. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
        * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * Cuts off extra text. Use with width. For the scale-x / scale-y label. See the red text. true | false | 1 | 0
        */
-      'clip-text'?: boolean;
+      "clip-text"?: boolean;
       clipText?: boolean;
       /**
        * Sets the object's font color. Similar to font-color. For the scale-x / scale-y label. See the red text. "none" | "transparent" | "
@@ -9291,67 +9291,67 @@ declare namespace ZingchartAngular {
        * Sets the angle of the axis along which the linear gradient is drawn. For the scale-x / scale-y label. See the red text. -45 | 115
        * | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. For the scale-x / scale-y label. See the red text. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. For the scale-x / scale-y label. See the red text. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. For the scale-x / scale-y label. See the red text. "linear" | "
        * radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
        * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the object's font color. Similar to color. For the scale-x / scale-y label. See the red text. "none" | "transparent" | "#f00"
        *  | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the text's font family. For the scale-x / scale-y label. See the red text. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the text's font size. For the scale-x / scale-y label. See the red text. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the text's font style. Similar to italic. For the scale-x / scale-y label. See the red text. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the text's font weight. Similar to bold. For the scale-x / scale-y label. See the red text. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. For the scale-x / scale-y label. See the red text. Works with output canvas and svg. 10 | "20px" | 0.3 |
@@ -9366,29 +9366,29 @@ declare namespace ZingchartAngular {
       /**
        * If set to 'true', scale labels will lock in place and not rotate based upon the viewing angle in 3D charts.
        */
-      'lock-rotation'?: boolean;
+      "lock-rotation"?: boolean;
       lockRotation?: boolean;
       /**
        * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
        * the text is cut and appended with "...". For the scale-x / scale-y label. See the red text. 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -9399,22 +9399,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom padding around the text. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the object's left padding around the text. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the object's right padding around the text. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the object's top padding around the text. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -9427,18 +9427,18 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
        * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text's decoration. Similar to underline. For output canvas and flash. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the text is displayed with underlined characters or not. For output canvas and flash. true | false | 1 | 0
@@ -9455,7 +9455,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
     };
     labels?: any;
@@ -9475,130 +9475,130 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Allows you to set how the label is aligned with the chart. "normal" | "opposite" | "auto"
        */
-      'label-alignment'?: string;
+      "label-alignment"?: string;
       labelAlignment?: string;
       /**
        * Allows you to set how the label is placed on a graph. "normal" | "opposite" | "auto"
        */
-      'label-placement'?: string;
+      "label-placement"?: string;
       labelPlacement?: string;
       /**
        * Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes. "none" | "transparent
        * " | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
        * en each line segment. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
        * t of line. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed" | "dashdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes. 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Setting 'placement' to 'top' will overlay the marker on top of your charted data. By default, markers are set to 'placement':'bott
@@ -9622,28 +9622,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the marker type to either a single line or a marker that will cover an area. "line" | "area"
@@ -9654,7 +9654,7 @@ declare namespace ZingchartAngular {
        * s your starting and ending values. E.g., "range": [30,34] or "range": [1420491600000,1422651600000]. true | false (default) | 1 |
        * 0
        */
-      'value-range'?: boolean;
+      "value-range"?: boolean;
       valueRange?: boolean;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -9675,54 +9675,54 @@ declare namespace ZingchartAngular {
          * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
          * , 15, 15)' | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
          * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
          * , 15)' | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border radius of the object. 2 | 3 | '5px' | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the border width of the object. 1 | 3 | '6px' | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets the font color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'font-color'?: string;
+        "font-color"?: string;
         fontColor?: string;
         /**
          * Sets the font family of the object. 'Arial' | 'Tahoma,Verdana' | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the font size of the object. 10 | 12 | '20px' | ...
          */
-        'font-size'?: number;
+        "font-size"?: number;
         fontSize?: number;
         /**
          * Sets the font style of the object. 'italic' | 'normal'
          */
-        'font-style'?: string;
+        "font-style"?: string;
         fontStyle?: string;
         /**
          * Sets the font weight of the object. 'bold' | 'normal'
          */
-        'font-weight'?: string;
+        "font-weight"?: string;
         fontWeight?: string;
         /**
          * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
          */
-        'line-style'?: string;
+        "line-style"?: string;
         lineStyle?: string;
         /**
          * Sets the padding of the object. 3 | '5px' | '10px' | ...
@@ -9731,13 +9731,13 @@ declare namespace ZingchartAngular {
         /**
          * Sets the text alignment of the object. 'left' | 'center' | 'right'
          */
-        'text-align'?: string;
+        "text-align"?: string;
         textAlign?: string;
         /**
          * Sets the text transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 bei
          * ng completely opaque. Note that the leading zero is required before the decimal. 0.3 | 0.4 | 0.9 | ...
          */
-        'text-alpha'?: number;
+        "text-alpha"?: number;
         textAlpha?: number;
         /**
          * Sets the width of the object. 50 | '200px' | ...
@@ -9745,9 +9745,9 @@ declare namespace ZingchartAngular {
         width?: number;
       };
     }>;
-    'minor-guide'?: minorGuide;
+    "minor-guide"?: minorGuide;
     minorGuide?: minorGuide;
-    'minor-tick'?: minorTick;
+    "minor-tick"?: minorTick;
     minorTick?: refLine;
     refLine?: refLine;
     rules?: Array<{
@@ -9766,29 +9766,29 @@ declare namespace ZingchartAngular {
        * Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes. "none" | "transparent
        * " | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
        * en each line segment. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
        * t of line. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed" | "dashdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes. 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Determines the placement of tick marks along an axis line. inner | cross | outer
@@ -9803,28 +9803,28 @@ declare namespace ZingchartAngular {
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. Has limited effect on HTML5 im
        * plementation. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. Has limited effect on HTML5 implementation. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. Has limited effect on HTML5 implementation. "none" | "transparent" | "#f00" | "#f00 #0
        * 0f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -9850,23 +9850,23 @@ declare namespace ZingchartAngular {
        * ys the year in 4-digit format. `%y` Displays the year in 2-digit format.
        */
       all?: string;
-      '`%A`'?: any;
-      '`%a`'?: any;
-      '`%D`'?: any;
-      '`%d`'?: any;
-      '`%dd`'?: any;
-      '`%G`'?: any;
-      '`%g`'?: any;
-      '`%H`'?: any;
-      '`%h`'?: any;
-      '`%i`'?: any;
-      '`%M`'?: any;
-      '`%m`'?: any;
-      '`%mm`'?: any;
-      '`%q`'?: any;
-      '`%s`'?: any;
-      '`%Y`'?: any;
-      '`%y`'?: any;
+      "`%A`"?: any;
+      "`%a`"?: any;
+      "`%D`"?: any;
+      "`%d`"?: any;
+      "`%dd`"?: any;
+      "`%G`"?: any;
+      "`%g`"?: any;
+      "`%H`"?: any;
+      "`%h`"?: any;
+      "`%i`"?: any;
+      "`%M`"?: any;
+      "`%m`"?: any;
+      "`%mm`"?: any;
+      "`%q`"?: any;
+      "`%s`"?: any;
+      "`%Y`"?: any;
+      "`%y`"?: any;
       guide?: {
         /**
          * Sets the transparency of the scale-x / scale-y guide. See the red lines. 0.3 | 0.9 | ...
@@ -9876,19 +9876,19 @@ declare namespace ZingchartAngular {
          * Sets the line color of the scale-x / scale-y guide. See the red lines. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow
          * " | "rgb(100, 15, 15)" | ...
          */
-        'line-color'?: string;
+        "line-color"?: string;
         lineColor?: string;
         /**
          * Sets the style applied to lines and borders of the scale-x / scale-y guide. See the red lines. "solid" | "dotted" | "dashed" | "da
          * shdot"
          */
-        'line-style'?: string;
+        "line-style"?: string;
         lineStyle?: string;
         /**
          * Sets the line width of the object, applicable on non-closed shapes. For the scale-x / scale-y guide. See the red lines. 4 | "6px"
          * | ...
          */
-        'line-width'?: any;
+        "line-width"?: any;
         lineWidth?: any;
         /**
          * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -9911,39 +9911,39 @@ declare namespace ZingchartAngular {
          * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
          * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
          * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-1'?: string;
+        "background-color-1"?: string;
         backgroundColor1?: string;
         /**
          * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
          *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-2'?: string;
+        "background-color-2"?: string;
         backgroundColor2?: string;
         /**
          * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
          */
-        'background-fit'?: string;
+        "background-fit"?: string;
         backgroundFit?: string;
         /**
          * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
          */
-        'background-image'?: string;
+        "background-image"?: string;
         backgroundImage?: string;
         /**
          * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
          */
-        'background-position'?: string;
+        "background-position"?: string;
         backgroundPosition?: string;
         /**
          * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
          */
-        'background-repeat'?: string;
+        "background-repeat"?: string;
         backgroundRepeat?: string;
         /**
          * Sets whether the text is displayed with bold characters or not. true | false | 1 | 0
@@ -9952,18 +9952,18 @@ declare namespace ZingchartAngular {
         /**
          * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-bottom'?: string;
+        "border-bottom"?: string;
         borderBottom?: string;
         /**
          * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
          * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-left'?: string;
+        "border-left"?: string;
         borderLeft?: string;
         /**
          * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -9971,48 +9971,48 @@ declare namespace ZingchartAngular {
          * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
          * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
          * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-left'?: any;
+        "border-radius-bottom-left"?: any;
         borderRadiusBottomLeft?: any;
         /**
          * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
          * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-right'?: any;
+        "border-radius-bottom-right"?: any;
         borderRadiusBottomRight?: any;
         /**
          * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
          * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-left'?: any;
+        "border-radius-top-left"?: any;
         borderRadiusTopLeft?: any;
         /**
          * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
          * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-right'?: any;
+        "border-radius-top-right"?: any;
         borderRadiusTopRight?: any;
         /**
          * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-right'?: string;
+        "border-right"?: string;
         borderRight?: string;
         /**
          * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
          * es. "2px solid #f00" | ...
          */
-        'border-top'?: string;
+        "border-top"?: string;
         borderTop?: string;
         /**
          * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
          */
@@ -10020,39 +10020,39 @@ declare namespace ZingchartAngular {
         /**
          * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
          */
-        'callout-extension'?: any;
+        "callout-extension"?: any;
         calloutExtension?: any;
         /**
          * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
          */
-        'callout-height'?: any;
+        "callout-height"?: any;
         calloutHeight?: any;
         /**
          * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
          * top left corner of the chart. [200, 50] | ...
          */
-        'callout-hook'?: any;
+        "callout-hook"?: any;
         calloutHook?: any;
         /**
          * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
          * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
          */
-        'callout-offset'?: any;
+        "callout-offset"?: any;
         calloutOffset?: any;
         /**
          * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
          */
-        'callout-position'?: string;
+        "callout-position"?: string;
         calloutPosition?: string;
         /**
          * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
          */
-        'callout-width'?: any;
+        "callout-width"?: any;
         calloutWidth?: any;
         /**
          * Cuts off extra text. Use with width. true | false | 1 | 0
          */
-        'clip-text'?: boolean;
+        "clip-text"?: boolean;
         clipText?: boolean;
         /**
          * Sets the object's font color. Similar to font-color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15,
@@ -10062,66 +10062,66 @@ declare namespace ZingchartAngular {
         /**
          * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
          */
-        'fill-angle'?: number;
+        "fill-angle"?: number;
         fillAngle?: number;
         /**
          * Sets an X offset to apply to the fill. 4 | "6px" | ...
          */
-        'fill-offset-x'?: any;
+        "fill-offset-x"?: any;
         fillOffsetX?: any;
         /**
          * Sets an Y offset to apply to the fill. 4 | "6px" | ...
          */
-        'fill-offset-y'?: any;
+        "fill-offset-y"?: any;
         fillOffsetY?: any;
         /**
          * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
          */
-        'fill-type'?: string;
+        "fill-type"?: string;
         fillType?: string;
         /**
          * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
          * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
          */
-        'font-angle'?: number;
+        "font-angle"?: number;
         fontAngle?: number;
         /**
          * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
          * | ...
          */
-        'font-color'?: string;
+        "font-color"?: string;
         fontColor?: string;
         /**
          * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the text's font size. 4 | "6px" | ...
          */
-        'font-size'?: any;
+        "font-size"?: any;
         fontSize?: any;
         /**
          * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
          */
-        'font-style'?: string;
+        "font-style"?: string;
         fontStyle?: string;
         /**
          * Sets the text's font weight. Similar to bold. "normal" | "bold"
          */
-        'font-weight'?: string;
+        "font-weight"?: string;
         fontWeight?: string;
         /**
          * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
          * #00f" | ...
          */
-        'gradient-colors'?: string;
+        "gradient-colors"?: string;
         gradientColors?: string;
         /**
          * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
          * 5 0.9" | ...
          */
-        'gradient-stops'?: string;
+        "gradient-stops"?: string;
         gradientStops?: string;
         /**
          * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -10135,40 +10135,40 @@ declare namespace ZingchartAngular {
          * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
          * en each line segment. 4 | "6px" | ...
          */
-        'line-gap-size'?: any;
+        "line-gap-size"?: any;
         lineGapSize?: any;
         /**
          * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
          * t of line. 4 | "6px" | ...
          */
-        'line-segment-size'?: any;
+        "line-segment-size"?: any;
         lineSegmentSize?: any;
         /**
          * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
          */
-        'line-style'?: string;
+        "line-style"?: string;
         lineStyle?: string;
         /**
          * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
          * the text is cut and appended with "..." 5 | 10 | ...
          */
-        'max-chars'?: number;
+        "max-chars"?: number;
         maxChars?: number;
         /**
          * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
          * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
          */
-        'max-width'?: any;
+        "max-width"?: any;
         maxWidth?: any;
         /**
          * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-x'?: any;
+        "offset-x"?: any;
         offsetX?: any;
         /**
          * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-y'?: any;
+        "offset-y"?: any;
         offsetY?: any;
         /**
          * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -10179,22 +10179,22 @@ declare namespace ZingchartAngular {
         /**
          * Sets the object's bottom padding around the text. 4 | "6px" | ...
          */
-        'padding-bottom'?: any;
+        "padding-bottom"?: any;
         paddingBottom?: any;
         /**
          * Sets the object's left padding around the text. 4 | "6px" | ...
          */
-        'padding-left'?: any;
+        "padding-left"?: any;
         paddingLeft?: any;
         /**
          * Sets the object's right padding around the text. 4 | "6px" | ...
          */
-        'padding-right'?: any;
+        "padding-right"?: any;
         paddingRight?: any;
         /**
          * Sets the object's top padding around the text. 4 | "6px" | ...
          */
-        'padding-top'?: any;
+        "padding-top"?: any;
         paddingTop?: any;
         /**
          * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -10208,28 +10208,28 @@ declare namespace ZingchartAngular {
          * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
          * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
          */
-        'shadow-alpha'?: number;
+        "shadow-alpha"?: number;
         shadowAlpha?: number;
         /**
          * Sets the angle of the shadow underneath the object. -45 | 115 | ...
          */
-        'shadow-angle'?: number;
+        "shadow-angle"?: number;
         shadowAngle?: number;
         /**
          * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
          */
-        'shadow-blur'?: any;
+        "shadow-blur"?: any;
         shadowBlur?: any;
         /**
          * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
          * .
          */
-        'shadow-color'?: string;
+        "shadow-color"?: string;
         shadowColor?: string;
         /**
          * Sets the distance between the shadow and the object. 4 | "6px" | ...
          */
-        'shadow-distance'?: any;
+        "shadow-distance"?: any;
         shadowDistance?: any;
         /**
          * Sets the text content of the object. "Some Text" | ...
@@ -10238,19 +10238,19 @@ declare namespace ZingchartAngular {
         /**
          * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
          */
-        'text-align'?: string;
+        "text-align"?: string;
         textAlign?: string;
         /**
          * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
          * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
          */
-        'text-alpha'?: number;
+        "text-alpha"?: number;
         textAlpha?: number;
         /**
          * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
          * arts are rendered using SVG. "none" | "underline"
          */
-        'text-decoration'?: string;
+        "text-decoration"?: string;
         textDecoration?: string;
         /**
          * Sets whether the text is displayed with underlined characters or not. Similar to text-decoration. May not display properly in Mozi
@@ -10261,7 +10261,7 @@ declare namespace ZingchartAngular {
          * Sets the text's vertical alignment to one of the three applicable values, relative to the object's box. "top" | "middle" | "bottom
          * "
          */
-        'vertical-align'?: string;
+        "vertical-align"?: string;
         verticalAlign?: string;
         /**
          * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -10274,7 +10274,7 @@ declare namespace ZingchartAngular {
         /**
          * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
          */
-        'wrap-text'?: boolean;
+        "wrap-text"?: boolean;
         wrapText?: boolean;
       };
       /**
@@ -10295,7 +10295,7 @@ declare namespace ZingchartAngular {
     /**
      * true | false | 1 | 0
      */
-    'auto-fit'?: boolean;
+    "auto-fit"?: boolean;
     autoFit?: boolean;
     /**
      * Sets the number of decimals which will be displayed as scale-y values. Note this attribute does round the values to fit within the
@@ -10306,7 +10306,7 @@ declare namespace ZingchartAngular {
      * Sets the separator to be used in place of the default decimal point. Any string or character can be used to replace the decimal. '
      * .' | ',' | ...
      */
-    'decimals-separator'?: string;
+    "decimals-separator"?: string;
     decimalsSeparator?: string;
     /**
      * Sets whether the scale values will be displayed in scientific notation. Particularly useful when dealing with large numbers. true
@@ -10316,7 +10316,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets the number of decimals that will be displayed when using scientific notation. Use with the 'exponent' attribute. 5 | 10 | ...
      */
-    'exponent-decimals'?: number;
+    "exponent-decimals"?: number;
     exponentDecimals?: number;
     /**
      * To format the appearance of the scale values. Use with the %scale-value (%v) token. '%v%' | '$%v' | '%v' | ...
@@ -10325,7 +10325,7 @@ declare namespace ZingchartAngular {
     /**
      * To force all of the scale items to display. It is generally used with the 'max-items' attribute. true | false | 1 | 0
      */
-    'items-overlap'?: boolean;
+    "items-overlap"?: boolean;
     itemsOverlap?: boolean;
     /**
      * Allows you to set custom labels that correspond to each of the ticks on a scale. If there are more ticks than labels, the default
@@ -10339,35 +10339,35 @@ declare namespace ZingchartAngular {
     /**
      * Sets the color of the axis line. 'none' | 'transparent' | '#f00' | '#f00 #00f' | 'red yellow' | 'rgb(100, 15, 15)' | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
      * en each line segment. 4 | '6px' | ...
      */
-    'line-gap-size'?: any;
+    "line-gap-size"?: any;
     lineGapSize?: any;
     /**
      * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
      * t of line. 4 | '6px' | ...
      */
-    'line-segment-size'?: any;
+    "line-segment-size"?: any;
     lineSegmentSize?: any;
     /**
      * Sets the line style of the axis line. 'solid' | 'dotted' | 'dashed' | 'dashdot'
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the width of the axis line. 4 | '6px' | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Logarithmic Scales only: To set the base value, which defaults to Math.E (Euler's number, the base of natural logarithms). Math.E
      * | 10 | 2 | ...
      */
-    'log-base'?: any;
+    "log-base"?: any;
     logBase?: any;
     /**
      * Sets the object's margin/s. 10 | '5px' | '10 20' | '5px 10px 15px 20px' | ...
@@ -10376,55 +10376,55 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom margin. 4 | '6px' | ...
      */
-    'margin-bottom'?: any;
+    "margin-bottom"?: any;
     marginBottom?: any;
     /**
      * Sets the object's left margin. 4 | '6px' | ...
      */
-    'margin-left'?: any;
+    "margin-left"?: any;
     marginLeft?: any;
     /**
      * Sets the object's right margin. 4 | '6px' | ...
      */
-    'margin-right'?: any;
+    "margin-right"?: any;
     marginRight?: any;
     /**
      * Sets the object's top margin. 4 | '6px' | ...
      */
-    'margin-top'?: any;
+    "margin-top"?: any;
     marginTop?: any;
     /**
      * Sets the max number of values displaying along the bottom horizontal line. 5 | 10 | ...
      */
-    'max-items'?: number;
+    "max-items"?: number;
     maxItems?: number;
     /**
      * To set the maximum number of scale items displayed. It is generally used with the 'items-overlap'attribute. 5 | 10 | ...
      */
-    'max-labels'?: number;
+    "max-labels"?: number;
     maxLabels?: number;
     /**
      * Sets the maximum number of ticks to display on the y axis. 5 | 10 | ...
      */
-    'max-ticks'?: number;
+    "max-ticks"?: number;
     maxTicks?: number;
     /**
      * Sets the maximum value for the y axis. 'max-value': is one of the multiple ways you can set y axis values. Commonly used with time
      *  series data. Also see 'mix-value': and 'step': 4 | '6px' | ...
      */
-    'max-value'?: number;
+    "max-value"?: number;
     maxValue?: number;
     /**
      * Sets the minimum value for the y axis. 'min-value': is one of the multiple ways you can set y axis values. Commonly used with time
      *  series data. Also see 'max-value': and 'step': 'auto' | 4 | '6px' | ...
      */
-    'min-value'?: number;
+    "min-value"?: number;
     minValue?: number;
     /**
      * Sets the number of minor tick marks displayed between the major tick marks. Note that this attribute is required to style the mino
      * r tick marks and/or guides. 5 | 10 | ...
      */
-    'minor-ticks'?: number;
+    "minor-ticks"?: number;
     minorTicks?: number;
     /**
      * Setting 'mirrored': true will flip/mirror the y axis values. 'scale-y': {} values will read top to bottom. true | false | 1 | 0
@@ -10448,23 +10448,23 @@ declare namespace ZingchartAngular {
      * Sets an offset from the end of the plotted data. This will cause the data to appear as if it were 'squeezed' from the top side. 4
      * | '6px' | '5%' | 35%' | ...
      */
-    'offset-end'?: any;
+    "offset-end"?: any;
     offsetEnd?: any;
     /**
      * Sets an offset at the start of the plotted data. This will cause the data to appear as if it were 'squeezed' from the bottom side.
      *  4 | '6px' | '5%' | 35%' | ...
      */
-    'offset-start'?: any;
+    "offset-start"?: any;
     offsetStart?: any;
     /**
      * Sets an x offset that will be applied to the scale-y object. 4 | '6px' | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a y offset that will be applied to the scale-y object. 4 | '6px' | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets the placement of the scale object. 'default' | 'opposite'
@@ -10477,17 +10477,17 @@ declare namespace ZingchartAngular {
     /**
      * Used on radial charts (pie, radar, gauge) to specify the starting angle of the nodes. -45 | 115 | ...
      */
-    'ref-angle'?: number;
+    "ref-angle"?: number;
     refAngle?: number;
     /**
      * To set the value the reference line is drawn at. 5 | 10 | ...
      */
-    'ref-value'?: number;
+    "ref-value"?: number;
     refValue?: number;
     /**
      * Sets the scale of the y axis 5 | 10 | ...
      */
-    'scale-factor'?: number;
+    "scale-factor"?: number;
     scaleFactor?: number;
     /**
      * Setting to true will cause the values on the y axis to use an abbreviated notation with a short unit such as K,M,B, etc. true | fa
@@ -10497,12 +10497,12 @@ declare namespace ZingchartAngular {
     /**
      * Specifies which unit of measure to use when short is set to true. K | M | B | KB | MB | GB | TB | PB
      */
-    'short-unit'?: string;
+    "short-unit"?: string;
     shortUnit?: string;
     /**
      * Specifies which labels will be visible on the y axis. ['A', 'B'] | ...
      */
-    'show-labels'?: any;
+    "show-labels"?: any;
     showLabels?: any;
     /**
      * Sets the size of the object/shape. 4 | '6px' | ...
@@ -10511,7 +10511,7 @@ declare namespace ZingchartAngular {
     /**
      * Auto size-factor automatically scales a pie chart to allow all value-box objects to appear without clipping. 'auto'
      */
-    'size-factor'?: string;
+    "size-factor"?: string;
     sizeFactor?: string;
     /**
      * Sets the value of each step along an axis.
@@ -10520,7 +10520,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets the characters used to separate thousands in larger numbers. '.' | ',' | ...
      */
-    'thousands-separator'?: string;
+    "thousands-separator"?: string;
     thousandsSeparator?: string;
     /**
      * An alternative way to create category scale labels. Similar to a 'labels' array, the 'values' array also acts as a maximum scale v
@@ -10542,7 +10542,7 @@ declare namespace ZingchartAngular {
      * When zooming is enabled, setting zoom-snap to true snaps the zoom area to the nearest data node as a zoom area is selected. By def
      * ault, zoom-snap is set to false. true | false | 1 | 0
      */
-    'zoom-snap'?: boolean;
+    "zoom-snap"?: boolean;
     zoomSnap?: boolean;
     guide?: {
       /**
@@ -10553,49 +10553,49 @@ declare namespace ZingchartAngular {
        * Sets the background color of the scale-x / scale-y guide. See the blue background in between the red lines. "none" | "transparent"
        *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the line color of the scale-x / scale-y guide. See the red lines. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow
        * " | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * When using a dashed or dotted line-type, this will set the size of each gap between line segments. Can be used with line-segment-s
        * ize to create unique dashed or dotted lines. For the scale-x / scale-y guide. See the space between red lines. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * When using a dashed or dotted line-type, this will set the size of each visible segment of line. Can be used with line-gap-size to
        *  create unique dashed or dotted lines. For the scale-x / scale-y guide. See the red lines. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the scale-x / scale-y guide. See the red lines. "solid" | "dotted" | "dashed" | "da
        * shdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object, applicable on non-closed shapes. For the scale-x / scale-y guide. See the red lines. 4 | "6px"
        * | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -10610,24 +10610,24 @@ declare namespace ZingchartAngular {
         /**
          * Sets the background color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border width of the object. 1 | 3 | '6px' | ...
          */
-        'border-width'?: any
+        "border-width"?: any;
         /**
          * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
          * rners. A single value will affect all 4 corners, while multiple values will have separate effects on each corner, with the first v
          * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
          * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
       }>;
     };
@@ -10647,39 +10647,39 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a two-color background gradient of the object. To be used with background-color-2. "none" | "transparent"
        * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a two-color background gradient of the object. To be used with background-color-1. "none" | "transparent"
        *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets whether the text is displayed with bold characters or not. true | false | 1 | 0
@@ -10688,18 +10688,18 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -10707,48 +10707,48 @@ declare namespace ZingchartAngular {
        * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
        * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
        */
@@ -10756,39 +10756,39 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
        * top left corner of the chart. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
        * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * true | false | 1 | 0
        */
-      'clip-text'?: boolean;
+      "clip-text"?: boolean;
       clipText?: boolean;
       /**
        * Sets the object's font color. Similar to font-color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15,
@@ -10798,66 +10798,66 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
        * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
        * | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the text's font size. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the text's font weight. Similar to bold. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -10870,29 +10870,29 @@ declare namespace ZingchartAngular {
       /**
        * If set to 'true', scale labels will lock in place and not rotate based upon the viewing angle in 3D charts. true | false | 1 | 0
        */
-      'lock-rotation'?: boolean;
+      "lock-rotation"?: boolean;
       lockRotation?: boolean;
       /**
        * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
        * the text is cut and appended with "..." 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -10903,22 +10903,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom padding around the text. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the object's left padding around the text. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the object's right padding around the text. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the object's top padding around the text. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -10931,19 +10931,19 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
        * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
        * arts are rendered using SVG. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the text is displayed with underlined characters or not. Similar to text-decoration. May not display properly in Mozi
@@ -10961,7 +10961,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
     };
     label?: {
@@ -10981,39 +10981,39 @@ declare namespace ZingchartAngular {
        * g. "#FF0000", "#0000FF", "#FFFF00"), or in RGB notation (e.g. "rgb(255,0,0)", "rgb(0,0,255)", "rgb(255,255,0)"). In the scale-x /
        * scale-y label. See the red text. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. See the red text. Works f
        * or output canvas and svg. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets whether the text is displayed with bold characters or not in the scale-x / scale-y label. See the red text. true | false | 1
@@ -11023,18 +11023,18 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -11042,48 +11042,48 @@ declare namespace ZingchartAngular {
        * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
        * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
        */
@@ -11091,39 +11091,39 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
        * top left corner of the chart. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
        * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * Cuts off extra text. Use with width. For the scale-x / scale-y label. See the red text. true | false | 1 | 0
        */
-      'clip-text'?: boolean;
+      "clip-text"?: boolean;
       clipText?: boolean;
       /**
        * Sets the object's font color. Similar to font-color. For the scale-x / scale-y label. See the red text. "none" | "transparent" | "
@@ -11134,67 +11134,67 @@ declare namespace ZingchartAngular {
        * Sets the angle of the axis along which the linear gradient is drawn. For the scale-x / scale-y label. See the red text. -45 | 115
        * | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. For the scale-x / scale-y label. See the red text. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. For the scale-x / scale-y label. See the red text. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. For the scale-x / scale-y label. See the red text. "linear" | "
        * radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
        * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the object's font color. Similar to color. For the scale-x / scale-y label. See the red text. "none" | "transparent" | "#f00"
        *  | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the text's font family. For the scale-x / scale-y label. See the red text. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the text's font size. For the scale-x / scale-y label. See the red text. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the text's font style. Similar to italic. For the scale-x / scale-y label. See the red text. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the text's font weight. Similar to bold. For the scale-x / scale-y label. See the red text. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. For the scale-x / scale-y label. See the red text. Works with output canvas and svg. 10 | "20px" | 0.3 |
@@ -11209,29 +11209,29 @@ declare namespace ZingchartAngular {
       /**
        * If set to 'true', scale labels will lock in place and not rotate based upon the viewing angle in 3D charts.
        */
-      'lock-rotation'?: boolean;
+      "lock-rotation"?: boolean;
       lockRotation?: boolean;
       /**
        * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
        * the text is cut and appended with "...". For the scale-x / scale-y label. See the red text. 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -11242,22 +11242,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom padding around the text. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the object's left padding around the text. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the object's right padding around the text. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the object's top padding around the text. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -11270,18 +11270,18 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
        * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text's decoration. Similar to underline. For output canvas and flash. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the text is displayed with underlined characters or not. For output canvas and flash. true | false | 1 | 0
@@ -11298,7 +11298,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
     };
     markers?: Array<{
@@ -11317,130 +11317,130 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Allows you to set how the label is aligned with the chart. "normal" | "opposite" | "auto"
        */
-      'label-alignment'?: string;
+      "label-alignment"?: string;
       labelAlignment?: string;
       /**
        * Allows you to set how the label is placed on the chart. "normal" | "opposite" | "auto"
        */
-      'label-placement'?: string;
+      "label-placement"?: string;
       labelPlacement?: string;
       /**
        * Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes. "none" | "transparent
        * " | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
        * en each line segment. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
        * t of line. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed" | "dashdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes. 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Setting 'placement' to 'top' will overlay the marker on top of your charted data. By default, markers are set to 'placement':'bott
@@ -11464,28 +11464,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the marker type to either a single line or a marker that will cover an area. "line" | "area"
@@ -11496,7 +11496,7 @@ declare namespace ZingchartAngular {
        * s your starting and ending values. E.g., "range": [30,34] or "range": [1420491600000,1422651600000]. true | false (default) | 1 |
        * 0
        */
-      'value-range'?: boolean;
+      "value-range"?: boolean;
       valueRange?: boolean;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -11517,54 +11517,54 @@ declare namespace ZingchartAngular {
          * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
          * , 15, 15)' | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
          * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
          * , 15)' | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border radius of the object. 2 | 3 | '5px' | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the border width of the object. 1 | 3 | '6px' | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets the font color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
          */
-        'font-color'?: string;
+        "font-color"?: string;
         fontColor?: string;
         /**
          * Sets the font family of the object. 'Arial' | 'Tahoma,Verdana' | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the font size of the object. 10 | 12 | '20px' | ...
          */
-        'font-size'?: number;
+        "font-size"?: number;
         fontSize?: number;
         /**
          * Sets the font style of the object. 'italic' | 'normal'
          */
-        'font-style'?: string;
+        "font-style"?: string;
         fontStyle?: string;
         /**
          * Sets the font weight of the object. 'bold' | 'normal'
          */
-        'font-weight'?: string;
+        "font-weight"?: string;
         fontWeight?: string;
         /**
          * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
          */
-        'line-style'?: string;
+        "line-style"?: string;
         lineStyle?: string;
         /**
          * Sets the padding of the object. 3 | '5px' | '10px' | ...
@@ -11573,13 +11573,13 @@ declare namespace ZingchartAngular {
         /**
          * Sets the text alignment of the object. 'left' | 'center' | 'right'
          */
-        'text-align'?: string;
+        "text-align"?: string;
         textAlign?: string;
         /**
          * Sets the text transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 bei
          * ng completely opaque. Note that the leading zero is required before the decimal. 0.3 | 0.4 | 0.9 | ...
          */
-        'text-alpha'?: number;
+        "text-alpha"?: number;
         textAlpha?: number;
         /**
          * Sets the width of the object. 50 | '200px' | ...
@@ -11587,11 +11587,11 @@ declare namespace ZingchartAngular {
         width?: number;
       };
     }>;
-    'minor-guide'?: minorGuide;
+    "minor-guide"?: minorGuide;
     minorGuide?: minorGuide;
-    'minor-tick'?: minorTick;
+    "minor-tick"?: minorTick;
     minorTick?: minorTick;
-    'ref-line'?: refLine;
+    "ref-line"?: refLine;
     refLine?: refLine;
     rules?: Array<{
       /**
@@ -11609,29 +11609,29 @@ declare namespace ZingchartAngular {
        * Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes. "none" | "transparent
        * " | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
        * en each line segment. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
        * t of line. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed" | "dashdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes. 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Determines the placement of tick marks along an axis line. inner | cross | outer
@@ -11646,28 +11646,28 @@ declare namespace ZingchartAngular {
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. Has limited effect on HTML5 im
        * plementation. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. Has limited effect on HTML5 implementation. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. Has limited effect on HTML5 implementation. "none" | "transparent" | "#f00" | "#f00 #0
        * 0f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -11713,12 +11713,12 @@ declare namespace ZingchartAngular {
     /**
      * Sets an x offset that will be applied to the scroll-x object. 4 | '6px' | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a y offset that will be applied to the scroll-x object. 4 | '6px' | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     bar?: {
       /**
@@ -11731,13 +11731,13 @@ declare namespace ZingchartAngular {
        * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
        *  15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border radius (rounded corners) of the object. The higher the value, the more rounded the corners appear. 4 | "6px" | "6p
        * x 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * X-Axis Scrollbar only: Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -11759,37 +11759,37 @@ declare namespace ZingchartAngular {
        * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
        *  15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the styling for the bottom border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a s
        * tring. "1px solid green" | "3px dotted purple" | ...
        */
-      'border-bottom'?: any;
+      "border-bottom"?: any;
       borderBottom?: any;
       /**
        * Sets the styling for the left border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a str
        * ing. "1px solid green" | "3px dotted purple" | ...
        */
-      'border-left'?: any;
+      "border-left"?: any;
       borderLeft?: any;
       /**
        * Sets the border radius (rounded corners) of the object. The higher the value, the more rounded the corners appear. 4 | "6px" | "6p
        * x 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the styling for the right border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a st
        * ring. "1px solid green" | "3px dotted purple" | ...
        */
-      'border-right'?: any;
+      "border-right"?: any;
       borderRight?: any;
       /**
        * Sets the styling for the top border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a stri
        * ng. "1px solid green" | "3px dotted purple" | ...
        */
-      'border-top'?: any;
+      "border-top"?: any;
       borderTop?: any;
       /**
        * X-Axis Scrollbar only: Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -11818,87 +11818,87 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -11908,28 +11908,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the size of the object/shape. 4 | "6px" | ...
@@ -11964,92 +11964,92 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes. 4 | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
     /**
      * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -12059,28 +12059,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
   }
   interface theme {
@@ -12108,107 +12108,107 @@ declare namespace ZingchartAngular {
      * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
      *  15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. For graph plot tooltip. "
      * none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. For graph plot tooltip.
      * "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". For graph plot tooltip. "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. For graph plot tooltip. "image.png" |
      *  ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. For graph plot tooltip. "0 0" | "50 100" | "80%
      *  60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. For graph plot tooltip. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the transparency of the border. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comp
      * letely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'border-alpha'?: number;
+    "border-alpha"?: number;
     borderAlpha?: number;
     /**
      * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. For graph plot tooltip. "2px solid #f00" | ...
      */
-    'border-bottom'?: string;
+    "border-bottom"?: string;
     borderBottom?: string;
     /**
      * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's left border style. Accepts solid, dashed, and dotted styles. For graph plot tooltip. "2px solid #f00" | ...
      */
-    'border-left'?: string;
+    "border-left"?: string;
     borderLeft?: string;
     /**
      * Sets the border radius (rounded corners) of the object. "3px" | "10px"
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. For graph plot tooltip. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. For graph plot tooltip. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. For graph plot tooltip. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. For graph plot tooltip. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the object's right border style. Accepts solid, dashed, and dotted styles. For graph plot tooltip. "2px solid #f00" | ...
      */
-    'border-right'?: string;
+    "border-right"?: string;
     borderRight?: string;
     /**
      * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
      * es. For graph plot tooltip. "2px solid #f00" | ...
      */
-    'border-top'?: string;
+    "border-top"?: string;
     borderTop?: string;
     /**
      * Sets the border width of the object. 1 | 3 | | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. For graph plot tooltip. true | false | 1 | 0
@@ -12217,42 +12217,42 @@ declare namespace ZingchartAngular {
     /**
      * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
      */
-    'callout-extension'?: any;
+    "callout-extension"?: any;
     calloutExtension?: any;
     /**
      * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. For graph plot tooltip. 4 | "6px
      * " | ...
      */
-    'callout-height'?: any;
+    "callout-height"?: any;
     calloutHeight?: any;
     /**
      * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
      * top left corner of the chart. For graph plot tooltip. [200, 50] | ...
      */
-    'callout-hook'?: any;
+    "callout-hook"?: any;
     calloutHook?: any;
     /**
      * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
      * row up, down, left, or right depending on the callout-position. For graph plot tooltip. 4 | "6px" | ...
      */
-    'callout-offset'?: any;
+    "callout-offset"?: any;
     calloutOffset?: any;
     /**
      * Sets the position for the object's callout arrow. The position is "bottom" by default. For graph plot tooltip. "top" | "right" | "
      * bottom" | "left"
      */
-    'callout-position'?: string;
+    "callout-position"?: string;
     calloutPosition?: string;
     /**
      * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. For graph plot tooltip. 4 | "6px"
      * | ...
      */
-    'callout-width'?: any;
+    "callout-width"?: any;
     calloutWidth?: any;
     /**
      * Cuts off extra text. Use with width. For graph plot tooltip. true | false | 1 | 0
      */
-    'clip-text'?: boolean;
+    "clip-text"?: boolean;
     clipText?: boolean;
     /**
      * Sets the text's color of the tooltip. Similar with font-color. For graph plot tooltip. "none" | "transparent" | "#f00" | "#f00 #00
@@ -12266,69 +12266,69 @@ declare namespace ZingchartAngular {
     /**
      * Allows you to set the decimal mark displayed for each value. "." | "," | " " | ...
      */
-    'decimals-separator'?: string;
+    "decimals-separator"?: string;
     decimalsSeparator?: string;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. For graph plot tooltip. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. For graph plot tooltip. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. For graph plot tooltip. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. For graph plot tooltip. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the rotation angle of the text of the tooltip. Similar with angle. -45 | 115 | ...
      */
-    'font-angle'?: number;
+    "font-angle"?: number;
     fontAngle?: number;
     /**
      * Sets the font color of the object text. "none" | "transparent" | "purple" | "#33ccff" | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the font family of the object text. "Courier" | "Georgia" | "Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the font size of the object text. 12 | "20px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the font style of the object text. "normal" | "italic"
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the font weight of the object text. "normal" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. For graph p
      * lot tooltip. "#f00 #0f0 #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. For gra
      * ph plot tooltip. "0.1 0.5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the height of the object. 10 | "20px" | 0.3 | "30%" | ...
@@ -12337,7 +12337,7 @@ declare namespace ZingchartAngular {
     /**
      * To create HTML plot labels, set the value to `true`, and then in the attribute, provide your HTML markup.
      */
-    'html-mode'?: boolean;
+    "html-mode"?: boolean;
     htmlMode?: boolean;
     /**
      * Sets the item id of the map on which the object/shape is being added. "itemid" | ...
@@ -12354,65 +12354,65 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom margin. For graph plot tooltip. Works with output flash. 4 | "6px" | ...
      */
-    'margin-bottom'?: any;
+    "margin-bottom"?: any;
     marginBottom?: any;
     /**
      * Sets the object's left margin. For graph plot tooltip. Works with output flash. 4 | "6px" | ...
      */
-    'margin-left'?: any;
+    "margin-left"?: any;
     marginLeft?: any;
     /**
      * Sets the object's right margin. For graph plot tooltip. Works with output flash. 4 | "6px" | ...
      */
-    'margin-right'?: any;
+    "margin-right"?: any;
     marginRight?: any;
     /**
      * Sets the object's top margin. For graph plot tooltip. Works with output flash. 4 | "6px" | ...
      */
-    'margin-top'?: any;
+    "margin-top"?: any;
     marginTop?: any;
     /**
      * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
      * the text is cut and appended with "..." For graph plot tooltip. Works with output canvas and svg. 5 | 10 | ...
      */
-    'max-chars'?: number;
+    "max-chars"?: number;
     maxChars?: number;
     /**
      * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
      * ext is set to true. For graph plot tooltip. Works with output canvas and svg. 10 | "20px" | 0.3 | "30%" | ...
      */
-    'max-width'?: any;
+    "max-width"?: any;
     maxWidth?: any;
     /**
      * Sets an X offset to apply when positioning the object/shape. For graph plot tooltip. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets an Y offset to apply when positioning the object/shape. For graph plot tooltip. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets the padding around the object text. "10%" | "25px" ...
      */
     padding?: any;
-    'padding-bottom'?: any;
+    "padding-bottom"?: any;
     paddingBottom?: any;
     /**
      * Sets the object's left padding around the text of the tooltip. 4 | "6px" | ...
      */
-    'padding-left'?: any;
+    "padding-left"?: any;
     paddingLeft?: any;
     /**
      * Sets the object's right padding around the text of the tooltip. 4 | "6px" | ...
      */
-    'padding-right'?: any;
+    "padding-right"?: any;
     paddingRight?: any;
     /**
      * Sets the object's top padding around the text of the tooltip. 4 | "6px" | ...
      */
-    'padding-top'?: any;
+    "padding-top"?: any;
     paddingTop?: any;
     /**
      * Specifies where tooltips are fixed relative to their node values. Refer to the applicable chart types page for more information. O
@@ -12437,28 +12437,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * To create sticky tooltips. Use this with the "timeout" attribute, which allows you to specify how long you want the tooltips to "s
@@ -12473,12 +12473,12 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the text. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comple
      * tely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textAlpha?: number;
     /**
      * Sets the character used to separate thousands. "," | "." | " " | ...
      */
-    'thousands-separator'?: string;
+    "thousands-separator"?: string;
     thousandsSeparator?: string;
     /**
      * To create sticky tooltips. Provide a value in milliseconds. Use this with the "sticky" attribute, which specifies whether or not t
@@ -12502,12 +12502,12 @@ declare namespace ZingchartAngular {
     /**
      * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
      */
-    'wrap-text'?: boolean;
+    "wrap-text"?: boolean;
     wrapText?: boolean;
     /**
      * Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values. 5 | 10 | ...
      */
-    'z-index'?: number;
+    "z-index"?: number;
     zIndex?: number;
   }
   interface tooltipRules extends tooltip {
@@ -12531,27 +12531,27 @@ declare namespace ZingchartAngular {
      * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
      *  15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object. 1 | 3 | | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Sets the line width of the object. 1 | 3 | | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
   }
   interface trendEqual {
@@ -12565,27 +12565,27 @@ declare namespace ZingchartAngular {
      * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
      *  15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object. 1 | 3 | | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Sets the line width of the object. 1 | 3 | | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
   }
   interface trendUp {
@@ -12599,27 +12599,27 @@ declare namespace ZingchartAngular {
      * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
      *  15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object. 1 | 3 | | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the line color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Sets the line width of the object. 1 | 3 | | "6px" | ...
      */
-    'line-width'?: any;
+    "line-width"?: any;
     lineWidth?: any;
   }
   interface valueBox {
@@ -12640,58 +12640,58 @@ declare namespace ZingchartAngular {
      * will, by default, create a horizontal gradient. For more complex gradients, use "gradient-colors" and "gradient-stops". "none" | "
      * transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a two-color background gradient. To be used with "background-color-2". "none" | "transparent" | "#f00" | "
      * #f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a two-color background gradient. To be used with "background-color-1". "none" | "transparent" | "#f00" |
      * "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction(s) in which the background image is being stretched. Works with "background-image". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the "background-repeat" attribute is set to "no-repeat". "0 0" | "50 100" | "80% 60%" | .
      * ..
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. Works with "background-image". "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the transparency of the border. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comp
      * letely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'border-alpha'?: number;
+    "border-alpha"?: number;
     borderAlpha?: number;
     /**
      * Sets the border color of the object, applicable on closed shapes. See the "line-color" attribute for closed shapes. "none" | "tran
      * sparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See the "line-width" attribute for closed shapes. 4 | "6px" | ..
      * .
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether or not the object will have a callout arrow. true | false | 1 | 0
@@ -12704,80 +12704,80 @@ declare namespace ZingchartAngular {
     /**
      * Allows you to set the decimal mark displayed for each value. "." | "," | " " | ...
      */
-    'decimals-separator'?: string;
+    "decimals-separator"?: string;
     decimalsSeparator?: string;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the object. 5 | "10px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets a Y offset to apply to the object. 5 | "10px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets the font color of the value box text. Similar to the "color" attribute. "none" | "transparent" | "#f00" | "#f00 #00f" | "red
      * yellow" | "rgb(100, 15, 15)" | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the font family of the value box text. "Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the font size of the value box text. 4 | "6px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the font style of the value box text. Similar to the "italic" attribute. "none" | "italic"
      */
-    'font-style'?: string;
+    "font-style"?: string;
     fontStyle?: string;
     /**
      * Sets the font weight of the value box text. Similar to the "bold" attribute. "normal" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets the colors for a complex background gradient consisting of two or more colors. Use with the "gradient-stops" attribute. Works
      *  with output svg. "#f00 #0f0 #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of two or more colors. Use with the "gradient-colors" attribu
      * te. Works with output svg. "0.1 0.5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed" | "dashdot"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets an X offset to apply when positioning the object. 4 | "6px" | ...
      */
-    'offset-x'?: any;
+    "offset-x"?: any;
     offsetX?: any;
     /**
      * Sets a Y offset to apply when positioning the object. 4 | "6px" | ...
      */
-    'offset-y'?: any;
+    "offset-y"?: any;
     offsetY?: any;
     /**
      * Sets the padding around the text of the object. 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
@@ -12804,12 +12804,12 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the text. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comple
      * tely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'text-alpha'?: number;
+    "text-alpha"?: number;
     textAlpha?: number;
     /**
      * Sets the character used to separate thousands. "," | "." | " " | ...
      */
-    'thousands-separator'?: string;
+    "thousands-separator"?: string;
     thousandsSeparator?: string;
     /**
      * Specifies which value boxes are displayed. By default, all values in a series are displayed. You can also display the minimum, max
@@ -12830,17 +12830,17 @@ declare namespace ZingchartAngular {
       /**
        * Sets the line color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Sets the line style of the object. "solid" | "dotted" | "dashed" | "dashdot"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
     };
     joined?: {
@@ -12854,32 +12854,32 @@ declare namespace ZingchartAngular {
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border radius of the object. 2 | 3 | '5px' | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the border width of the object. 1 | 3 | '6px' | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the font color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the font size of the object. 10 | 12 | '20px' | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the padding of the object. 3 | '5px' | '10px' | ...
@@ -12901,32 +12901,32 @@ declare namespace ZingchartAngular {
        * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
        * , 15, 15)' | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border radius of the object. 2 | 3 | '5px' | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the border width of the object. 1 | 3 | '6px' | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the font color of the object. 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15, 15)' | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the font size of the object. 10 | 12 | '20px' | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the padding of the object. 3 | '5px' | '10px' | ...
@@ -12959,59 +12959,59 @@ declare namespace ZingchartAngular {
     /**
      * Sets the border color of the object, applicable to closed shapes. "none" | "transparent" | "#1A237E" | "purple" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border radius of the object, applicable to closed shapes. "3px" | "7px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the border width of the object, applicable to closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the font color of the object. "none" | "transparent" | "#1A237E" | "purple" | ...
      */
-    'font-color'?: string;
+    "font-color"?: string;
     fontColor?: string;
     /**
      * Sets the font family of the object. "Arial" | "Tahoma,Verdana" | ...
      */
-    'font-family'?: string;
+    "font-family"?: string;
     fontFamily?: string;
     /**
      * Sets the font size of the object. 12 | "20px" | ...
      */
-    'font-size'?: any;
+    "font-size"?: any;
     fontSize?: any;
     /**
      * Sets the font weight of the object. "normal" | "bold"
      */
-    'font-weight'?: string;
+    "font-weight"?: string;
     fontWeight?: string;
     /**
      * Sets the line color of the object, applicable to non-closed shapes. "none" | "transparent" | "#1A237E" | "purple" | ...
      */
-    'line-color'?: string;
+    "line-color"?: string;
     lineColor?: string;
     /**
      * Sets the line style of the object, applicable to non-closed shapes. "solid" | "dashed" | "dotted" | "dashdot"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * Sets the line width of the object, applicable to non-closed shapes. 4 | "6px" | ...
      */
-    'line-width'?: number;
+    "line-width"?: number;
   }
   interface gui {
     /**
      * To create custom context menu items
      */
     behaviors?: behavior[];
-    'context-menu'?: contextMenuGui;
+    "context-menu"?: contextMenuGui;
     contextMenu?: contextMenuGui;
   }
   interface graphset {
@@ -13025,22 +13025,22 @@ declare namespace ZingchartAngular {
      * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
      *  15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the border radius (rounded corners) of the object. "3px" | "10px"
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the border width of the object. 1 | 3 | | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets the height of the object. 10 | "20px" | 0.3 | "30%" | ...
@@ -13049,7 +13049,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets the line style of the object. "solid" | "dotted" | "dashed" | "dashdot"
      */
-    'line-style'?: string;
+    "line-style"?: string;
     lineStyle?: string;
     /**
      * The type of the chart "line" | "bar"...
@@ -13059,7 +13059,7 @@ declare namespace ZingchartAngular {
      * Sets the width of the object. 10 | "20px" | 0.3 | "30%" | ...
      */
     width?: number;
-    '3d-aspect'?: {
+    "3d-aspect"?: {
       /**
        * Sets the view angle when using the isometric 3D engine. Value can be between 0 and 90, with the default viewing angle being 45°. 5
        *  | 10 | ...
@@ -13076,17 +13076,17 @@ declare namespace ZingchartAngular {
       /**
        * Sets the X rotation viewing angle for the true 3D view. Viewing angle may vary depending on the chart type. 5 | 10 | ...
        */
-      'x-angle'?: number;
+      "x-angle"?: number;
       xAngle?: number;
       /**
        * Sets the Y rotation viewing angle for the true 3D view. Viewing angle may vary depending on the chart type. 5 | 10 | ...
        */
-      'y-angle'?: number;
+      "y-angle"?: number;
       yAngle?: number;
       /**
        * Sets the Z rotation viewing angle for the true 3D view. Viewing angle may vary depending on the chart type. 5 | 10 | ...
        */
-      'z-angle'?: number;
+      "z-angle"?: number;
       zAngle?: number;
       /**
        * Sets the perspective zoom for the true 3D view. The default zoom level is 1.0. Note that a leading 0 is required before the decima
@@ -13094,7 +13094,7 @@ declare namespace ZingchartAngular {
        */
       zoom?: number;
     };
-    '3dAspect'?: {
+    "3dAspect"?: {
       /**
        * Sets the view angle when using the isometric 3D engine. Value can be between 0 and 90, with the default viewing angle being 45°. 5
        *  | 10 | ...
@@ -13111,17 +13111,17 @@ declare namespace ZingchartAngular {
       /**
        * Sets the X rotation viewing angle for the true 3D view. Viewing angle may vary depending on the chart type. 5 | 10 | ...
        */
-      'x-angle'?: number;
+      "x-angle"?: number;
       xAngle?: number;
       /**
        * Sets the Y rotation viewing angle for the true 3D view. Viewing angle may vary depending on the chart type. 5 | 10 | ...
        */
-      'y-angle'?: number;
+      "y-angle"?: number;
       yAngle?: number;
       /**
        * Sets the Z rotation viewing angle for the true 3D view. Viewing angle may vary depending on the chart type. 5 | 10 | ...
        */
-      'z-angle'?: number;
+      "z-angle"?: number;
       zAngle?: number;
       /**
        * Sets the perspective zoom for the true 3D view. The default zoom level is 1.0. Note that a leading 0 is required before the decima
@@ -13133,22 +13133,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's font angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the text's color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the arrow's label font size. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Text displayed in a label over the arrow. "Upturn" | "10% decrease" | ...
@@ -13174,51 +13174,51 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the direction of the arrow "top" | "bottom" | "left" | "right"
        */
@@ -13226,34 +13226,34 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the length of the arrow. 50 | 100 | ...
@@ -13262,17 +13262,17 @@ declare namespace ZingchartAngular {
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -13282,28 +13282,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -13325,13 +13325,13 @@ declare namespace ZingchartAngular {
          * Sets an x-offset for the arrow's starting point. Can be used to make adjustments to an arrow's starting x ordinate or hook point.
          * 10 | 56 | ...
          */
-        'offset-x'?: number;
+        "offset-x"?: number;
         offsetX?: number;
         /**
          * Sets a y-offset for the arrow's starting point. Can be used to make adjustments to an arrow's starting y ordinate or hook point. 1
          * 0 | 56 | ...
          */
-        'offset-y'?: number;
+        "offset-y"?: number;
         offsetY?: number;
         /**
          * Sets the x ordinate for an arrow's starting point. Ordinates are counted in pixels, starting from the top-left corner of the chart
@@ -13356,13 +13356,13 @@ declare namespace ZingchartAngular {
          * Sets an x-offset for the arrow's end point. Can be used to make adjustments to an arrow's end x ordinate or hook point. 10 | 56 |
          * ...
          */
-        'offset-x'?: number;
+        "offset-x"?: number;
         offsetX?: number;
         /**
          * Sets a y-offset for the arrow's end point. Can be used to make adjustments to an arrow's end y ordinate or hook point. 10 | 56 | .
          * ..
          */
-        'offset-y'?: number;
+        "offset-y"?: number;
         offsetY?: number;
         /**
          * Sets the x ordinate for an arrow's end point. Ordinates are counted in pixels, starting from the top-left corner of the chart. 100
@@ -13390,34 +13390,34 @@ declare namespace ZingchartAngular {
       /**
        * Sets the line color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
        * en each line segment. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
        * t of line. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object. 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Reverses the order of items in plotLabel. Generally used with positive stacked charts.
        */
-      'reverse-series'?: boolean;
+      "reverse-series"?: boolean;
       reverseSeries?: boolean;
       /**
        * X-Axis Crosshairs Only: For graphsets with multiple chart objects, setting the attribute to true in "crosshair-x" will allow you t
@@ -13451,19 +13451,19 @@ declare namespace ZingchartAngular {
          * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
          * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object, applicable on closed shapes. See the square points between the lines. "none" | "transparent"
          * | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border width of the object, applicable on closed shapes. See the square points between the lines. 4 | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets the size of the object/shape. 4 | "6px" | ...
          */
@@ -13478,14 +13478,14 @@ declare namespace ZingchartAngular {
          */
         visible?: boolean;
       };
-      'plot-label'?: plotLabel;
+      "plot-label"?: plotLabel;
       plotLabel?: plotLabel;
-      'scale-label'?: scaleLabel;
+      "scale-label"?: scaleLabel;
       scaleLabel?: scaleLabel;
     };
-    'crosshair-x'?: crosshairX;
+    "crosshair-x"?: crosshairX;
     crosshairX?: crosshairX;
-    'crosshair-y'?: crosshairY;
+    "crosshair-y"?: crosshairY;
     crosshairY?: crosshairY;
     csv?: {
       /**
@@ -13499,13 +13499,13 @@ declare namespace ZingchartAngular {
        * attribute in json syntax, and therefore the row separator character will likely need also be overridden with the "row-separator" a
        * ttribute if "data-string" is used in place of "url". "Apple,25,34\r\nPear,-16,10\r\nLemon,22,-5\r\nOrange,41,21" | ...
        */
-      'data-string'?: string;
+      "data-string"?: string;
       dataString?: string;
       /**
        * Specifies if the CSV data contains descriptive headers for each column as the first or second row (depending on title presence). t
        * rue | false | 1 | 0
        */
-      'horizontal-labels'?: boolean;
+      "horizontal-labels"?: boolean;
       horizontalLabels?: boolean;
       /**
        * Specifies if the CSV data should be processed in a mirrored way (per line instead of per column). Note the different format used f
@@ -13516,12 +13516,12 @@ declare namespace ZingchartAngular {
        * Sets the separator between the data rows when using a data-string instead of an external .CSV file. The default value is "\r\n". "
        * _" | "&" | "\r\n" | ...
        */
-      'row-separator'?: string;
+      "row-separator"?: string;
       rowSeparator?: string;
       /**
        * Specifies whether or not each column in the csv data should have its own scale on the chart. true | false | 1 | 0
        */
-      'separate-scales'?: boolean;
+      "separate-scales"?: boolean;
       separateScales?: boolean;
       /**
        * Sets the separator between the data cells, default is ",". Any single character can be used as a separator. "*" | "/" | "," | ...
@@ -13531,7 +13531,7 @@ declare namespace ZingchartAngular {
        * Smart-Scales will analyze the CSV data to determine if each column of data is of a different enough type of data to deserve a sepa
        * rate scale. If it is, smart-scales will assign the unique data columns to separate scales. true | false | 1 | 0
        */
-      'smart-scales'?: boolean;
+      "smart-scales"?: boolean;
       smartScales?: boolean;
       /**
        * Specifies if the CSV data contains a descriptive title on the first line. If this attribute it not included, then the library look
@@ -13547,7 +13547,7 @@ declare namespace ZingchartAngular {
       /**
        * Specifies if the CSV data contains descriptive headers for each row. true | false | 1 | 0
        */
-      'vertical-labels'?: boolean;
+      "vertical-labels"?: boolean;
       verticalLabels?: boolean;
     };
     heatmap?: {
@@ -13567,7 +13567,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the type of blur shape. "circle" | "square" | ...
        */
-      'brush-typebrushType'?: string;
+      "brush-typebrushType"?: string;
       /**
        * Sets the blur shapes to composite or not. true | false | 1 | 0
        */
@@ -13579,16 +13579,16 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether or not the data is sorted. true | false | 1 | 0
        */
-      'sort-datasortData'?: boolean;
+      "sort-datasortData"?: boolean;
       graph?: {
         /**
          * Sets the key-scale value "scale-k" | "scale-v" | ...
          */
-        'key-scalekeyScale'?: string;
+        "key-scalekeyScale"?: string;
         /**
          * Sets the value-scale value "scale-x" | "scale-y" | ...
          */
-        'val-scalevalScale'?: string;
+        "val-scalevalScale"?: string;
       };
       tooltip?: tooltip;
     };
@@ -13604,55 +13604,55 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -13660,48 +13660,48 @@ declare namespace ZingchartAngular {
        * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
        * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
        */
@@ -13709,66 +13709,66 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
        * top left corner of the chart. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
        * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -13778,28 +13778,28 @@ declare namespace ZingchartAngular {
        * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
        * en each line segment. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
        * t of line. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's position relative to it's container. Similar results can be obtained by setting margin and margin-... attributes
@@ -13814,28 +13814,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -13856,14 +13856,14 @@ declare namespace ZingchartAngular {
       /**
        * Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values. 5 | 10 | ...
        */
-      'z-index'?: number;
+      "z-index"?: number;
     }>;
     labels?: label[];
     legend?: {
       /**
        * Forces the plotarea to consider the legend positioning and prevent overlapping with it. true | false | 1 | 0
        */
-      'adjust-layout'?: boolean;
+      "adjust-layout"?: boolean;
       adjustLayout?: boolean;
       /**
        * Automatically aligns the legend and adjusts "plotarea" margins accordingly. "left" | "center" | "right"
@@ -13880,103 +13880,103 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the object's bottom border style. Accepts solid, dotted, and dashed. Also accepts named colors. If color is not set properly,
        *  will default to black. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. The higher the value, the more rounded the corners appear. 4 | "6px" | "6px
        * 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
        */
@@ -13984,33 +13984,33 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length for an extension line off the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets a location for the point of the tip of the callout arrow. Uses XY coordinates. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset for the origin of the callout arrow. Uses positive or negative values to move the arrow right/left/up/down. 4 | "6
        * px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets which edge will be the location for the object's callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * Sets legend to be collapsed by default true | false | 1 | 0
@@ -14020,7 +14020,7 @@ declare namespace ZingchartAngular {
        * Sets the handler used to drag the legend: icon will create a dragging icon on the legend header, which will be the only area on wh
        * ich you can click and drag, header will make the whole header object active for dragging the legend. "header" | "icon"
        */
-      'drag-handler'?: string;
+      "drag-handler"?: string;
       dragHandler?: string;
       /**
        * Sets whether the legend can be dragged or not. true | false | 1 | 0
@@ -14029,34 +14029,34 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient (more than 2 colors). To be used with gradient-stops. "#f00 #0f0 #00f" | ..
        * .
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the position for the introduction of each color for a complex background gradient (more than 2 colors). To be used with gradi
        * ent-colors. "0.1 0.5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -14066,7 +14066,7 @@ declare namespace ZingchartAngular {
        * An alias for the "highlight" attribute in the "plot" object. Highlights the corresponding plot when the legend item is moused over
        * . true | false | 1 | 0
        */
-      'highlight-plot'?: boolean;
+      "highlight-plot"?: boolean;
       highlightPlot?: boolean;
       /**
        * Sets the layout for the legend items. "horizontal" | "h" | "vertical" | "v" | "row x col" | "x col" | "row x" | "float"
@@ -14079,27 +14079,27 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom margin. 4 | "6px" | ...
        */
-      'margin-bottom'?: any;
+      "margin-bottom"?: any;
       marginBottom?: any;
       /**
        * Sets the object's left margin. 4 | "6px" | ...
        */
-      'margin-left'?: any;
+      "margin-left"?: any;
       marginLeft?: any;
       /**
        * Sets the object's right margin. 4 | "6px" | ...
        */
-      'margin-right'?: any;
+      "margin-right"?: any;
       marginRight?: any;
       /**
        * Sets the object's top margin. 4 | "6px" | ...
        */
-      'margin-top'?: any;
+      "margin-top"?: any;
       marginTop?: any;
       /**
        * Sets the maximum number of items displayed on the legend. To be used with overflow. 5 | 10 | ...
        */
-      'max-items'?: number;
+      "max-items"?: number;
       maxItems?: number;
       /**
        * Sets whether the legend can be minimized or not.
@@ -14109,13 +14109,13 @@ declare namespace ZingchartAngular {
        * Sets an X offset to apply when positioning the legend. A positive value moves the legend to the right. A negative value moves the
        * legend to the left. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the legend. A positive value moves the legend down. A negative value moves the legend up
        * . 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the display mode for legend items beyond max-items setting: none will display all items, hidden will display just top max-ite
@@ -14126,7 +14126,7 @@ declare namespace ZingchartAngular {
       /**
        * Reverses the items in the legend
        */
-      'reverse-series'?: boolean;
+      "reverse-series"?: boolean;
       reverseSeries?: boolean;
       /**
        * Sets the object's position relative to its container. Similar results can be obtained by setting [margin] and [margin-...] attribu
@@ -14140,28 +14140,28 @@ declare namespace ZingchartAngular {
       /**
        * Sets the transparency of the shadow of the object. The higher the value, the less transparent the shadow will be. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * For graphsets with multiple chart objects, setting this attribute to true within the legend object of each chart will allow you to
@@ -14174,12 +14174,12 @@ declare namespace ZingchartAngular {
        * considering the respective plot, disabled will not generate any action for the legend items/markers. "hide" | "remove" | "disabled
        * "
        */
-      'toggle-action'?: string;
+      "toggle-action"?: string;
       toggleAction?: string;
       /**
        * Automatically aligns the legend and adjusts "plotarea" margins accordingly. "top" | "middle" | "bottom"
        */
-      'vertical-align'?: string;
+      "vertical-align"?: string;
       verticalAlign?: string;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -14209,39 +14209,39 @@ declare namespace ZingchartAngular {
          * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
          * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
          * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-1'?: string;
+        "background-color-1"?: string;
         backgroundColor1?: string;
         /**
          * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
          *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-2'?: string;
+        "background-color-2"?: string;
         backgroundColor2?: string;
         /**
          * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
          */
-        'background-fit'?: string;
+        "background-fit"?: string;
         backgroundFit?: string;
         /**
          * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
          */
-        'background-image'?: string;
+        "background-image"?: string;
         backgroundImage?: string;
         /**
          * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
          */
-        'background-position'?: string;
+        "background-position"?: string;
         backgroundPosition?: string;
         /**
          * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
          */
-        'background-repeat'?: string;
+        "background-repeat"?: string;
         backgroundRepeat?: string;
         /**
          * Sets whether the text is displayed with bold characters or not in the Footer of the Legend. true | false | 1 | 0
@@ -14250,18 +14250,18 @@ declare namespace ZingchartAngular {
         /**
          * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-bottom'?: string;
+        "border-bottom"?: string;
         borderBottom?: string;
         /**
          * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. Defaults to 1px if border
          * -width is not set. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-left'?: string;
+        "border-left"?: string;
         borderLeft?: string;
         /**
          * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -14269,49 +14269,49 @@ declare namespace ZingchartAngular {
          * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
          * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
          * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-left'?: any;
+        "border-radius-bottom-left"?: any;
         borderRadiusBottomLeft?: any;
         /**
          * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
          * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-right'?: any;
+        "border-radius-bottom-right"?: any;
         borderRadiusBottomRight?: any;
         /**
          * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
          * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-left'?: any;
+        "border-radius-top-left"?: any;
         borderRadiusTopLeft?: any;
         /**
          * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
          * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-right'?: any;
+        "border-radius-top-right"?: any;
         borderRadiusTopRight?: any;
         /**
          * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-right'?: string;
+        "border-right"?: string;
         borderRight?: string;
         /**
          * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
          * es. "2px solid #f00" | ...
          */
-        'border-top'?: string;
+        "border-top"?: string;
         borderTop?: string;
         /**
          * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. Defaults to dark gray if
          * border-color is not set. 4 | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
          */
@@ -14319,39 +14319,39 @@ declare namespace ZingchartAngular {
         /**
          * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
          */
-        'callout-extension'?: any;
+        "callout-extension"?: any;
         calloutExtension?: any;
         /**
          * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
          */
-        'callout-height'?: any;
+        "callout-height"?: any;
         calloutHeight?: any;
         /**
          * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
          * top left corner of the chart. [200, 50] | ...
          */
-        'callout-hook'?: any;
+        "callout-hook"?: any;
         calloutHook?: any;
         /**
          * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
          * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
          */
-        'callout-offset'?: any;
+        "callout-offset"?: any;
         calloutOffset?: any;
         /**
          * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
          */
-        'callout-position'?: string;
+        "callout-position"?: string;
         calloutPosition?: string;
         /**
          * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
          */
-        'callout-width'?: any;
+        "callout-width"?: any;
         calloutWidth?: any;
         /**
          * Clips the text to a specified width. Requires width. true | false | 1 | 0
          */
-        'clip-text'?: boolean;
+        "clip-text"?: boolean;
         clipText?: boolean;
         /**
          * Sets the text's color in the Footer of the Legend. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15
@@ -14361,66 +14361,66 @@ declare namespace ZingchartAngular {
         /**
          * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
          */
-        'fill-angle'?: number;
+        "fill-angle"?: number;
         fillAngle?: number;
         /**
          * Sets an X offset to apply to the fill. Affects the angle of a linear fill or the position of a radial fill. 4 | "6px" | ...
          */
-        'fill-offset-x'?: any;
+        "fill-offset-x"?: any;
         fillOffsetX?: any;
         /**
          * Sets a Y offset to apply to the fill. Affects position of gradient stops on a linear fill or the position of a radial fill. 4 | "6
          * px" | ...
          */
-        'fill-offset-y'?: any;
+        "fill-offset-y"?: any;
         fillOffsetY?: any;
         /**
          * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
          */
-        'fill-type'?: string;
+        "fill-type"?: string;
         fillType?: string;
         /**
          * Sets the rotation angle of the Footer of the Legend. Similar with angle. -45 | 115 | ...
          */
-        'font-angle'?: number;
+        "font-angle"?: number;
         fontAngle?: number;
         /**
          * Sets the text's color of the Footer of the Legend. Similar with color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow
          * " | "rgb(100, 15, 15)" | ...
          */
-        'font-color'?: string;
+        "font-color"?: string;
         fontColor?: string;
         /**
          * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the text's font size of the Footer of the Legend. 4 | "6px" | ...
          */
-        'font-size'?: any;
+        "font-size"?: any;
         fontSize?: any;
         /**
          * Sets the text's font style of the Footer of the Legend. Similar with italic. "none" | "italic" | "oblique"
          */
-        'font-style'?: string;
+        "font-style"?: string;
         fontStyle?: string;
         /**
          * Sets the text's font weight of the Footer of the Legend. Similar with bold. "normal" | "bold"
          */
-        'font-weight'?: string;
+        "font-weight"?: string;
         fontWeight?: string;
         /**
          * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
          * #00f" | ...
          */
-        'gradient-colors'?: string;
+        "gradient-colors"?: string;
         gradientColors?: string;
         /**
          * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
          * 5 0.9" | ...
          */
-        'gradient-stops'?: string;
+        "gradient-stops"?: string;
         gradientStops?: string;
         /**
          * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -14435,23 +14435,23 @@ declare namespace ZingchartAngular {
          * Sets the maximum number of characters displayed by the text label of the Footer of the Legend. If value is smaller than the length
          *  of the text, the original text will be trimmed and '...' will be appended at the end. 5 | 10 | ...
          */
-        'max-chars'?: number;
+        "max-chars"?: number;
         maxChars?: number;
         /**
          * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
          * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
          */
-        'max-width'?: any;
+        "max-width"?: any;
         maxWidth?: any;
         /**
          * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-x'?: any;
+        "offset-x"?: any;
         offsetX?: any;
         /**
          * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-y'?: any;
+        "offset-y"?: any;
         offsetY?: any;
         /**
          * Sets the object's bottom padding around the text of the Footer of the Legend. 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
@@ -14460,24 +14460,24 @@ declare namespace ZingchartAngular {
         /**
          * Sets the object's bottom padding around the text of the Footer of the Legend. 4 | "6px" | ...
          */
-        'padding-bottom'?: any;
+        "padding-bottom"?: any;
         paddingBottom?: any;
         /**
          * Sets the object's left padding around the text of the Footer of the Legend. padding-left here may push the text out of the contain
          * ing legend if the number is big enough. 4 | "6px" | ...
          */
-        'padding-left'?: any;
+        "padding-left"?: any;
         paddingLeft?: any;
         /**
          * Sets the object's right padding around the text of the Footer of the Legend. padding-right here will not push the text out of the
          * containing legend. 4 | "6px" | ...
          */
-        'padding-right'?: any;
+        "padding-right"?: any;
         paddingRight?: any;
         /**
          * Sets the object's top padding around the text of the Footer of the Legend. 4 | "6px" | ...
          */
-        'padding-top'?: any;
+        "padding-top"?: any;
         paddingTop?: any;
         /**
          * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -14491,28 +14491,28 @@ declare namespace ZingchartAngular {
          * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
          * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
          */
-        'shadow-alpha'?: number;
+        "shadow-alpha"?: number;
         shadowAlpha?: number;
         /**
          * Sets the angle of the shadow underneath the object. -45 | 115 | ...
          */
-        'shadow-angle'?: number;
+        "shadow-angle"?: number;
         shadowAngle?: number;
         /**
          * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
          */
-        'shadow-blur'?: any;
+        "shadow-blur"?: any;
         shadowBlur?: any;
         /**
          * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
          * .
          */
-        'shadow-color'?: string;
+        "shadow-color"?: string;
         shadowColor?: string;
         /**
          * Sets the distance between the shadow and the object. 4 | "6px" | ...
          */
-        'shadow-distance'?: any;
+        "shadow-distance"?: any;
         shadowDistance?: any;
         /**
          * Sets the text content of the object of the Footer of the Legend. "Some Text" | ...
@@ -14521,17 +14521,17 @@ declare namespace ZingchartAngular {
         /**
          * Sets the text's horizontal alignment relative to the box of the Footer of the Legend. "left" | "center" | "right"
          */
-        'text-align'?: string;
+        "text-align"?: string;
         textAlign?: string;
         /**
          * Sets the text's transparency of the Footer of the Legend. 0.3 | 0.9 | ...
          */
-        'text-alpha'?: number;
+        "text-alpha"?: number;
         textAlpha?: number;
         /**
          * Sets the text's decoration of the Footer of the Legend. Similar with underline. "none" | "underline"
          */
-        'text-decoration'?: string;
+        "text-decoration"?: string;
         textDecoration?: string;
         /**
          * Sets whether the text of the Footer of the Legend is displayed with underlined characters or not. true | false | 1 | 0
@@ -14540,7 +14540,7 @@ declare namespace ZingchartAngular {
         /**
          * Sets the text's vertical alignment relative to the object's box of the Footer of the Legend. "top" | "middle" | "bottom"
          */
-        'vertical-align'?: string;
+        "vertical-align"?: string;
         verticalAlign?: string;
         /**
          * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -14553,7 +14553,7 @@ declare namespace ZingchartAngular {
         /**
          * Sets whether the text will wrap, depending on the width of the object. Requires width. true | false | 1 | 0
          */
-        'wrap-text'?: boolean;
+        "wrap-text"?: boolean;
         wrapText?: boolean;
       };
       header?: {
@@ -14568,39 +14568,39 @@ declare namespace ZingchartAngular {
          * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
          * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
          * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-1'?: string;
+        "background-color-1"?: string;
         backgroundColor1?: string;
         /**
          * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
          *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-2'?: string;
+        "background-color-2"?: string;
         backgroundColor2?: string;
         /**
          * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
          */
-        'background-fit'?: string;
+        "background-fit"?: string;
         backgroundFit?: string;
         /**
          * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
          */
-        'background-image'?: string;
+        "background-image"?: string;
         backgroundImage?: string;
         /**
          * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
          */
-        'background-position'?: string;
+        "background-position"?: string;
         backgroundPosition?: string;
         /**
          * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
          */
-        'background-repeat'?: string;
+        "background-repeat"?: string;
         backgroundRepeat?: string;
         /**
          * Sets whether the text is displayed with bold characters or not in the Header of the Legend. true | false | 1 | 0
@@ -14609,18 +14609,18 @@ declare namespace ZingchartAngular {
         /**
          * Defaults to black if border-color is not set. "2px solid #f00" | ...
          */
-        'border-bottom'?: string;
+        "border-bottom"?: string;
         borderBottom?: string;
         /**
          * Defaults to 1px if border-width is not set. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
          * .
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-left'?: string;
+        "border-left"?: string;
         borderLeft?: string;
         /**
          * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -14628,48 +14628,48 @@ declare namespace ZingchartAngular {
          * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
          * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
          * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-left'?: any;
+        "border-radius-bottom-left"?: any;
         borderRadiusBottomLeft?: any;
         /**
          * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
          * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-right'?: any;
+        "border-radius-bottom-right"?: any;
         borderRadiusBottomRight?: any;
         /**
          * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
          * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-left'?: any;
+        "border-radius-top-left"?: any;
         borderRadiusTopLeft?: any;
         /**
          * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
          * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-right'?: any;
+        "border-radius-top-right"?: any;
         borderRadiusTopRight?: any;
         /**
          * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-right'?: string;
+        "border-right"?: string;
         borderRight?: string;
         /**
          * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
          * es. "2px solid #f00" | ...
          */
-        'border-top'?: string;
+        "border-top"?: string;
         borderTop?: string;
         /**
          * Requires border-color. 4 | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
          */
@@ -14677,39 +14677,39 @@ declare namespace ZingchartAngular {
         /**
          * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
          */
-        'callout-extension'?: any;
+        "callout-extension"?: any;
         calloutExtension?: any;
         /**
          * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
          */
-        'callout-height'?: any;
+        "callout-height"?: any;
         calloutHeight?: any;
         /**
          * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
          * top left corner of the chart. [200, 50] | ...
          */
-        'callout-hook'?: any;
+        "callout-hook"?: any;
         calloutHook?: any;
         /**
          * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
          * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
          */
-        'callout-offset'?: any;
+        "callout-offset"?: any;
         calloutOffset?: any;
         /**
          * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
          */
-        'callout-position'?: string;
+        "callout-position"?: string;
         calloutPosition?: string;
         /**
          * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
          */
-        'callout-width'?: any;
+        "callout-width"?: any;
         calloutWidth?: any;
         /**
          * Cuts off the text at a specified width. Requires a setting for width. true | false | 1 | 0
          */
-        'clip-text'?: boolean;
+        "clip-text"?: boolean;
         clipText?: boolean;
         /**
          * Sets the text's color in the Header of the Legend. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15
@@ -14719,65 +14719,65 @@ declare namespace ZingchartAngular {
         /**
          * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
          */
-        'fill-angle'?: number;
+        "fill-angle"?: number;
         fillAngle?: number;
         /**
          * Sets an X offset to apply to the fill. 4 | "6px" | ...
          */
-        'fill-offset-x'?: any;
+        "fill-offset-x"?: any;
         fillOffsetX?: any;
         /**
          * Sets an Y offset to apply to the fill. 4 | "6px" | ...
          */
-        'fill-offset-y'?: any;
+        "fill-offset-y"?: any;
         fillOffsetY?: any;
         /**
          * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
          */
-        'fill-type'?: string;
+        "fill-type"?: string;
         fillType?: string;
         /**
          * Sets the rotation angle of the Header of the Legend. Similar with angle. -45 | 115 | ...
          */
-        'font-angle'?: number;
+        "font-angle"?: number;
         fontAngle?: number;
         /**
          * Sets the text's color of the Header of the Legend. Similar with color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow
          * " | "rgb(100, 15, 15)" | ...
          */
-        'font-color'?: string;
+        "font-color"?: string;
         fontColor?: string;
         /**
          * Sets the text's font family of the Footer of the Legend. "Arial" | "Tahoma,Verdana" | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the text's font size of the Header of the Legend. 4 | "6px" | ...
          */
-        'font-size'?: any;
+        "font-size"?: any;
         fontSize?: any;
         /**
          * Sets the text's font style of the Header of the Legend. Similar with italic. "none" | "italic" | "oblique"
          */
-        'font-style'?: string;
+        "font-style"?: string;
         fontStyle?: string;
         /**
          * Sets the text's font weight of the Header of the Legend. Similar with bold. "normal" | "bold"
          */
-        'font-weight'?: string;
+        "font-weight"?: string;
         fontWeight?: string;
         /**
          * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
          * #00f" | ...
          */
-        'gradient-colors'?: string;
+        "gradient-colors"?: string;
         gradientColors?: string;
         /**
          * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
          * 5 0.9" | ...
          */
-        'gradient-stops'?: string;
+        "gradient-stops"?: string;
         gradientStops?: string;
         /**
          * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -14791,23 +14791,23 @@ declare namespace ZingchartAngular {
          * Sets the maximum number of characters displayed by the text label of the Header of the Legend. If value is smaller than the length
          *  of the text, the original text will be trimmed and '...' will be appended at the end. 5 | 10 | ...
          */
-        'max-chars'?: number;
+        "max-chars"?: number;
         maxChars?: number;
         /**
          * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
          * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
          */
-        'max-width'?: any;
+        "max-width"?: any;
         maxWidth?: any;
         /**
          * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-x'?: any;
+        "offset-x"?: any;
         offsetX?: any;
         /**
          * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-y'?: any;
+        "offset-y"?: any;
         offsetY?: any;
         /**
          * Sets the object's bottom padding around the text of the Header of the Legend. 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
@@ -14816,24 +14816,24 @@ declare namespace ZingchartAngular {
         /**
          * Sets the object's bottom padding around the text of the Header of the Legend. 4 | "6px" | ...
          */
-        'padding-bottom'?: any;
+        "padding-bottom"?: any;
         paddingBottom?: any;
         /**
          * Sets the object's left padding around the text of the Header of the Legend. padding-left here may push the text out of the contain
          * ing legend if the number is big enough. 4 | "6px" | ...
          */
-        'padding-left'?: any;
+        "padding-left"?: any;
         paddingLeft?: any;
         /**
          * Sets the object's right padding around the text of the Header of the Legend. padding-right here will not push the text out of the
          * containing legend. 4 | "6px" | ...
          */
-        'padding-right'?: number;
+        "padding-right"?: number;
         paddingRight?: number;
         /**
          * Sets the object's top padding around the text of the Header of the Legend. 4 | "6px" | ...
          */
-        'padding-top'?: any;
+        "padding-top"?: any;
         paddingTop?: any;
         /**
          * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -14847,28 +14847,28 @@ declare namespace ZingchartAngular {
          * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
          * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
          */
-        'shadow-alpha'?: number;
+        "shadow-alpha"?: number;
         shadowAlpha?: number;
         /**
          * Sets the angle of the shadow underneath the object. -45 | 115 | ...
          */
-        'shadow-angle'?: number;
+        "shadow-angle"?: number;
         shadowAngle?: number;
         /**
          * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
          */
-        'shadow-blur'?: any;
+        "shadow-blur"?: any;
         shadowBlur?: any;
         /**
          * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
          * .
          */
-        'shadow-color'?: string;
+        "shadow-color"?: string;
         shadowColor?: string;
         /**
          * Sets the distance between the shadow and the object. 4 | "6px" | ...
          */
-        'shadow-distance'?: any;
+        "shadow-distance"?: any;
         shadowDistance?: any;
         /**
          * Sets the text content of the object of the Header of the Legend. "Some Text" | ...
@@ -14877,17 +14877,17 @@ declare namespace ZingchartAngular {
         /**
          * Sets the text's horizontal alignment relative to the box of the Header of the Legend. "left" | "center" | "right"
          */
-        'text-align'?: string;
+        "text-align"?: string;
         textAlign?: string;
         /**
          * Sets the text's transparency of the Header of the Legend. 0.3 | 0.9 | ...
          */
-        'text-alpha'?: number;
+        "text-alpha"?: number;
         textAlpha?: number;
         /**
          * Sets the text's decoration of the Header of the Legend. Similar with underline. "none" | "underline"
          */
-        'text-decoration'?: string;
+        "text-decoration"?: string;
         textDecoration?: string;
         /**
          * Sets whether the text of the Header of the Legend is displayed with underlined characters or not. true | false | 1 | 0
@@ -14896,7 +14896,7 @@ declare namespace ZingchartAngular {
         /**
          * Sets the text's vertical alignment relative to the object's box of the Header of the Legend. "top" | "middle" | "bottom"
          */
-        'vertical-align'?: string;
+        "vertical-align"?: string;
         verticalAlign?: string;
         /**
          * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -14909,7 +14909,7 @@ declare namespace ZingchartAngular {
         /**
          * Sets whether the text will wrap, depending on the width of the object. Requires a widthsetting. true | false | 1 | 0
          */
-        'wrap-text'?: boolean;
+        "wrap-text"?: boolean;
         wrapText?: boolean;
       };
       icon?: {
@@ -14922,25 +14922,25 @@ declare namespace ZingchartAngular {
          * Sets the line color of the object, applicable on non-closed shapes. See also border-colorfor closed shapes. "none" | "transparent"
          *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'line-color'?: string;
+        "line-color"?: string;
         lineColor?: string;
         /**
          * Sets the line width of the object, applicable on non-closed shapes. See also border-widthfor closed shapes. 4 | "6px" | ...
          */
-        'line-width'?: any;
+        "line-width"?: any;
         lineWidth?: any;
         /**
          * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-x'?: any;
+        "offset-x"?: any;
         offsetX?: any;
         /**
          * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-y'?: any;
+        "offset-y"?: any;
         offsetY?: any;
       };
-      'item-off'?: itemOff;
+      "item-off"?: itemOff;
       itemOff?: itemOff;
       item?: {
         /**
@@ -14958,55 +14958,55 @@ declare namespace ZingchartAngular {
          * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
          * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
          * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-1'?: string;
+        "background-color-1"?: string;
         backgroundColor1?: string;
         /**
          * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
          *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-2'?: string;
+        "background-color-2"?: string;
         backgroundColor2?: string;
         /**
          * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
          */
-        'background-fit'?: string;
+        "background-fit"?: string;
         backgroundFit?: string;
         /**
          * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
          */
-        'background-image'?: string;
+        "background-image"?: string;
         backgroundImage?: string;
         /**
          * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
          */
-        'background-position'?: string;
+        "background-position"?: string;
         backgroundPosition?: string;
         /**
          * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
          */
-        'background-repeat'?: string;
+        "background-repeat"?: string;
         backgroundRepeat?: string;
         /**
          * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-bottom'?: string;
+        "border-bottom"?: string;
         borderBottom?: string;
         /**
          * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
          * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-left'?: string;
+        "border-left"?: string;
         borderLeft?: string;
         /**
          * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -15014,48 +15014,48 @@ declare namespace ZingchartAngular {
          * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
          * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
          * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-left'?: any;
+        "border-radius-bottom-left"?: any;
         borderRadiusBottomLeft?: any;
         /**
          * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
          * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-right'?: any;
+        "border-radius-bottom-right"?: any;
         borderRadiusBottomRight?: any;
         /**
          * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
          * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-left'?: any;
+        "border-radius-top-left"?: any;
         borderRadiusTopLeft?: any;
         /**
          * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
          * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-right'?: any;
+        "border-radius-top-right"?: any;
         borderRadiusTopRight?: any;
         /**
          * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-right'?: string;
+        "border-right"?: string;
         borderRight?: string;
         /**
          * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
          * es. "2px solid #f00" | ...
          */
-        'border-top'?: string;
+        "border-top"?: string;
         borderTop?: string;
         /**
          * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
          */
@@ -15063,34 +15063,34 @@ declare namespace ZingchartAngular {
         /**
          * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
          */
-        'callout-extension'?: any;
+        "callout-extension"?: any;
         calloutExtension?: any;
         /**
          * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
          */
-        'callout-height'?: any;
+        "callout-height"?: any;
         calloutHeight?: any;
         /**
          * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
          * top left corner of the chart. [200, 50] | ...
          */
-        'callout-hook'?: any;
+        "callout-hook"?: any;
         calloutHook?: any;
         /**
          * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
          * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
          */
-        'callout-offset'?: any;
+        "callout-offset"?: any;
         calloutOffset?: any;
         /**
          * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
          */
-        'callout-position'?: string;
+        "callout-position"?: string;
         calloutPosition?: string;
         /**
          * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
          */
-        'callout-width'?: any;
+        "callout-width"?: any;
         calloutWidth?: any;
         /**
          * Sets the style of the cursor when hovering over a node. "hand" | "normal"
@@ -15099,66 +15099,66 @@ declare namespace ZingchartAngular {
         /**
          * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
          */
-        'fill-angle'?: number;
+        "fill-angle"?: number;
         fillAngle?: number;
         /**
          * Sets an X offset to apply to the fill. 4 | "6px" | ...
          */
-        'fill-offset-x'?: any;
+        "fill-offset-x"?: any;
         fillOffsetX?: any;
         /**
          * Sets an Y offset to apply to the fill. 4 | "6px" | ...
          */
-        'fill-offset-y'?: any;
+        "fill-offset-y"?: any;
         fillOffsetY?: any;
         /**
          * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
          */
-        'fill-type'?: string;
+        "fill-type"?: string;
         fillType?: string;
         /**
          * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
          * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
          */
-        'font-angle'?: number;
+        "font-angle"?: number;
         fontAngle?: number;
         /**
          * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
          * | ...
          */
-        'font-color'?: string;
+        "font-color"?: string;
         fontColor?: string;
         /**
          * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the text's font size. 4 | "6px" | ...
          */
-        'font-size'?: any;
+        "font-size"?: any;
         fontSize?: any;
         /**
          * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
          */
-        'font-style'?: string;
+        "font-style"?: string;
         fontStyle?: string;
         /**
          * Sets the text's font weight. Similar to bold. "normal" | "bold"
          */
-        'font-weight'?: string;
+        "font-weight"?: string;
         fontWeight?: string;
         /**
          * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
          * #00f" | ...
          */
-        'gradient-colors'?: string;
+        "gradient-colors"?: string;
         gradientColors?: string;
         /**
          * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
          * 5 0.9" | ...
          */
-        'gradient-stops'?: string;
+        "gradient-stops"?: string;
         gradientStops?: string;
         /**
          * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -15168,34 +15168,34 @@ declare namespace ZingchartAngular {
          * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
          * the text is cut and appended with "..." 5 | 10 | ...
          */
-        'max-chars'?: number;
+        "max-chars"?: number;
         maxChars?: number;
         /**
          * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-x'?: any;
+        "offset-x"?: any;
         offsetX?: any;
         /**
          * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-y'?: any;
+        "offset-y"?: any;
         offsetY?: any;
         /**
          * Sets if the legend marker has a small horizontal line through its middle. true | false | 1 | 0
          */
-        'show-line'?: boolean;
+        "show-line"?: boolean;
         showLine?: boolean;
         /**
          * Sets the visibility of the legend item's marker. true | false | 1 | 0
          */
-        'show-marker'?: boolean;
+        "show-marker"?: boolean;
         showMarker?: boolean;
         /**
          * Sets the action performed on legend item toggle: hide will simply hide the respective plot, remove will repaint the chart without
          * considering the respective plot, disabled will not generate any action for the legend items/markers. Equivalent of legend's toggle
          * -action. "hide" | "remove" | "disabled"
          */
-        'toggle-action'?: string;
+        "toggle-action"?: string;
         toggleAction?: string;
         /**
          * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -15218,14 +15218,14 @@ declare namespace ZingchartAngular {
         /**
          * Sets if the legend marker has a small horizontal line through its middle. true | false | 1 | 0
          */
-        'show-line'?: boolean;
+        "show-line"?: boolean;
         showLine?: boolean;
         /**
          * Sets the action performed on legend item toggle: hide will simply hide the respective plot, remove will repaint the chart without
          * considering the respective plot, disabled will not generate any action for the legend items/markers. Equivalent of legend's toggle
          * -action. "hide" | "remove" | "disabled"
          */
-        'toggle-action'?: string;
+        "toggle-action"?: string;
         toggleAction?: string;
         /**
          * The type of the marker object to render. square | circle | diamond | triangle | star5 | star6 | star7 | star8 | rpoly5 | gear5 | g
@@ -15243,56 +15243,56 @@ declare namespace ZingchartAngular {
          * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
          * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
          * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-1'?: string;
+        "background-color-1"?: string;
         backgroundColor1?: string;
         /**
          * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
          *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-2'?: string;
+        "background-color-2"?: string;
         backgroundColor2?: string;
         /**
          * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
          */
-        'background-fit'?: string;
+        "background-fit"?: string;
         backgroundFit?: string;
         /**
          * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
          */
-        'background-image'?: string;
+        "background-image"?: string;
         backgroundImage?: string;
         /**
          * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
          */
-        'background-position'?: string;
+        "background-position"?: string;
         backgroundPosition?: string;
         /**
          * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
          */
-        'background-repeat'?: string;
+        "background-repeat"?: string;
         backgroundRepeat?: string;
         /**
          * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
          * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border radius of the object, for rounded corners. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets the style of the cursor when hovering over a node. "hand" | "normal"
          */
@@ -15300,62 +15300,62 @@ declare namespace ZingchartAngular {
         /**
          * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
          */
-        'fill-angle'?: number;
+        "fill-angle"?: number;
         fillAngle?: number;
         /**
          * Sets an X offset to apply to the fill. 4 | "6px" | ...
          */
-        'fill-offset-x'?: any;
+        "fill-offset-x"?: any;
         fillOffsetX?: any;
         /**
          * Sets an Y offset to apply to the fill. 4 | "6px" | ...
          */
-        'fill-offset-y'?: any;
+        "fill-offset-y"?: any;
         fillOffsetY?: any;
         /**
          * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
          */
-        'fill-type'?: string;
+        "fill-type"?: string;
         fillType?: string;
         /**
          * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
          * #00f" | ...
          */
-        'gradient-colors'?: string;
+        "gradient-colors"?: string;
         gradientColors?: string;
         /**
          * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
          * 5 0.9" | ...
          */
-        'gradient-stops'?: string;
+        "gradient-stops"?: string;
         gradientStops?: string;
         /**
          * Sets the line color of the object, applicable on non-closed shapes. See also border-colorfor closed shapes. "none" | "transparent"
          *  | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'line-color'?: string;
+        "line-color"?: string;
         lineColor?: string;
         /**
          * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
          * en each line segment. 4 | "6px" | ...
          */
-        'line-gap-size'?: any;
+        "line-gap-size"?: any;
         lineGapSize?: any;
         /**
          * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
          * t of line. 4 | "6px" | ...
          */
-        'line-segment-size'?: any;
+        "line-segment-size"?: any;
         lineSegmentSize?: any;
         /**
          * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
          */
-        'line-style'?: string;
+        "line-style"?: string;
         lineStyle?: string;
         /**
          * Sets the line width of the object, applicable on non-closed shapes. See also border-widthfor closed shapes. 4 | "6px" | ...
          */
-        'line-width'?: any;
+        "line-width"?: any;
         lineWidth?: any;
         /**
          * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -15365,28 +15365,28 @@ declare namespace ZingchartAngular {
          * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
          * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
          */
-        'shadow-alpha'?: number;
+        "shadow-alpha"?: number;
         shadowAlpha?: number;
         /**
          * Sets the angle of the shadow underneath the object. -45 | 115 | ...
          */
-        'shadow-angle'?: number;
+        "shadow-angle"?: number;
         shadowAngle?: number;
         /**
          * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
          */
-        'shadow-blur'?: any;
+        "shadow-blur"?: any;
         shadowBlur?: any;
         /**
          * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
          * .
          */
-        'shadow-color'?: string;
+        "shadow-color"?: string;
         shadowColor?: string;
         /**
          * Sets the distance between the shadow and the object. 4 | "6px" | ...
          */
-        'shadow-distance'?: any;
+        "shadow-distance"?: any;
         shadowDistance?: any;
         /**
          * Sets the size of the object/shape. 4 | "6px" | ...
@@ -15396,14 +15396,14 @@ declare namespace ZingchartAngular {
          * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
          */
         visible?: boolean;
-        'highlight-state'?: highlightState;
+        "highlight-state"?: highlightState;
         highlightState?: highlightState;
       };
-      'page-off'?: pageOff;
+      "page-off"?: pageOff;
       pageOff?: pageOff;
-      'page-on'?: pageOn;
+      "page-on"?: pageOn;
       pageOn?: pageOn;
-      'page-status'?: pageStatus;
+      "page-status"?: pageStatus;
       pageStatus?: pageStatus;
       scroll?: {
         bar?: {
@@ -15417,37 +15417,37 @@ declare namespace ZingchartAngular {
            * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
            *  15, 15)" | ...
            */
-          'background-color'?: string;
+          "background-color"?: string;
           backgroundColor?: string;
           /**
            * Sets the styling for the bottom border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a s
            * tring. "1px solid green" | "3px dotted purple" | ...
            */
-          'border-bottom'?: any;
+          "border-bottom"?: any;
           borderBottom?: any;
           /**
            * Sets the styling for the left border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a str
            * ing. "1px solid green" | "3px dotted purple" | ...
            */
-          'border-left'?: any;
+          "border-left"?: any;
           borderLeft?: any;
           /**
            * Sets the border radius (rounded corners) of the object. The higher the value, the more rounded the corners appear. 4 | "6px" | "6p
            * x 10px 3px 5px" | "-10px" | ...
            */
-          'border-radius'?: any;
+          "border-radius"?: any;
           borderRadius?: any;
           /**
            * Sets the styling for the right border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a st
            * ring. "1px solid green" | "3px dotted purple" | ...
            */
-          'border-right'?: any;
+          "border-right"?: any;
           borderRight?: any;
           /**
            * Sets the styling for the top border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a stri
            * ng. "1px solid green" | "3px dotted purple" | ...
            */
-          'border-top'?: any;
+          "border-top"?: any;
           borderTop?: any;
           /**
            * Sets the object's width. 10 | "20px" | 0.3 | "30%" | ...
@@ -15465,37 +15465,37 @@ declare namespace ZingchartAngular {
            * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
            *  15, 15)" | ...
            */
-          'background-color'?: string;
+          "background-color"?: string;
           backgroundColor?: string;
           /**
            * Sets the styling for the bottom border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a s
            * tring. "1px solid green" | "3px dotted purple" | ...
            */
-          'border-bottom'?: any;
+          "border-bottom"?: any;
           borderBottom?: any;
           /**
            * Sets the styling for the left border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a str
            * ing. "1px solid green" | "3px dotted purple" | ...
            */
-          'border-left'?: any;
+          "border-left"?: any;
           borderLeft?: any;
           /**
            * Sets the border radius (rounded corners) of the object. The higher the value, the more rounded the corners appear. 4 | "6px" | "6p
            * x 10px 3px 5px" | "-10px" | ...
            */
-          'border-radius'?: any;
+          "border-radius"?: any;
           borderRadius?: any;
           /**
            * Sets the styling for the right border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a st
            * ring. "1px solid green" | "3px dotted purple" | ...
            */
-          'border-right'?: any;
+          "border-right"?: any;
           borderRight?: any;
           /**
            * Sets the styling for the top border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a stri
            * ng. "1px solid green" | "3px dotted purple" | ...
            */
-          'border-top'?: any;
+          "border-top"?: any;
           borderTop?: any;
           /**
            * Sets the object's width. 10 | "20px" | 0.3 | "30%" | ...
@@ -15509,28 +15509,28 @@ declare namespace ZingchartAngular {
      * Sets the maximum numbers of nodes for which a tracking area will be created. This is best used to optimize charts with large sets
      * of data. 5 | 10 | ...
      */
-    'max-trackers'?: number;
+    "max-trackers"?: number;
     maxTrackers?: number;
-    'media-rules'?: Array<{
+    "media-rules"?: Array<{
       /**
        * Sets the maximum chart height in pixels. 600 | 400 | 300
        */
-      'max-height'?: number;
+      "max-height"?: number;
       maxHeight?: number;
       /**
        * Sets the maximum chart width in pixels. 1000 | 800 | 600
        */
-      'max-width'?: number;
+      "max-width"?: number;
       maxWidth?: number;
       /**
        * Sets the minimum chart height in pixels. 600 | 400 | 300
        */
-      'min-height'?: number;
+      "min-height"?: number;
       minHeight?: number;
       /**
        * Sets the minimum chart width in pixels. 1000 | 800 | 600
        */
-      'min-width'?: number;
+      "min-width"?: number;
       minWidth?: number;
       /**
        * Removes the object (legend, title) from the chart at that specified breakpoint. Use the attribute to save screen space at smaller
@@ -15538,7 +15538,7 @@ declare namespace ZingchartAngular {
        */
       visible?: boolean;
     }>;
-    'no-data'?: noData;
+    "no-data"?: noData;
     noData?: noData;
     options?: {
       /**
@@ -15562,37 +15562,37 @@ declare namespace ZingchartAngular {
        * To set the type of color arrangement applied to the word cloud. Use the "color" value with the "color" attribute. Use the "palette
        * " value with the "palette" array. "random" (default) | "color" | "palette"
        */
-      'color-type'?: string;
+      "color-type"?: string;
       colorType?: string;
-      'header-row'?: boolean;
+      "header-row"?: boolean;
       headerRow?: boolean;
-      'header-col'?: boolean;
+      "header-col"?: boolean;
       headerCol?: boolean;
       rowLabels?: string[];
-      'row-labels'?: string[];
+      "row-labels"?: string[];
       colLabels?: string[];
-      'col-labels'?: string[];
-      'col-widths'?: string[];
+      "col-labels"?: string[];
+      "col-widths"?: string[];
       colWidths?: string[];
-      'data-class'?: string[];
+      "data-class"?: string[];
       dataClass?: string[];
       flat?: boolean;
-      'force-height'?: boolean;
+      "force-height"?: boolean;
       forceHeight?: boolean;
       /**
        * To set the maximum font size. 20 | "30px" | ...
        */
-      'max-font-size'?: any;
+      "max-font-size"?: any;
       maxFontSize?: any;
       /**
        * To set the maximum number of items displayed in the word cloud. 100 | 30 | ...
        */
-      'max-items'?: any;
+      "max-items"?: any;
       maxItems?: any;
       /**
        * To set the minimum font size. 10 | "12px" | ...
        */
-      'min-font-size'?: any;
+      "min-font-size"?: any;
       minFontSize?: any;
       /**
        * When the "color-type" attribute is set to "palette", use this attribute to set the color palette of the word cloud. [...]
@@ -15605,12 +15605,12 @@ declare namespace ZingchartAngular {
       /**
        * To control the step metering. Use this with the "step-radius" attribute. 45 | 90 | ...
        */
-      'step-angle'?: any;
+      "step-angle"?: any;
       stepAngle?: any;
       /**
        * To control the step metering. Use this with the "step-angle" attribute. 30 | 50 | ...
        */
-      'step-radius'?: any;
+      "step-radius"?: any;
       stepRadius?: any;
       /**
        * To provide the data for the word cloud. (Alternatively, data can be provided through a "words" array.) "text data..." | ...
@@ -15634,7 +15634,7 @@ declare namespace ZingchartAngular {
          */
         count?: any;
       };
-      'context-menu'?: contextMenu;
+      "context-menu"?: contextMenu;
       contextMenu?: contextMenu;
       indicator?: {
         /**
@@ -15649,27 +15649,27 @@ declare namespace ZingchartAngular {
           /**
            * To set the font color. 'gray' | '#666699' | ...
            */
-          'font-color'?: any;
+          "font-color"?: any;
           fontColor?: any;
           /**
            * To set the font family. 'Arial' | 'Georgia' | ...
            */
-          'font-family'?: string;
+          "font-family"?: string;
           fontFamily?: string;
           /**
            * To set the font size. 30 | 24 | 16 | ...
            */
-          'font-size'?: number;
+          "font-size"?: number;
           fontSize?: number;
           /**
            * To set the font style. 'normal' | 'italic'
            */
-          'font-style'?: string;
+          "font-style"?: string;
           fontStyle?: string;
           /**
            * To set the font weight. 'normal' | 'bold'
            */
-          'font-weight'?: string;
+          "font-weight"?: string;
           fontWeight?: string;
           /**
            * To set the visibility of the object. true | false
@@ -15680,27 +15680,27 @@ declare namespace ZingchartAngular {
           /**
            * To set the font color. 'gray' | '#666699' | ...
            */
-          'font-color'?: any;
+          "font-color"?: any;
           fontColor?: any;
           /**
            * To set the font family. 'Arial' | 'Georgia' | ...
            */
-          'font-family'?: string;
+          "font-family"?: string;
           fontFamily?: string;
           /**
            * To set the font size. 30 | 24 | 16 | ...
            */
-          'font-size'?: number;
+          "font-size"?: number;
           fontSize?: number;
           /**
            * To set the font style. 'normal' | 'italic'
            */
-          'font-style'?: string;
+          "font-style"?: string;
           fontStyle?: string;
           /**
            * To set the font weight. 'normal' | 'bold'
            */
-          'font-weight'?: string;
+          "font-weight"?: string;
           fontWeight?: string;
           /**
            * To set the visibility of the object. true | false
@@ -15711,27 +15711,27 @@ declare namespace ZingchartAngular {
           /**
            * To set the font color. 'gray' | '#666699' | ...
            */
-          'font-color'?: any;
+          "font-color"?: any;
           fontColor?: any;
           /**
            * To set the font family. 'Arial' | 'Georgia' | ...
            */
-          'font-family'?: string;
+          "font-family"?: string;
           fontFamily?: string;
           /**
            * To set the font size. 30 | 24 | 16 | ...
            */
-          'font-size'?: number;
+          "font-size"?: number;
           fontSize?: number;
           /**
            * To set the font style. 'normal' | 'italic'
            */
-          'font-style'?: string;
+          "font-style"?: string;
           fontStyle?: string;
           /**
            * To set the font weight. 'normal' | 'bold'
            */
-          'font-weight'?: string;
+          "font-weight"?: string;
           fontWeight?: string;
           /**
            * To set the visibility of the object. true | false
@@ -15740,9 +15740,9 @@ declare namespace ZingchartAngular {
         };
       };
       link?: link;
-      'link[sibling]'?: link;
+      "link[sibling]"?: link;
       links?: link;
-      'max-iterations'?: any;
+      "max-iterations"?: any;
       /**
        * @description Sets the maximum level the items have to be on so that they will be processed.
        */
@@ -15750,7 +15750,7 @@ declare namespace ZingchartAngular {
       /**
        * @description Sets the maximum level the items have to be on so that they will be processed.
        */
-      'max-level'?: any;
+      "max-level"?: any;
       /**
        * @description Sets the max width for the links between nodes (available in the force directed graphs).
        */
@@ -15758,7 +15758,7 @@ declare namespace ZingchartAngular {
       /**
        * @description Sets the max width for the links between nodes (available in the force directed graphs).
        */
-      'max-link-width'?: any;
+      "max-link-width"?: any;
       /**
        * @description Sets the maximum size for the tree nodes.
        */
@@ -15766,7 +15766,7 @@ declare namespace ZingchartAngular {
       /**
        * @description Sets the maximum size for the tree nodes.
        */
-      'max-size'?: any;
+      "max-size"?: any;
       /**
        * @description Sets a maximum value.
        * For heatmap charts, sets a maximum reference value. If not set, the maximum value found in the data is used.
@@ -15778,7 +15778,7 @@ declare namespace ZingchartAngular {
        * For heatmap charts, sets a maximum reference value. If not set, the maximum value found in the data is used.
        * For treemap charts, sets a maximum value that a box has to have in order to be evaluated and displayed on the treemap.
        */
-      'max-value'?: any;
+      "max-value"?: any;
       /**
        * @description When set, filter out words shorter than minLength from the wordcloud
        */
@@ -15786,7 +15786,7 @@ declare namespace ZingchartAngular {
       /**
        * @description When set, filter out words shorter than minLength from the wordcloud
        */
-      'min-length'?: any;
+      "min-length"?: any;
       /**
        * @description Sets the minimum level the items have to be on so that they will be processed.
        */
@@ -15794,7 +15794,7 @@ declare namespace ZingchartAngular {
       /**
        * @description Sets the minimum level the items have to be on so that they will be processed.
        */
-      'min-level'?: any;
+      "min-level"?: any;
       /**
        * @description Sets the minimum width for the links between nodes (available in the force directed graphs).
        */
@@ -15802,7 +15802,7 @@ declare namespace ZingchartAngular {
       /**
        * @description Sets the minimum width for the links between nodes (available in the force directed graphs).
        */
-      'min-link-width'?: any;
+      "min-link-width"?: any;
       /**
        * @description Sets the minimum size.
        * For tree module charts, sets the minimum size for the tree nodes.
@@ -15814,7 +15814,7 @@ declare namespace ZingchartAngular {
        * For tree module charts, sets the minimum size for the tree nodes.
        * For bubble pack charts, sets the minimum pixel-size of bubbles.
        */
-      'min-size'?: any;
+      "min-size"?: any;
       /**
        * @description Sets a minimum value.
        * For heatmap charts, sets a minimum reference value. If not set, the minimum value found in the data is used.
@@ -15826,28 +15826,28 @@ declare namespace ZingchartAngular {
        * For heatmap charts, sets a minimum reference value. If not set, the minimum value found in the data is used.
        * For treemap charts, sets the minimum value box ihas to have in order to be evaluated and displayed on the treemap.
        */
-      'min-value'?: any;
+      "min-value"?: any;
       node?: node;
-      'node[collapsed]'?: node;
-      'node[leaf]'?: node;
-      'node[parent]'?: node;
+      "node[collapsed]"?: node;
+      "node[leaf]"?: node;
+      "node[parent]"?: node;
       style?: {
         // The following attributes can be used to style grid charts:
-        '.td'?: gridStyles;
-        '.td_even'?: gridStyles;
-        '.td_odd'?: gridStyles;
-        '.td_first'?: gridStyles;
-        '.td_last'?: gridStyles;
-        '.th'?: gridStyles;
-        '.th_even'?: gridStyles;
-        '.th_odd'?: gridStyles;
-        '.th_first'?: gridStyles;
-        '.th_last'?: gridStyles;
-        '.tr'?: gridStyles;
-        '.tr_even'?: gridStyles;
-        '.tr_odd'?: gridStyles;
-        '.tr_first'?: gridStyles;
-        '.tr_last'?: gridStyles;
+        ".td"?: gridStyles;
+        ".td_even"?: gridStyles;
+        ".td_odd"?: gridStyles;
+        ".td_first"?: gridStyles;
+        ".td_last"?: gridStyles;
+        ".th"?: gridStyles;
+        ".th_even"?: gridStyles;
+        ".th_odd"?: gridStyles;
+        ".th_first"?: gridStyles;
+        ".th_last"?: gridStyles;
+        ".tr"?: gridStyles;
+        ".tr_even"?: gridStyles;
+        ".tr_odd"?: gridStyles;
+        ".tr_first"?: gridStyles;
+        ".tr_last"?: gridStyles;
         /**
          * Sets the transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 being co
          * mpletely opaque. Note that the leading zero is required before the decimal. 0.3 | 0.4 | 0.9 | ...
@@ -15858,34 +15858,34 @@ declare namespace ZingchartAngular {
          * 699', '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100
          * , 15, 15)' | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object. Colors can be entered by name (e.g., 'purple', 'blue'), hexadecimal notation (e.g., '#666699'
          * , '#33ccff'), or RGB notation (e.g., 'rgb(255,0,0)', 'rgb(0,0,255)'). 'none' | 'transparent' | 'purple' | '#33ccff' | 'rgb(100, 15
          * , 15)' | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border radius of the object. 2 | 3 | '5px' | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the border width of the object. 1 | 3 | '6px' | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets the font family of the object. 'Arial' | 'Tahoma,Verdana' | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the line style of the object. 'solid' | 'dotted' | 'dashed' | 'dashdot'
          */
-        'line-style'?: string;
+        "line-style"?: string;
         lineStyle?: string;
         /**
          * Sets the padding of the object. 3 | '5px' | '10px' | ...
@@ -15895,9 +15895,9 @@ declare namespace ZingchartAngular {
          * Sets the text transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 bei
          * ng completely opaque. Note that the leading zero is required before the decimal. 0.3 | 0.4 | 0.9 | ...
          */
-        'text-alpha'?: number;
+        "text-alpha"?: number;
         textAlpha?: number;
-        'hover-state'?: hoverState;
+        "hover-state"?: hoverState;
         hoverState?: hoverState;
         tooltip?: tooltip;
       };
@@ -15940,7 +15940,7 @@ declare namespace ZingchartAngular {
        * If true, it is similar with setting margin:"dynamic", added with adjust-layout attributes on title and legend. true | false | 1 |
        * 0
        */
-      'adjust-layout'?: boolean;
+      "adjust-layout"?: boolean;
       adjustLayout?: boolean;
       /**
        * Sets the transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comp
@@ -15953,55 +15953,55 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -16009,48 +16009,48 @@ declare namespace ZingchartAngular {
        * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
        * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
        */
@@ -16058,66 +16058,66 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
        * top left corner of the chart. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
        * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -16142,68 +16142,68 @@ declare namespace ZingchartAngular {
        * zes the scale labels and change the plotarea size accordingly in order to fit all scale labels. "dynamic" | 10 | "5px" | "10 20" |
        *  "5px 10px 15px 20px" | ...
        */
-      'margin-bottom'?: any;
+      "margin-bottom"?: any;
       marginBottom?: any;
       /**
        * Sets the object's top margin. The plotarea object also accepts "dynamic" as value for the margin attribute, in which case it analy
        * zes the scale labels and change the plotarea size accordingly in order to fit all scale labels. "dynamic" | 10 | "5px" | "10 20" |
        *  "5px 10px 15px 20px" | ...
        */
-      'margin-left'?: any;
+      "margin-left"?: any;
       marginLeft?: any;
       /**
        * Sets the object's top margin. The plotarea object also accepts "dynamic" as value for the margin attribute, in which case it analy
        * zes the scale labels and change the plotarea size accordingly in order to fit all scale labels. "dynamic" | 10 | "5px" | "10 20" |
        *  "5px 10px 15px 20px" | ...
        */
-      'margin-right'?: any;
+      "margin-right"?: any;
       marginRight?: any;
       /**
        * Sets the object's top margin. The plotarea object also accepts "dynamic" as value for the margin attribute, in which case it analy
        * zes the scale labels and change the plotarea size accordingly in order to fit all scale labels. "dynamic" | 10 | "5px" | "10 20" |
        *  "5px 10px 15px 20px" | ...
        */
-      'margin-top'?: any;
+      "margin-top"?: any;
       marginTop?: any;
       /**
        * Sets an additional margin specifically to the bottom of the plotarea when using dynamic margins. Offset will only be set if there
        * is a scale object on the bottom of the chart. "dynamic" | 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
        */
-      'margin-bottom-offset'?: any;
+      "margin-bottom-offset"?: any;
       marginBottomOffset?: any;
       /**
        * Sets an additional margin specifically to the left of the plotarea when using dynamic margins. Offset will only be set if there is
        *  a scale object on the left of the chart. "dynamic" | 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
        */
-      'margin-left-offset'?: any;
+      "margin-left-offset"?: any;
       marginLeftOffset?: any;
       /**
        * Sets an additional margin specifically to the left of the plotarea when using dynamic margins. Offset will only be set if there is
        *  a scale object on the right of the chart. "dynamic" | 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
        */
-      'margin-right-offset'?: any;
+      "margin-right-offset"?: any;
       marginRightOffset?: any;
       /**
        * Sets an additional margin specifically to the top of the plotarea when using dynamic margins. Offset will only be set if there is
        * a scale object on the top of the chart. "dynamic" | 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
        */
-      'margin-top-offset'?: any;
+      "margin-top-offset"?: any;
       marginTopOffset?: any;
       /**
        * Sets the tolerance of the mask (in number of pixels) that covers the plotarea to allow objects to overflow outside of the plotarea
        * . 4 | "6px" | ...
        */
-      'mask-tolerance'?: number;
+      "mask-tolerance"?: number;
       maskTolerance?: number;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's position relative to it's container. Similar results can be obtained by setting marginand margin-... attributes.
@@ -16217,28 +16217,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -16259,14 +16259,14 @@ declare namespace ZingchartAngular {
       /**
        * Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values. 5 | 10 | ...
        */
-      'z-index'?: number;
+      "z-index"?: number;
       zIndex?: number;
     };
     preview?: {
       /**
        * Forces the plotarea to consider the preview object positioning and prevent overlapping with it. true | false | 1 | 0
        */
-      'adjust-layout'?: boolean;
+      "adjust-layout"?: boolean;
       adjustLayout?: boolean;
       /**
        * Sets the transparency level of the object. Values must range between 0.0 and 1.0, with 0.0 being completely transparent and 1.0 be
@@ -16278,18 +16278,18 @@ declare namespace ZingchartAngular {
        * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
        *  15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
        */
@@ -16306,7 +16306,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the minimum width of preview's active area. 5 | 10 | ...
        */
-      'min-distance'?: number;
+      "min-distance"?: number;
       minDistance?: number;
       /**
        * Sets the object's position relative to its container. Similar results can be obtained by setting marginand margin-... attributes.
@@ -16315,7 +16315,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the zoom level is preserved when a chart is altered or reloaded. true | false | 1 | 0
        */
-      'preserve-zoom'?: boolean;
+      "preserve-zoom"?: boolean;
       preserveZoom?: boolean;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -16344,7 +16344,7 @@ declare namespace ZingchartAngular {
          * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
          *  15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
       };
       handle?: {
@@ -16358,48 +16358,48 @@ declare namespace ZingchartAngular {
          * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
          *  15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the styling for the bottom border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a s
          * tring. "1px solid green" | "3px dotted purple" | ...
          */
-        'border-bottom'?: any;
+        "border-bottom"?: any;
         borderBottom?: any;
         /**
          * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the styling for the left border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a str
          * ing. "1px solid green" | "3px dotted purple" | ...
          */
-        'border-left'?: any;
+        "border-left"?: any;
         borderLeft?: any;
         /**
          * Sets the border radius (rounded corners) of the object. The higher the value, the more rounded the corners appear. 4 | "6px" | "6p
          * x 10px 3px 5px" | "-10px" | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the styling for the right border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a st
          * ring. "1px solid green" | "3px dotted purple" | ...
          */
-        'border-right'?: any;
+        "border-right"?: any;
         borderRight?: any;
         /**
          * Sets the styling for the top border. Provide border width, line style (solid, dotted, dashed, dashdot), and border color in a stri
          * ng. "1px solid green" | "3px dotted purple" | ...
          */
-        'border-top'?: any;
+        "border-top"?: any;
         borderTop?: any;
         /**
          * Sets the border width of the object. 1 | 3 | | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
          */
@@ -16426,39 +16426,39 @@ declare namespace ZingchartAngular {
          * g. "#FF0000", "#0000FF", "#FFFF00"), or in RGB notation (e.g. "rgb(255,0,0)", "rgb(0,0,255)", "rgb(255,255,0)"). In the scale-x /
          * scale-y label. See the red text. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. See the red text. Works f
          * or output canvas and svg. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-1'?: string;
+        "background-color-1"?: string;
         backgroundColor1?: string;
         /**
          * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
          *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'background-color-2'?: string;
+        "background-color-2"?: string;
         backgroundColor2?: string;
         /**
          * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
          */
-        'background-fit'?: string;
+        "background-fit"?: string;
         backgroundFit?: string;
         /**
          * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
          */
-        'background-image'?: string;
+        "background-image"?: string;
         backgroundImage?: string;
         /**
          * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
          */
-        'background-position'?: string;
+        "background-position"?: string;
         backgroundPosition?: string;
         /**
          * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
          */
-        'background-repeat'?: string;
+        "background-repeat"?: string;
         backgroundRepeat?: string;
         /**
          * Sets whether the text is displayed with bold characters or not in the scale-x / scale-y label. See the red text. true | false | 1
@@ -16468,18 +16468,18 @@ declare namespace ZingchartAngular {
         /**
          * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-bottom'?: string;
+        "border-bottom"?: string;
         borderBottom?: string;
         /**
          * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
          * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-left'?: string;
+        "border-left"?: string;
         borderLeft?: string;
         /**
          * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -16487,48 +16487,48 @@ declare namespace ZingchartAngular {
          * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
          * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
          */
-        'border-radius'?: any;
+        "border-radius"?: any;
         borderRadius?: any;
         /**
          * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
          * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-left'?: any;
+        "border-radius-bottom-left"?: any;
         borderRadiusBottomLeft?: any;
         /**
          * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
          * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-bottom-right'?: any;
+        "border-radius-bottom-right"?: any;
         borderRadiusBottomRight?: any;
         /**
          * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
          * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-left'?: any;
+        "border-radius-top-left"?: any;
         borderRadiusTopLeft?: any;
         /**
          * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
          * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
          */
-        'border-radius-top-right'?: any;
+        "border-radius-top-right"?: any;
         borderRadiusTopRight?: any;
         /**
          * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
          */
-        'border-right'?: string;
+        "border-right"?: string;
         borderRight?: string;
         /**
          * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
          * es. "2px solid #f00" | ...
          */
-        'border-top'?: string;
+        "border-top"?: string;
         borderTop?: string;
         /**
          * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
          */
@@ -16536,39 +16536,39 @@ declare namespace ZingchartAngular {
         /**
          * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
          */
-        'callout-extension'?: any;
+        "callout-extension"?: any;
         calloutExtension?: any;
         /**
          * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
          */
-        'callout-height'?: any;
+        "callout-height"?: any;
         calloutHeight?: any;
         /**
          * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
          * top left corner of the chart. [200, 50] | ...
          */
-        'callout-hook'?: any;
+        "callout-hook"?: any;
         calloutHook?: any;
         /**
          * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
          * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
          */
-        'callout-offset'?: any;
+        "callout-offset"?: any;
         calloutOffset?: any;
         /**
          * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
          */
-        'callout-position'?: string;
+        "callout-position"?: string;
         calloutPosition?: string;
         /**
          * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
          */
-        'callout-width'?: any;
+        "callout-width"?: any;
         calloutWidth?: any;
         /**
          * Cuts off extra text. Use with width. For the scale-x / scale-y label. See the red text. true | false | 1 | 0
          */
-        'clip-text'?: boolean;
+        "clip-text"?: boolean;
         clipText?: boolean;
         /**
          * Sets the object's font color. Similar to font-color. For the scale-x / scale-y label. See the red text. "none" | "transparent" | "
@@ -16579,67 +16579,67 @@ declare namespace ZingchartAngular {
          * Sets the angle of the axis along which the linear gradient is drawn. For the scale-x / scale-y label. See the red text. -45 | 115
          * | ...
          */
-        'fill-angle'?: number;
+        "fill-angle"?: number;
         fillAngle?: number;
         /**
          * Sets an X offset to apply to the fill. For the scale-x / scale-y label. See the red text. 4 | "6px" | ...
          */
-        'fill-offset-x'?: any;
+        "fill-offset-x"?: any;
         fillOffsetX?: any;
         /**
          * Sets an Y offset to apply to the fill. For the scale-x / scale-y label. See the red text. 4 | "6px" | ...
          */
-        'fill-offset-y'?: any;
+        "fill-offset-y"?: any;
         fillOffsetY?: any;
         /**
          * Sets the background gradient fill type to either linear or radial. For the scale-x / scale-y label. See the red text. "linear" | "
          * radial"
          */
-        'fill-type'?: string;
+        "fill-type"?: string;
         fillType?: string;
         /**
          * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
          * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
          */
-        'font-angle'?: number;
+        "font-angle"?: number;
         fontAngle?: number;
         /**
          * Sets the object's font color. Similar to color. For the scale-x / scale-y label. See the red text. "none" | "transparent" | "#f00"
          *  | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'font-color'?: string;
+        "font-color"?: string;
         fontColor?: string;
         /**
          * Sets the text's font family. For the scale-x / scale-y label. See the red text. "Arial" | "Tahoma,Verdana" | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the text's font size. For the scale-x / scale-y label. See the red text. 4 | "6px" | ...
          */
-        'font-size'?: any;
+        "font-size"?: any;
         fontSize?: any;
         /**
          * Sets the text's font style. Similar to italic. For the scale-x / scale-y label. See the red text. "none" | "italic" | "oblique"
          */
-        'font-style'?: string;
+        "font-style"?: string;
         fontStyle?: string;
         /**
          * Sets the text's font weight. Similar to bold. For the scale-x / scale-y label. See the red text. "normal" | "bold"
          */
-        'font-weight'?: string;
+        "font-weight"?: string;
         fontWeight?: string;
         /**
          * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
          * #00f" | ...
          */
-        'gradient-colors'?: string;
+        "gradient-colors"?: string;
         gradientColors?: string;
         /**
          * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
          * 5 0.9" | ...
          */
-        'gradient-stops'?: string;
+        "gradient-stops"?: string;
         gradientStops?: string;
         /**
          * Sets the object's height. For the scale-x / scale-y label. See the red text. Works with output canvas and svg. 10 | "20px" | 0.3 |
@@ -16654,29 +16654,29 @@ declare namespace ZingchartAngular {
         /**
          * If set to 'true', scale labels will lock in place and not rotate based upon the viewing angle in 3D charts.
          */
-        'lock-rotation'?: boolean;
+        "lock-rotation"?: boolean;
         lockRotation?: boolean;
         /**
          * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
          * the text is cut and appended with "...". For the scale-x / scale-y label. See the red text. 5 | 10 | ...
          */
-        'max-chars'?: number;
+        "max-chars"?: number;
         maxChars?: number;
         /**
          * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
          * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
          */
-        'max-width'?: any;
+        "max-width"?: any;
         maxWidth?: any;
         /**
          * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-x'?: any;
+        "offset-x"?: any;
         offsetX?: any;
         /**
          * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
          */
-        'offset-y'?: any;
+        "offset-y"?: any;
         offsetY?: any;
         /**
          * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -16687,22 +16687,22 @@ declare namespace ZingchartAngular {
         /**
          * Sets the object's bottom padding around the text. 4 | "6px" | ...
          */
-        'padding-bottom'?: any;
+        "padding-bottom"?: any;
         paddingBottom?: any;
         /**
          * Sets the object's left padding around the text. 4 | "6px" | ...
          */
-        'padding-left'?: any;
+        "padding-left"?: any;
         paddingLeft?: any;
         /**
          * Sets the object's right padding around the text. 4 | "6px" | ...
          */
-        'padding-right'?: any;
+        "padding-right"?: any;
         paddingRight?: any;
         /**
          * Sets the object's top padding around the text. 4 | "6px" | ...
          */
-        'padding-top'?: any;
+        "padding-top"?: any;
         paddingTop?: any;
         /**
          * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -16715,18 +16715,18 @@ declare namespace ZingchartAngular {
         /**
          * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
          */
-        'text-align'?: string;
+        "text-align"?: string;
         textAlign?: string;
         /**
          * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
          * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
          */
-        'text-alpha'?: number;
+        "text-alpha"?: number;
         textAlpha?: number;
         /**
          * Sets the text's decoration. Similar to underline. For output canvas and flash. "none" | "underline"
          */
-        'text-decoration'?: string;
+        "text-decoration"?: string;
         textDecoration?: string;
         /**
          * Sets whether the text is displayed with underlined characters or not. For output canvas and flash. true | false | 1 | 0
@@ -16743,7 +16743,7 @@ declare namespace ZingchartAngular {
         /**
          * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
          */
-        'wrap-text'?: boolean;
+        "wrap-text"?: boolean;
         wrapText?: boolean;
       };
       mask?: {
@@ -16757,28 +16757,28 @@ declare namespace ZingchartAngular {
          * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
          *  15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
       };
     };
-    'scale-k'?: scaleK;
+    "scale-k"?: scaleK;
     scaleK?: scaleK;
-    'scale-r'?: scaleR;
+    "scale-r"?: scaleR;
     scaleR?: scaleR;
-    'scale-v'?: scaleV;
+    "scale-v"?: scaleV;
     scaleV?: scaleV;
-    'scale-x'?: scaleX;
+    "scale-x"?: scaleX;
     scaleX?: scaleX;
-    'scale-x-1'?: scaleX;
-    'scale-x-2'?: scaleX;
-    'scale-x-3'?: scaleX;
-    'scale-x-4'?: scaleX;
-    'scale-x-5'?: scaleX;
-    'scale-x-6'?: scaleX;
-    'scale-x-7'?: scaleX;
-    'scale-x-8'?: scaleX;
-    'scale-x-9'?: scaleX;
-    'scale-x-10'?: scaleX;
+    "scale-x-1"?: scaleX;
+    "scale-x-2"?: scaleX;
+    "scale-x-3"?: scaleX;
+    "scale-x-4"?: scaleX;
+    "scale-x-5"?: scaleX;
+    "scale-x-6"?: scaleX;
+    "scale-x-7"?: scaleX;
+    "scale-x-8"?: scaleX;
+    "scale-x-9"?: scaleX;
+    "scale-x-10"?: scaleX;
     scaleX1?: scaleX;
     scaleX2?: scaleX;
     scaleX3?: scaleX;
@@ -16789,36 +16789,36 @@ declare namespace ZingchartAngular {
     scaleX8?: scaleX;
     scaleX9?: scaleX;
     scaleX10?: scaleX;
-    'scale-y'?: scaleY;
+    "scale-y"?: scaleY;
     scaleY?: scaleY;
-    'scale-y-1'?: scaleY;
-    'scale-y-2'?: scaleY;
-    'scale-y-3'?: scaleY;
-    'scale-y-4'?: scaleY;
-    'scale-y-5'?: scaleY;
-    'scale-y-6'?: scaleY;
-    'scale-y-7'?: scaleY;
-    'scale-y-8'?: scaleY;
-    'scale-y-9'?: scaleY;
-    'scale-y-10'?: scaleY;
-     scaleY1?: scaleY;
-     scaleY2?: scaleY;
-     scaleY3?: scaleY;
-     scaleY4?: scaleY;
-     scaleY5?: scaleY;
-     scaleY6?: scaleY;
-     scaleY7?: scaleY;
-     scaleY8?: scaleY;
-     scaleY9?: scaleY;
-     scaleY10?: scaleY;
+    "scale-y-1"?: scaleY;
+    "scale-y-2"?: scaleY;
+    "scale-y-3"?: scaleY;
+    "scale-y-4"?: scaleY;
+    "scale-y-5"?: scaleY;
+    "scale-y-6"?: scaleY;
+    "scale-y-7"?: scaleY;
+    "scale-y-8"?: scaleY;
+    "scale-y-9"?: scaleY;
+    "scale-y-10"?: scaleY;
+    scaleY1?: scaleY;
+    scaleY2?: scaleY;
+    scaleY3?: scaleY;
+    scaleY4?: scaleY;
+    scaleY5?: scaleY;
+    scaleY6?: scaleY;
+    scaleY7?: scaleY;
+    scaleY8?: scaleY;
+    scaleY9?: scaleY;
+    scaleY10?: scaleY;
     scale?: {
       /**
        * To modify the size of the chart. Provide a value in relation to 1.0 or 100%. 0.3 | 0.9 | "30%" | "90%" | ...
        */
-      'size-factor'?: number;
+      "size-factor"?: number;
       sizeFactor?: number;
     };
-    'scroll-x-scroll-y'?: scrollXScrollY;
+    "scroll-x-scroll-y"?: scrollXScrollY;
     scrollXScrollY?: scrollXScrollY;
     selectionTool?: {
       mask?: {
@@ -16832,19 +16832,19 @@ declare namespace ZingchartAngular {
          * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
          *  15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Requires border-width. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border width of the object, applicable on closed shapes. Defaults to black when border-color is not defined. See also lin
          * e-width for closed shapes. 4 | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
       };
     };
     series?: series[];
@@ -16852,12 +16852,12 @@ declare namespace ZingchartAngular {
       /**
        * Sets the end angle of a pie shape. "10" | "212" | ...
        */
-      'angle-end'?: number;
+      "angle-end"?: number;
       angleEnd?: number;
       /**
        * Sets the beginning angle of a pie shape. "10" | "212" | ...
        */
-      'angle-start'?: number;
+      "angle-start"?: number;
       angleStart?: number;
       /**
        * Sets the height of the shape "10" | "212" | ...
@@ -16890,84 +16890,84 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. Relies on border-width se
        * tting. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. Defaults to black when border-color is not defined. See also lin
        * e-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the angle of the axis along which the linear fill is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. Positive value moves the offset right. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets a Y offset to apply to the fill. With a radial fill, positive value moves the offset down. With a linear fill, affects locati
        * on of the gradient stop. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient (more than 2 colors) of the object. Used with gradient stops. "#f00 #0f0 #0
        * 0f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets a set of steps corresponding for each color for a complex background gradient (more than 2 colors) of the object. Paired with
        *  gradient-colors. "0.1 0.5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the item id of the map on which the object/shape is being added. "itemid" | ...
@@ -16977,29 +16977,29 @@ declare namespace ZingchartAngular {
        * Sets the line color of the object, applicable on non-closed shapes. See also border-color for closed shapes. "none" | "transparent
        * " | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'line-color'?: string;
+      "line-color"?: string;
       lineColor?: string;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-segment-size. This will control the size of the gaps betwe
        * en each line segment. 4 | "6px" | ...
        */
-      'line-gap-size'?: any;
+      "line-gap-size"?: any;
       lineGapSize?: any;
       /**
        * Can be used to create custom dashed or dotted lines when used with line-gap-size. This will control the size of the visible segmen
        * t of line. 4 | "6px" | ...
        */
-      'line-segment-size'?: any;
+      "line-segment-size"?: any;
       lineSegmentSize?: any;
       /**
        * Sets the style applied to lines and borders of the object. "solid" | "dotted" | "dashed"
        */
-      'line-style'?: string;
+      "line-style"?: string;
       lineStyle?: string;
       /**
        * Sets the line width of the object, applicable on non-closed shapes. See also border-width for closed shapes. 4 | "6px" | ...
        */
-      'line-width'?: any;
+      "line-width"?: any;
       lineWidth?: any;
       /**
        * Sets the map id of the map on which the object/shape is being added. "mapid" | ...
@@ -17008,17 +17008,17 @@ declare namespace ZingchartAngular {
       /**
        * Sets a radial offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-r'?: any;
+      "offset-r"?: any;
       offsetR?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /** Sets map options */
       options?: any;
@@ -17034,28 +17034,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the size of the object/shape. 4 | "6px" | ...
@@ -17081,7 +17081,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values. 5 | 10 | ...
        */
-      'z-index'?: number;
+      "z-index"?: number;
     }>;
     source?: {
       /**
@@ -17096,39 +17096,39 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * For source, bold is the default. true | false | 1 | 0
@@ -17137,63 +17137,63 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Requires border-width. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Requires border-width and defaults to black if there is no border-color specified. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Requires border-width. true | false | 1 | 0
        */
@@ -17201,39 +17201,39 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
        * top left corner of the chart. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
        * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * Truncates text based on the setting of width. true | false | 1 | 0
        */
-      'clip-text'?: boolean;
+      "clip-text"?: boolean;
       clipText?: boolean;
       /**
        * Sets the object's font color. Similar to font-color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15,
@@ -17243,66 +17243,66 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Works with fill-angle to position gradient. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Works with fill-angle to position gradient. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
        * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
        * | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the text's font size. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the text's font weight. Similar to bold. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -17327,44 +17327,44 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom margin. 4 | "6px" | ...
        */
-      'margin-bottom'?: any;
+      "margin-bottom"?: any;
       marginBottom?: any;
       /**
        * Sets the object's left margin. 4 | "6px" | ...
        */
-      'margin-left'?: any;
+      "margin-left"?: any;
       marginLeft?: any;
       /**
        * Sets the object's right margin. 4 | "6px" | ...
        */
-      'margin-right'?: any;
+      "margin-right"?: any;
       marginRight?: any;
       /**
        * Sets the object's top margin. 4 | "6px" | ...
        */
-      'margin-top'?: any;
+      "margin-top"?: any;
       marginTop?: any;
       /**
        * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
        * the text is cut and appended with "..." 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -17375,22 +17375,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom padding around the text. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the object's left padding around the text. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the object's right padding around the text. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the object's top padding around the text. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Sets the object's position relative to it's container. Similar results can be obtained by setting marginand margin-... attributes.
@@ -17409,28 +17409,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the text content of the object. "Some Text" | ...
@@ -17439,19 +17439,19 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
        * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
        * arts are rendered using SVG. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the text is displayed with underlined characters or not. Similar to text-decoration. May not display properly in Mozi
@@ -17462,7 +17462,7 @@ declare namespace ZingchartAngular {
        * Sets the text's vertical alignment to one of the three applicable values, relative to the object's box. "top" | "middle" | "bottom
        * "
        */
-      'vertical-align'?: string;
+      "vertical-align"?: string;
       verticalAlign?: string;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -17475,7 +17475,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
       /**
        * Negative values move the object left from the left edge of the chart. 10 | "20px" | 0.3 | "30%" | ...
@@ -17488,7 +17488,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values. 5 | 10 | ...
        */
-      'z-index'?: number;
+      "z-index"?: number;
       zIndex?: number;
     };
     stacked?: boolean;
@@ -17500,39 +17500,39 @@ declare namespace ZingchartAngular {
       /**
        * Sets the background color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow"
        * | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow"
        *  | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets whether the text is displayed with bold characters or not in the subtitle. true | false | 1 | 0
@@ -17541,61 +17541,61 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom border style. Defaults to black when color is not set properly. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. Requires border width. See also line-color for closed shapes. "n
        * one" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Operates like border-bottom. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. The higher the value, the more rounded the corners appear. 4 | "6px" | "6px
        * 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Operates like border-bottom. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Operates like border-bottom. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. If no border-color is set
        * , will display in black. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether or not the object will have a callout arrow. true | false | 1 | 0
        */
@@ -17603,38 +17603,38 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length for extension line off the tip of the callout arrow. Requires border-width. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets a location for the point of the tip of the callout arrow. Uses XY coordinates. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset for the origin of the callout arrow. Uses positive or negative values to move the arrow right/left/up/down. 4 | "6
        * px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets which edge will be the location for the object's callout arrow. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * Cuts off extra text. Use with width. true | false | 1 | 0
        */
-      'clip-text'?: boolean;
+      "clip-text"?: boolean;
       clipText?: boolean;
       /**
        * Sets the color of the text in the subtitle. Similar with font-color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow"
@@ -17644,65 +17644,65 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the axis along which the linear fill is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the fill type. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the rotation angle of the subtitle text. Similar with angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the color of the subtitle text. Similar with color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100,
        * 15, 15)" | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the font family of the subtitle text. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the font size of the subtitle text. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the font style of the subtitle text. Similar with italic. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the font weight of the subtitle text. Similar with bold. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -17727,44 +17727,44 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom margin. 4 | "6px" | ...
        */
-      'margin-bottom'?: any;
+      "margin-bottom"?: any;
       marginBottom?: any;
       /**
        * Sets the object's left margin. 4 | "6px" | ...
        */
-      'margin-left'?: any;
+      "margin-left"?: any;
       marginLeft?: any;
       /**
        * Sets the object's left margin. 4 | "6px" | ...
        */
-      'margin-right'?: any;
+      "margin-right"?: any;
       marginRight?: any;
       /**
        * Sets the object's margin from the top of the chart. 4 | "6px" | ...
        */
-      'margin-top'?: any;
+      "margin-top"?: any;
       marginTop?: any;
       /**
        * Sets the maximum number of characters displayed in the text label of the subtitle. If value is smaller than the length of the text
        * , the original text will be trimmed and '...' will be appended at the end. 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's padding around the text of the subtitle. 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
@@ -17773,22 +17773,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom padding around the text of the subtitle. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the object's left padding around the text of the subtitle. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the object's right padding around the text of the subtitle. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the object's top padding around the text of the subtitle. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Sets the object's position relative to it's container. Similar results can be obtained by setting marginand margin-... attributes.
@@ -17806,28 +17806,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the text content of the object of the subtitle. Defaults to gray when font-color is not set. "Some Text" | ...
@@ -17836,17 +17836,17 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's horizontal alignment relative to the box of the subtitle. "left" | "center" | "right"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the transparency of the subtitle text. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text decoration for the subtitle text. Similar with underline. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the text of the subtitle is displayed with underlined characters or not. true | false | 1 | 0
@@ -17855,7 +17855,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's vertical alignment relative to the subtitle object's box . "top" | "middle" | "bottom"
        */
-      'vertical-align'?: string;
+      "vertical-align"?: string;
       verticalAlign?: string;
       /**
        * Sets the visibility of the object. true | false | 1 | 0
@@ -17869,7 +17869,7 @@ declare namespace ZingchartAngular {
        * Forces wrapping of the text inside a confined box width. Requires a setting for width. Without text wrap, text will be truncated.
        * true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
       /**
        * Sets the X position of the object. 10 | "20px" | 0.3 | "30%" | ...
@@ -17882,20 +17882,20 @@ declare namespace ZingchartAngular {
       /**
        * Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values. 5 | 10 | ...
        */
-      'z-index'?: number;
+      "z-index"?: number;
       zIndex?: number;
     };
     /**
      * Time-Series Charts only: To set the UTC timezone. Use with the 'utc' attribute and 'transform' object in the applicable scale object.
      * Default Value: 0
      */
-    'time-zone'?: number;
+    "time-zone"?: number;
     timeZone?: number;
     title?: {
       /**
        * Forces the plotarea to consider the title positioning and prevent overlapping with it. true | false | 1 | 0
        */
-      'adjust-layout'?: boolean;
+      "adjust-layout"?: boolean;
       adjustLayout?: boolean;
       /**
        * Sets the transparency of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and 1.0 being comp
@@ -17905,39 +17905,39 @@ declare namespace ZingchartAngular {
       /**
        * Sets the background color of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow"
        * | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow"
        *  | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets whether the text is displayed with bold characters or not in the title. true | false | 1 | 0
@@ -17946,61 +17946,61 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom border style. Defaults to black when color is not set properly. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. Requires border width. See also line-color for closed shapes. "n
        * one" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Operates like border-bottom. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. The higher the value, the more rounded the corners appear. 4 | "6px" | "6px
        * 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Operates like border-bottom. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Operates like border-bottom. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. If no border-color is set
        * , will display in black.. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets if the object will have a callout arrow. true | false | 1 | 0
        */
@@ -18008,38 +18008,38 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length for extension line off the tip of the callout arrow. Requires border-width. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets a location for the point of the tip of the callout arrow. Uses XY coordinates. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset for the origin of the callout arrow. Uses positive or negative values to move the arrow right/left/up/down. 4 | "6
        * px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets which edge will be the location for the object's callout arrow. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * true | false | 1 | 0
        */
-      'clip-text'?: boolean;
+      "clip-text"?: boolean;
       clipText?: boolean;
       /**
        * Sets the text's color in the title. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
@@ -18048,65 +18048,65 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the rotation angle of the title. Similar with angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the text's color of the title. Similar with color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 1
        * 5, 15)" | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the text's font family of the title. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the text's font size of the title. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the text's font style of the title. Similar with italic. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the text's font weight of the title. Similar with bold. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -18131,44 +18131,44 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom margin. 4 | "6px" | ...
        */
-      'margin-bottom'?: any;
+      "margin-bottom"?: any;
       marginBottom?: any;
       /**
        * Sets the object's left margin. 4 | "6px" | ...
        */
-      'margin-left'?: any;
+      "margin-left"?: any;
       marginLeft?: any;
       /**
        * Sets the object's right margin. 4 | "6px" | ...
        */
-      'margin-right'?: any;
+      "margin-right"?: any;
       marginRight?: any;
       /**
        * Sets the object's top margin. 4 | "6px" | ...
        */
-      'margin-top'?: any;
+      "margin-top"?: any;
       marginTop?: any;
       /**
        * Sets the maximum number of characters displayed by the text label of the title. If value is smaller than the length of the text, t
        * he original text will be trimmed and '...' will be appended at the end. 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's bottom padding around the text of the title. 10 | "5px" | "10 20" | "5px 10px 15px 20px" | ...
@@ -18177,24 +18177,24 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom padding around the text of the title. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the object's left padding around the text of the title. padding-left here may push the text out of the containing legend if t
        * he number is big enough. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the object's right padding around the text of the title. padding-right here will not push the text out of the containing lege
        * nd. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the object's top padding around the text of the title. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Sets the object's position relative to it's container. Similar results can be obtained by setting marginand margin-... attributes.
@@ -18212,28 +18212,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the text content of the title. "Some Text" | ...
@@ -18242,17 +18242,17 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's horizontal alignment relative to the box of the text. "left" | "center" | "right"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the text's transparency of the title. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text's decoration of the title. Similar with underline. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the text of the title is displayed with underlined characters or not. true | false | 1 | 0
@@ -18261,7 +18261,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's vertical alignment relative to the object's box of the title. "top" | "middle" | "bottom"
        */
-      'vertical-align'?: string;
+      "vertical-align"?: string;
       verticalAlign?: string;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -18274,7 +18274,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
       /**
        * Sets the X position of the object. 10 | "20px" | 0.3 | "30%" | ...
@@ -18287,7 +18287,7 @@ declare namespace ZingchartAngular {
       /**
        * Sets the z position of the object. Objects with higher z indexes will appear "above" those with lower z index values. 5 | 10 | ...
        */
-      'z-index'?: number;
+      "z-index"?: number;
       zIndex?: number;
     };
     tooltip?: tooltip;
@@ -18322,22 +18322,22 @@ declare namespace ZingchartAngular {
        * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
        *  15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object. 1 | 3 | | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * API charts only: Sets whether the zoom level is preserved on chart data alteration or reloads. true | false | 1 | 0
        */
-      'preserve-zoom'?: boolean;
+      "preserve-zoom"?: boolean;
       preserveZoom?: boolean;
       label?: {
         /**
@@ -18350,42 +18350,42 @@ declare namespace ZingchartAngular {
          * 699", #33ccff"), or RGB notation (e.g., "rgb(255,0,0)", "rgb(0,0,255)"). "none" | "transparent" | "purple" | "#33ccff" | "rgb(100,
          *  15, 15)" | ...
          */
-        'background-color'?: string;
+        "background-color"?: string;
         backgroundColor?: string;
         /**
          * Sets the border color of the object. "none" | "transparent" | "purple" | "#33ccff" | "rgb(100, 15, 15)" | ...
          */
-        'border-color'?: string;
+        "border-color"?: string;
         borderColor?: string;
         /**
          * Sets the border width of the object. 1 | 3 | | "6px" | ...
          */
-        'border-width'?: any
-        borderWidth?: any
+        "border-width"?: any;
+        borderWidth?: any;
         /**
          * Sets the font color of the object text. "none" | "transparent" | "purple" | "#33ccff" | ...
          */
-        'font-color'?: string;
+        "font-color"?: string;
         fontColor?: string;
         /**
          * Sets the font family of the object text. "Courier" | "Georgia" | "Verdana" | ...
          */
-        'font-family'?: string;
+        "font-family"?: string;
         fontFamily?: string;
         /**
          * Sets the font size of the object text. 12 | "20px" | ...
          */
-        'font-size'?: any;
+        "font-size"?: any;
         fontSize?: any;
         /**
          * Sets the font style of the object text. "normal" | "italic"
          */
-        'font-style'?: string;
+        "font-style"?: string;
         fontStyle?: string;
         /**
          * Sets the font weight of the object text. "normal" | "bold"
          */
-        'font-weight'?: string;
+        "font-weight"?: string;
         fontWeight?: string;
         /**
          * Sets the padding around the object text. "10%" | "25px" ...
@@ -18422,7 +18422,7 @@ declare namespace ZingchartAngular {
     /**
      * Executes specified custom function for the custom menu item.
      */
-    'custom-function'?: string;
+    "custom-function"?: string;
     customFunction?: string;
   }
   interface history {
@@ -18437,55 +18437,55 @@ declare namespace ZingchartAngular {
      * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
      * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color'?: string;
+    "background-color"?: string;
     backgroundColor?: string;
     /**
      * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-1'?: string;
+    "background-color-1"?: string;
     backgroundColor1?: string;
     /**
      * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
      *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'background-color-2'?: string;
+    "background-color-2"?: string;
     backgroundColor2?: string;
     /**
      * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
      */
-    'background-fit'?: string;
+    "background-fit"?: string;
     backgroundFit?: string;
     /**
      * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
      */
-    'background-image'?: string;
+    "background-image"?: string;
     backgroundImage?: string;
     /**
      * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
      */
-    'background-position'?: string;
+    "background-position"?: string;
     backgroundPosition?: string;
     /**
      * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
      */
-    'background-repeat'?: string;
+    "background-repeat"?: string;
     backgroundRepeat?: string;
     /**
      * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-bottom'?: string;
+    "border-bottom"?: string;
     borderBottom?: string;
     /**
      * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
      * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
      */
-    'border-color'?: string;
+    "border-color"?: string;
     borderColor?: string;
     /**
      * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-left'?: string;
+    "border-left"?: string;
     borderLeft?: string;
     /**
      * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -18493,47 +18493,47 @@ declare namespace ZingchartAngular {
      * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
      * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
      */
-    'border-radius'?: any;
+    "border-radius"?: any;
     borderRadius?: any;
     /**
      * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
      * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-left'?: any;
+    "border-radius-bottom-left"?: any;
     borderRadiusBottomLeft?: any;
     /**
      * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
      * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-bottom-right'?: any;
+    "border-radius-bottom-right"?: any;
     borderRadiusBottomRight?: any;
     /**
      * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
      * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-left'?: any;
+    "border-radius-top-left"?: any;
     borderRadiusTopLeft?: any;
     /**
      * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
      * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
      */
-    'border-radius-top-right'?: any;
+    "border-radius-top-right"?: any;
     borderRadiusTopRight?: any;
     /**
      * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
      */
-    'border-right'?: string;
+    "border-right"?: string;
     borderRight?: string;
     /**
      * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
      * es. "2px solid #f00" | ...
      */
-    'border-top'?: string;
+    "border-top"?: string;
     borderTop?: string;
     /**
      * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
      */
-    'border-width'?: any;
+    "border-width"?: any;
     borderWidth?: any;
     /**
      * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
@@ -18542,66 +18542,66 @@ declare namespace ZingchartAngular {
     /**
      * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
      */
-    'callout-extension'?: any;
+    "callout-extension"?: any;
     calloutExtension?: any;
     /**
      * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
      */
-    'callout-height'?: any;
+    "callout-height"?: any;
     calloutHeight?: any;
     /**
      * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
      * top left corner of the chart. [200, 50] | ...
      */
-    'callout-hook'?: any;
+    "callout-hook"?: any;
     calloutHook?: any;
     /**
      * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
      * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
      */
-    'callout-offset'?: any;
+    "callout-offset"?: any;
     calloutOffset?: any;
     /**
      * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
      */
-    'callout-position'?: string;
+    "callout-position"?: string;
     calloutPosition?: string;
     /**
      * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
      */
-    'callout-width'?: any;
+    "callout-width"?: any;
     calloutWidth?: any;
     /**
      * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
      */
-    'fill-angle'?: number;
+    "fill-angle"?: number;
     fillAngle?: number;
     /**
      * Sets an X offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-x'?: any;
+    "fill-offset-x"?: any;
     fillOffsetX?: any;
     /**
      * Sets an Y offset to apply to the fill. 4 | "6px" | ...
      */
-    'fill-offset-y'?: any;
+    "fill-offset-y"?: any;
     fillOffsetY?: any;
     /**
      * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
      */
-    'fill-type'?: string;
+    "fill-type"?: string;
     fillType?: string;
     /**
      * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
      * #00f" | ...
      */
-    'gradient-colors'?: string;
+    "gradient-colors"?: string;
     gradientColors?: string;
     /**
      * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
      * 5 0.9" | ...
      */
-    'gradient-stops'?: string;
+    "gradient-stops"?: string;
     gradientStops?: string;
     /**
      * Sets the object's height. 10 | "20px" | 0.3 | "30%" | ...
@@ -18614,22 +18614,22 @@ declare namespace ZingchartAngular {
     /**
      * Sets the object's bottom margin. 4 | "6px" | ...
      */
-    'margin-bottom'?: any;
+    "margin-bottom"?: any;
     marginBottom?: any;
     /**
      * Sets the object's left margin. 4 | "6px" | ...
      */
-    'margin-left'?: any;
+    "margin-left"?: any;
     marginLeft?: any;
     /**
      * Sets the object's right margin. 4 | "6px" | ...
      */
-    'margin-right'?: any;
+    "margin-right"?: any;
     marginRight?: any;
     /**
      * Sets the object's top margin. 4 | "6px" | ...
      */
-    'margin-top'?: any;
+    "margin-top"?: any;
     marginTop?: any;
     /**
      * Sets the object's position relative to it's container. Similar results can be obtained by setting marginand margin-... attributes.
@@ -18643,28 +18643,28 @@ declare namespace ZingchartAngular {
      * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
      * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
      */
-    'shadow-alpha'?: number;
+    "shadow-alpha"?: number;
     shadowAlpha?: number;
     /**
      * Sets the angle of the shadow underneath the object. -45 | 115 | ...
      */
-    'shadow-angle'?: number;
+    "shadow-angle"?: number;
     shadowAngle?: number;
     /**
      * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
      */
-    'shadow-blur'?: any;
+    "shadow-blur"?: any;
     shadowBlur?: any;
     /**
      * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
      * .
      */
-    'shadow-color'?: string;
+    "shadow-color"?: string;
     shadowColor?: string;
     /**
      * Sets the distance between the shadow and the object. 4 | "6px" | ...
      */
-    'shadow-distance'?: any;
+    "shadow-distance"?: any;
     shadowDistance?: any;
     /**
      * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -18682,7 +18682,7 @@ declare namespace ZingchartAngular {
      * Sets the Y position of the object. 10 | "20px" | 0.3 | "30%" | ...
      */
     y?: any;
-    'item-off'?: itemOff;
+    "item-off"?: itemOff;
     itemOff?: itemOff;
     item?: {
       /**
@@ -18696,82 +18696,82 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets whether the object's shadow is visible or not. Has limited effect on HTML5 implementation. true | false | 1 | 0
@@ -18781,28 +18781,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
     };
   }
@@ -18827,17 +18827,17 @@ declare namespace ZingchartAngular {
     /**
      * Sets the max amount of nodes visible in the graph. 5 | 10 | ...
      */
-    'max-ticks'?: number;
+    "max-ticks"?: number;
     maxTicks?: number;
     /**
      * The number of nodes before starting the feed from 0 again. 500 | 1000 | ...
      */
-    'reset-timeout'?: number;
+    "reset-timeout"?: number;
     resetTimeout?: number;
     /**
      * Enabling true will allow dynamic value range of the scale pertaining to the values. false (default) | true
      */
-    'adjust-scale'?: boolean;
+    "adjust-scale"?: boolean;
     adjustScale?: boolean;
     curtain?: {
       /**
@@ -18855,39 +18855,39 @@ declare namespace ZingchartAngular {
        * t a solid background color, two colors will, by default, create a horizontal gradient. For more complex gradients, use gradient-co
        * lors and gradient-stops. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color'?: string;
+      "background-color"?: string;
       backgroundColor?: string;
       /**
        * Sets the first color of a 2 color background gradient of the object. To be used with background-color-2. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-1'?: string;
+      "background-color-1"?: string;
       backgroundColor1?: string;
       /**
        * Sets the second color of a 2 color background gradient of the object. To be used with background-color-1. "none" | "transparent" |
        *  "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'background-color-2'?: string;
+      "background-color-2"?: string;
       backgroundColor2?: string;
       /**
        * Sets the direction/s on which the background image is being "stretched". "x" | "y" | "xy"
        */
-      'background-fit'?: string;
+      "background-fit"?: string;
       backgroundFit?: string;
       /**
        * Sets a background image for the object. Value can be a local file or a web image's location. "image.png" | ...
        */
-      'background-image'?: string;
+      "background-image"?: string;
       backgroundImage?: string;
       /**
        * Sets the position of the background when the background-repeat value is no-repeat. "0 0" | "50 100" | "80% 60%" | ...
        */
-      'background-position'?: string;
+      "background-position"?: string;
       backgroundPosition?: string;
       /**
        * Sets the repeating mode for the background image. "no-repeat" | "repeat" | "repeat-x" | "repeat-y"
        */
-      'background-repeat'?: string;
+      "background-repeat"?: string;
       backgroundRepeat?: string;
       /**
        * Sets whether the text is displayed with bold characters or not. true | false | 1 | 0
@@ -18896,18 +18896,18 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-bottom'?: string;
+      "border-bottom"?: string;
       borderBottom?: string;
       /**
        * Sets the border color of the object, applicable on closed shapes. See also line-color for closed shapes. "none" | "transparent" |
        * "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ...
        */
-      'border-color'?: string;
+      "border-color"?: string;
       borderColor?: string;
       /**
        * Sets the object's left border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-left'?: string;
+      "border-left"?: string;
       borderLeft?: string;
       /**
        * Sets the object's border radius, for rounded corners. Larger values create rounder corners, while smaller values create sharper co
@@ -18915,48 +18915,48 @@ declare namespace ZingchartAngular {
        * alue affecting the top-left corner, the second value affecting the top-right corner, and so on, in a clockwise direction. A negati
        * ve value will cut a corner off without rounding. 4 | "6px" | "6px 10px 3px 5px" | "-10px" | ...
        */
-      'border-radius'?: any;
+      "border-radius"?: any;
       borderRadius?: any;
       /**
        * Sets the object's bottom-left border radius, for rounded corners. Larger values create rounder corners, while smaller values creat
        * e sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-left'?: any;
+      "border-radius-bottom-left"?: any;
       borderRadiusBottomLeft?: any;
       /**
        * Sets the object's bottom-right border radius, for rounded corners. Larger values create rounder corners, while smaller values crea
        * te sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-bottom-right'?: any;
+      "border-radius-bottom-right"?: any;
       borderRadiusBottomRight?: any;
       /**
        * Sets the object's top-left border radius, for rounded corners. Larger values create rounder corners, while smaller values create s
        * harper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-left'?: any;
+      "border-radius-top-left"?: any;
       borderRadiusTopLeft?: any;
       /**
        * Sets the object's top-right border radius, for rounded corners. Larger values create rounder corners, while smaller values create
        * sharper corners. A negative value will cut a corner off without rounding. 4 | "6px" | "-6px" | -4 | ...
        */
-      'border-radius-top-right'?: any;
+      "border-radius-top-right"?: any;
       borderRadiusTopRight?: any;
       /**
        * Sets the object's right border style. Accepts solid, dashed, and dotted styles. "2px solid #f00" | ...
        */
-      'border-right'?: string;
+      "border-right"?: string;
       borderRight?: string;
       /**
        * Sets the object's top border style. Values must include the border width, style, and color. Accepts solid, dashed, and dotted styl
        * es. "2px solid #f00" | ...
        */
-      'border-top'?: string;
+      "border-top"?: string;
       borderTop?: string;
       /**
        * Sets the border width of the object, applicable on closed shapes. See also line-width for closed shapes. 4 | "6px" | ...
        */
-      'border-width'?: any
-      borderWidth?: any
+      "border-width"?: any;
+      borderWidth?: any;
       /**
        * Sets whether an object will have a callout arrow or not. true | false | 1 | 0
        */
@@ -18964,34 +18964,34 @@ declare namespace ZingchartAngular {
       /**
        * Sets the length of the extension that extends beyond the tip of the callout arrow. 4 | "6px" | ...
        */
-      'callout-extension'?: any;
+      "callout-extension"?: any;
       calloutExtension?: any;
       /**
        * Sets the height of the object's callout arrow. A larger value will create a taller callout arrow. 4 | "6px" | ...
        */
-      'callout-height'?: any;
+      "callout-height"?: any;
       calloutHeight?: any;
       /**
        * Sets the point of the tip of the callout arrow to a specified coordinate on the chart, with the starting point of [0,0] being the
        * top left corner of the chart. [200, 50] | ...
        */
-      'callout-hook'?: any;
+      "callout-hook"?: any;
       calloutHook?: any;
       /**
        * Sets the offset along the callout direction of the arrow's base. Positive and negative values can be used to offset the callout ar
        * row up, down, left, or right depending on the callout-position. 4 | "6px" | ...
        */
-      'callout-offset'?: any;
+      "callout-offset"?: any;
       calloutOffset?: any;
       /**
        * Sets the position for the object's callout arrow. The position is "bottom" by default. "top" | "right" | "bottom" | "left"
        */
-      'callout-position'?: string;
+      "callout-position"?: string;
       calloutPosition?: string;
       /**
        * Sets the width of the object's callout arrow. A larger value will create a wider callout arrow. 4 | "6px" | ...
        */
-      'callout-width'?: any;
+      "callout-width"?: any;
       calloutWidth?: any;
       /**
        * Sets the object's font color. Similar to font-color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15,
@@ -19001,66 +19001,66 @@ declare namespace ZingchartAngular {
       /**
        * Sets the angle of the axis along which the linear gradient is drawn. -45 | 115 | ...
        */
-      'fill-angle'?: number;
+      "fill-angle"?: number;
       fillAngle?: number;
       /**
        * Sets an X offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-x'?: any;
+      "fill-offset-x"?: any;
       fillOffsetX?: any;
       /**
        * Sets an Y offset to apply to the fill. 4 | "6px" | ...
        */
-      'fill-offset-y'?: any;
+      "fill-offset-y"?: any;
       fillOffsetY?: any;
       /**
        * Sets the background gradient fill type to either linear or radial. "linear" | "radial"
        */
-      'fill-type'?: string;
+      "fill-type"?: string;
       fillType?: string;
       /**
        * Sets the object's font angle. A positive value will rotate the object by that number of degrees clockwise, while a negative value
        * will rotate the object by that number of degrees counter-clockwise. Similar to angle. -45 | 115 | ...
        */
-      'font-angle'?: number;
+      "font-angle"?: number;
       fontAngle?: number;
       /**
        * Sets the object's font color. Similar to color. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)"
        * | ...
        */
-      'font-color'?: string;
+      "font-color"?: string;
       fontColor?: string;
       /**
        * Sets the text's font family. "Arial" | "Tahoma,Verdana" | ...
        */
-      'font-family'?: string;
+      "font-family"?: string;
       fontFamily?: string;
       /**
        * Sets the text's font size. 4 | "6px" | ...
        */
-      'font-size'?: any;
+      "font-size"?: any;
       fontSize?: any;
       /**
        * Sets the text's font style. Similar to italic. "none" | "italic" | "oblique"
        */
-      'font-style'?: string;
+      "font-style"?: string;
       fontStyle?: string;
       /**
        * Sets the text's font weight. Similar to bold. "normal" | "bold"
        */
-      'font-weight'?: string;
+      "font-weight"?: string;
       fontWeight?: string;
       /**
        * Sets a set of colors for a complex background gradient consisting of 2 or more colors. To be used with gradient-stops. "#f00 #0f0
        * #00f" | ...
        */
-      'gradient-colors'?: string;
+      "gradient-colors"?: string;
       gradientColors?: string;
       /**
        * Sets the gradient stops for a complex background gradient consisting of 2 or more colors. To be used with gradient-colors. "0.1 0.
        * 5 0.9" | ...
        */
-      'gradient-stops'?: string;
+      "gradient-stops"?: string;
       gradientStops?: string;
       /**
        * Sets whether the text is displayed with italic characters or not. true | false | 1 | 0
@@ -19070,23 +19070,23 @@ declare namespace ZingchartAngular {
        * Sets the maximum numbers of characters displayed in the object. The value determines how many characters will be displayed before
        * the text is cut and appended with "..." 5 | 10 | ...
        */
-      'max-chars'?: number;
+      "max-chars"?: number;
       maxChars?: number;
       /**
        * Sets the maximum width of the text box. If text is longer than the max-width value, it will overlap the box or will wrap if wrap-t
        * ext is set to true. 10 | "20px" | 0.3 | "30%" | ...
        */
-      'max-width'?: any;
+      "max-width"?: any;
       maxWidth?: any;
       /**
        * Sets an X offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-x'?: any;
+      "offset-x"?: any;
       offsetX?: any;
       /**
        * Sets a Y offset to apply when positioning the object/shape. 4 | "6px" | ...
        */
-      'offset-y'?: any;
+      "offset-y"?: any;
       offsetY?: any;
       /**
        * Sets the object's padding around the text. Up to four values can be entered to set the padding for all four sides, with the first
@@ -19097,22 +19097,22 @@ declare namespace ZingchartAngular {
       /**
        * Sets the object's bottom padding around the text. 4 | "6px" | ...
        */
-      'padding-bottom'?: any;
+      "padding-bottom"?: any;
       paddingBottom?: any;
       /**
        * Sets the object's left padding around the text. 4 | "6px" | ...
        */
-      'padding-left'?: any;
+      "padding-left"?: any;
       paddingLeft?: any;
       /**
        * Sets the object's right padding around the text. 4 | "6px" | ...
        */
-      'padding-right'?: any;
+      "padding-right"?: any;
       paddingRight?: any;
       /**
        * Sets the object's top padding around the text. 4 | "6px" | ...
        */
-      'padding-top'?: any;
+      "padding-top"?: any;
       paddingTop?: any;
       /**
        * Renders text right-to-left. Default value is false. true | false | 1 | 0
@@ -19126,28 +19126,28 @@ declare namespace ZingchartAngular {
        * Sets the transparency of the shadow of the object. Values must range between 0.0 and 1.0, with 0.0 being completely invisible and
        * 1.0 being completely opaque. Please note that values also require the leading 0 before the decimal. 0.3 | 0.9 | ...
        */
-      'shadow-alpha'?: number;
+      "shadow-alpha"?: number;
       shadowAlpha?: number;
       /**
        * Sets the angle of the shadow underneath the object. -45 | 115 | ...
        */
-      'shadow-angle'?: number;
+      "shadow-angle"?: number;
       shadowAngle?: number;
       /**
        * Sets the blur effect size for the shadow of the object. Has limited effect on HTML5 implementation. 4 | "6px" | ...
        */
-      'shadow-blur'?: any;
+      "shadow-blur"?: any;
       shadowBlur?: any;
       /**
        * Sets the color of the shadow of the object. "none" | "transparent" | "#f00" | "#f00 #00f" | "red yellow" | "rgb(100, 15, 15)" | ..
        * .
        */
-      'shadow-color'?: string;
+      "shadow-color"?: string;
       shadowColor?: string;
       /**
        * Sets the distance between the shadow and the object. 4 | "6px" | ...
        */
-      'shadow-distance'?: any;
+      "shadow-distance"?: any;
       shadowDistance?: any;
       /**
        * Sets the text content of the object. "Some Text" | ...
@@ -19156,19 +19156,19 @@ declare namespace ZingchartAngular {
       /**
        * Sets the text's horizontal alignment relative to the object's box. "left" | "center" | "right"
        */
-      'text-align'?: string;
+      "text-align"?: string;
       textAlign?: string;
       /**
        * Sets the text's transparency independent of the object's transparency. Value must be between 0.0 and 1.0, with 0.0 being 100% tran
        * sparent and 1.0 being 100% opaque. The leading 0 before the decimal is required. 0.3 | 0.9 | ...
        */
-      'text-alpha'?: number;
+      "text-alpha"?: number;
       textAlpha?: number;
       /**
        * Sets the text's decoration to use underlined characters. Similar to underline. May not display properly in Mozilla Firefox when ch
        * arts are rendered using SVG. "none" | "underline"
        */
-      'text-decoration'?: string;
+      "text-decoration"?: string;
       textDecoration?: string;
       /**
        * Sets whether the text is displayed with underlined characters or not. Similar to text-decoration. May not display properly in Mozi
@@ -19179,7 +19179,7 @@ declare namespace ZingchartAngular {
        * Sets the text's vertical alignment to one of the three applicable values, relative to the object's box. "top" | "middle" | "bottom
        * "
        */
-      'vertical-align'?: string;
+      "vertical-align"?: string;
       verticalAlign?: string;
       /**
        * Sets the visibility of the object. Allows you to turn off the object without removing lines of JSON. true | false | 1 | 0
@@ -19188,10 +19188,10 @@ declare namespace ZingchartAngular {
       /**
        * Sets whether the text will wrap, depending on the width of the object. true | false | 1 | 0
        */
-      'wrap-text'?: boolean;
+      "wrap-text"?: boolean;
       wrapText?: boolean;
     };
-  }  
+  }
 }
 
 export default ZingchartAngular;

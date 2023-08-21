@@ -121,9 +121,17 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/zingchart-angular/tsconfig.lib.json",
             "project": "projects/zingchart-angular/ng-package.json"
-          }
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/zingchart-angular/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/zingchart-angular/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",

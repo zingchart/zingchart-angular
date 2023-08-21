@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import ZingchartAngular from "projects/zingchart-angular/src/zingchart";
 
 @Component({
   selector: "app-root",
