@@ -58,7 +58,6 @@ import { Component } from '@angular/core';
 
 @Component({
   templateUrl: '...',
-  styleUrls: ['...']
 })
 
 export class AppComponent {
@@ -84,14 +83,14 @@ export objects so just import them.
 
 ```js
 import { Component } from '@angular/core';
-// EXPLICITLY IMPORT MODULE from node_modules
+// EXPLICITLY IMPORT ZINGCHART AND MAPS MODULES from node_modules
+import "zingchart";
 import "zingchart/modules-es6/zingchart-maps.min.js";
 import "zingchart/modules-es6/zingchart-maps-usa.min.js";
 import zingchart from 'zingchart/es6';
 
 @Component({
   templateUrl: '...',
-  styleUrls: ['...']
 })
 
 export class AppComponent {
@@ -128,7 +127,6 @@ zingchart.BUILDCODE = ['your_zingchart_license_buildcode'];
 
 @Component({
   templateUrl: '...',
-  styleUrls: ['...']
 })
 
 export class AppComponent {
@@ -203,9 +201,21 @@ All [zingchart events](https://www.zingchart.com/docs/api/events) are readily av
 
 ```
   export class AppComponent {
+    nodeClick(event: Event) {
+      console.log('zingchart node clicked test!', event);
+    }
+  }
+```
+
+Or set only in `.component.ts` file
+
+```
+  import zingchart from 'zingchart/es6';
+  ...
+  export class AppComponent {
     ...
     ngAfterViewInit() {
-      zingchart.node_click = function(event) {
+      zingchart.node_click = function(event: Event) {
         console.log('zingchart node clicked!', event);
       }
     }
@@ -222,16 +232,18 @@ All [zingchart methods](https://www.zingchart.com/docs/api/methods) are readily 
 
 ```
 <zingchart-angular #chart1 [config]="config"></zingchart-angular></zingchart-angular>
-<button (click)="chart1.getdata()">Fetch Data</button>
+<button (click)="getData()">Fetch Data</button>
 ```
 
 `.component.ts` file:
 ```
+  import { Component, ViewChild } from '@angular/core';
 
   export class AppComponent {
+    @ViewChild('chart1') chart1: any;
     ...
     getData() {
-      console.log('Fetching zingchart config object', this.chart.getdata());
+      console.log('Fetching zingchart config object', this.chart1.getdata());
     }
   }
 ```
@@ -245,5 +257,6 @@ This repository contains a "Hello world" example to give you an easy way to see 
 To start the sample application:
 
 ```
-npm run build && npm run start
+npm install zingchart-angular
+npm run start
 ```

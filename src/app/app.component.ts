@@ -1,31 +1,53 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import 'zingchart';
+import 'zingchart/modules-es6/zingchart-maps.min.js';
+import 'zingchart/modules-es6/zingchart-maps-usa.min.js';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
 export class AppComponent {
-  interval: any;
+  @ViewChild('chart1', { static: false }) chart1: any;
 
+  interval: any;
   title = 'zing-app';
-  series: ZingchartAngular.series = [{
-    alpha: 1,
-    values: [2,3,5,5],
-  }]
-  shell: ZingchartAngular.graphset = {
-    type: 'area', 
-  }
-  config: ZingchartAngular.graphset = {
+  config = {
     type: 'line',
     series: [{
       values: [3,4,5,5,6,7,5,3]
     }]
   };
-  log=''
-  onComplete(event) {
-    console.log('zingchart on complete fired!', event);
+  dynamicConfig = {
+    type: 'area', 
+  };
+  mapsConfig = {
+    shapes: [
+      {
+        type: 'zingchart.maps',
+        options: {
+          name: 'usa',
+          ignore: ['AK', 'HI']
+        }
+      }
+    ]
+  };
+  series = [{
+    alpha: 1,
+    values: [2,3,5,5],
+  }];
+
+  getData() {
+    console.log('Fetching zingchart config object', this.chart1.getdata());
+  };
+
+  nodeClick(event: Event) {
+    console.log('zingchart node clicked test!', event);
+  }
+  
+  onComplete(event: Event) {
+    console.log('Fetching zingchart config object', this.chart1.getdata());
   }
 
   ngOnDestroy() {

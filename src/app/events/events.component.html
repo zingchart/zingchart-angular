@@ -1,0 +1,9 @@
+<p>
+  How to hook into ZingCharts API events system with native Angular syntax.
+</p>
+<zingchart-angular
+  [config]="config"
+  [height]="500"
+  (complete)="onComplete($event)"
+  (node_click)="nodeClick($event)"
+></zingchart-angular>

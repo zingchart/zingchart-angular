@@ -1,9 +1,62 @@
-<div>
+<!-- <div>
   <h3>Simple Chart</h3>
-  <zingchart-angular #chart1 [config]="config" [height]="200"></zingchart-angular>
+  <zingchart-angular
+    #chart1
+    [config]="config"
+    [height]="200"
+    (complete)="onComplete($event)"
+    (node_click)="nodeClick($event)">
+  </zingchart-angular>
+
+  <button (click)="getData()">Fetch Data</button>
   <hr>
 
   <h3>Dynamic Chart</h3>
-  <zingchart-angular [config]="shell" [series]="series"></zingchart-angular>
+  <zingchart-angular [config]="dynamicConfig" [series]="series"></zingchart-angular>
+
   <hr>
+
+  <h3>Maps Chart</h3>
+  <zingchart-angular [config]="mapsConfig" [height]="500"></zingchart-angular>
+</div> -->
+
+<nav class="navbar">
+  <h1>
+    <a [routerLink]="['/']">ZingChart Angular Playground</a>
+  </h1>
+  <ul>
+    <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+      <a [routerLink]="['/']">Simple</a>
+    </li>
+    <li routerLinkActive="active">
+      <a routerLink="/graphset">Graphset</a>
+    </li>
+    <li routerLinkActive="active">
+      <a routerLink="/module-chart">Module Chart</a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/dynamic']">Dynamic</a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/events']">Events</a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/methods']">Methods</a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/ajax-performance']">Ajax/Performance</a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/licensing']">Licensing</a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/extend-tdf']">Extend TDF</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <router-outlet></router-outlet>
+  </div>
 </div>
