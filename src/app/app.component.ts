@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { AfterContentInit, Component, OnDestroy } from "@angular/core";
 import ZingchartAngular from "projects/zingchart-angular/src/zingchart";
 
 @Component({
@@ -6,7 +6,7 @@ import ZingchartAngular from "projects/zingchart-angular/src/zingchart";
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"],
 })
-export class AppComponent {
+export class AppComponent implements OnDestroy, AfterContentInit {
   title = "zing-app";
   interval: any;
 

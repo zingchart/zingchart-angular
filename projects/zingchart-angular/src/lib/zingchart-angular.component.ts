@@ -6,6 +6,7 @@ import {
   Input,
   OnChanges,
   OnDestroy,
+  OnInit,
   Output,
   SimpleChanges,
 } from "@angular/core";
@@ -29,7 +30,7 @@ const {
   styles: [":host {display: block;}"],
 })
 export class ZingchartAngularComponent
-  implements AfterViewInit, OnDestroy, OnChanges
+  implements OnInit, AfterViewInit, OnDestroy, OnChanges
 {
   @Input() config: ZingchartAngular.graphset | ZingchartAngular.data;
   @Input() id: string;
@@ -230,7 +231,7 @@ export class ZingchartAngularComponent
         data: changes.config.currentValue,
       });
     } else if (changes.series) {
-      let setSeriesData = (id, data) => {
+      const setSeriesData = (id, data) => {
         return zingchart.exec(id, "setseriesdata", {
           graphid: 0,
           data: data,
