@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
-import { ZingchartAngularModule } from "projects/zingchart-angular/src/projects";
+import { ZingchartAngularModule } from "zingchart-angular";
 import { AppComponent } from "./app.component";
 
 @NgModule({

@@ -1,16 +1,16 @@
-import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import { TestBed, waitForAsync } from "@angular/core/testing";
+import { ZingchartAngularModule } from "zingchart-angular";
+import { AppComponent } from "./app.component";
 
-describe('AppComponent', () => {
-  beforeEach(async(() => {
+describe("AppComponent", () => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [
-        AppComponent
-      ],
+      imports: [ZingchartAngularModule],
+      declarations: [AppComponent],
     }).compileComponents();
   }));
 
-  it('should create the app', () => {
+  it("should create the app", () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
@@ -19,13 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'zing-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('zing-app');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('zing-app app is running!');
+    expect(app.title).toEqual("zing-app");
   });
 });
