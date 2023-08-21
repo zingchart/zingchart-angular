@@ -16,11 +16,6 @@ Quickly add charts to your Angular application with our ZingChart component
 This guide assumes some basic working knowledge of Angular and its Object Oriented interface.
 
 ## 1. Install
-
-Install the `zingchart` package via npm
-
-`npm install zingchart`
-
 Install the `zingchart-angular` package via npm
 
 `npm install zingchart-angular`
@@ -45,8 +40,6 @@ import { ZingchartAngularModule } from 'zingchart-angular';
 ```
 
 ## 3. Define ZingChart in your component
-
-The `zingchart/es6` library is a direct dependency of the `ZingchartAngularModule` and you **do not** have to explicitly import the ZingChart library. 
 
 ### Default Use Case
 
@@ -78,7 +71,7 @@ Then add the `zingchart-angular` tag in your `.component.html` file to tie it al
 
 ### Import ZingChart Modules
 
-You must **EXPLICITLY IMPORT MODULE CHARTS**. There is **NO** default
+You must **EXPLICITLY IMPORT MODULES AND ZINGCHART**. There is **NO** default
 export objects so just import them.
 
 ```js
