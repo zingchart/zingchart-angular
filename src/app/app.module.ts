@@ -12,6 +12,7 @@ import { GraphsetComponent } from './graphset/graphset.component';
 import { DynamicComponent } from './dynamic/dynamic.component';
 import { EventsComponent } from './events/events.component';
 import { MethodsComponent } from './methods/methods.component';
+import { MethodsComponent2 } from './methods2/methods2.component';
 import { LicensingComponent } from './licensing/licensing.component';
 import { AjaxComponent } from './ajax/ajax.component';
 import { ExtendTdf } from './extend-tdf/extendTdf.component';
@@ -27,6 +28,7 @@ import { AppRoutingModule } from './app-routing.module';
     DynamicComponent,
     EventsComponent,
     MethodsComponent,
+    MethodsComponent2,
     LicensingComponent,
     AjaxComponent,
     ExtendTdf,

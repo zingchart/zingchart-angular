@@ -3,9 +3,9 @@ import { Router } from '@angular/router';
 import zingchart from 'zingchart/es6';
 
 // // license key
-zingchart.LICENSE = ['fake_license_key'];
+zingchart.LICENSE = ['your_zingchart_license_key'];
 // for enterprise users
-zingchart.BUILDCODE = ['Fake_license_build_code'];
+zingchart.BUILDCODE = ['your_license_build_code'];
 
 @Component({
   selector: 'app-methods',
