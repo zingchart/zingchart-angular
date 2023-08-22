@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/zingchart-angular",
+            "outputPath": "dist/zingchart-angular-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
