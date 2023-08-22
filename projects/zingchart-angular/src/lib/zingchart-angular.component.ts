@@ -1,4 +1,3 @@
-/// <reference path='../zingchart.ts' />
 import {
   AfterViewInit,
   Component,
@@ -8,7 +7,6 @@ import {
   OnDestroy,
   OnInit,
   Output,
-  SimpleChanges,
 } from "@angular/core";
 import { v4 as uuid } from "uuid";
 import constants from "zingchart-constants";
@@ -30,147 +28,146 @@ const {
   styles: [":host {display: block;}"],
 })
 export class ZingchartAngularComponent
-  implements OnInit, AfterViewInit, OnDestroy, OnChanges
+  implements AfterViewInit, OnChanges, OnDestroy, OnInit
 {
   @Input() config: ZingchartAngular.graphset | ZingchartAngular.data;
   @Input() id: string;
   @Input() width: string | number;
-  @Input() output: string;
   @Input() height: string | number;
+  @Input() output: string;
   @Input() series: ZingchartAngular.series[];
   @Input() theme: Object;
 
-  @Output() about_hide: EventEmitter<object> = new EventEmitter<object>();
-  @Output() about_show: EventEmitter<object> = new EventEmitter<object>();
-  @Output() animation_end: EventEmitter<object> = new EventEmitter<object>();
-  @Output() animation_start: EventEmitter<object> = new EventEmitter<object>();
-  @Output() animation_step: EventEmitter<object> = new EventEmitter<object>();
-  @Output() beforedestroy: EventEmitter<object> = new EventEmitter<object>();
-  @Output() bugreport_hide: EventEmitter<object> = new EventEmitter<object>();
-  @Output() bugreport_show: EventEmitter<object> = new EventEmitter<object>();
-  @Output() click: EventEmitter<object> = new EventEmitter<object>();
-  @Output() complete: EventEmitter<object> = new EventEmitter<object>();
-  @Output() data_export: EventEmitter<object> = new EventEmitter<object>();
-  @Output() dataexport: EventEmitter<object> = new EventEmitter<object>();
-  @Output() dataload: EventEmitter<object> = new EventEmitter<object>();
-  @Output() dataparse: EventEmitter<object> = new EventEmitter<object>();
-  @Output() dataready: EventEmitter<object> = new EventEmitter<object>();
-  @Output() destroy: EventEmitter<object> = new EventEmitter<object>();
-  @Output() dimension_change: EventEmitter<object> = new EventEmitter<object>();
-  @Output() error: EventEmitter<object> = new EventEmitter<object>();
-  @Output() feed_clear: EventEmitter<object> = new EventEmitter<object>();
-  @Output() feed_interval_modify: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() feed_start: EventEmitter<object> = new EventEmitter<object>();
-  @Output() feed_stop: EventEmitter<object> = new EventEmitter<object>();
-  @Output() gcomplete: EventEmitter<object> = new EventEmitter<object>();
-  @Output() getdata: EventEmitter<object> = new EventEmitter<object>();
-  @Output() gload: EventEmitter<object> = new EventEmitter<object>();
-  @Output() gparse: EventEmitter<object> = new EventEmitter<object>();
-  @Output() guide_mousemove: EventEmitter<object> = new EventEmitter<object>();
-  @Output() guide_mouseout: EventEmitter<object> = new EventEmitter<object>();
-  @Output() heatmap_mousemove: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() history_back: EventEmitter<object> = new EventEmitter<object>();
-  @Output() history_forward: EventEmitter<object> = new EventEmitter<object>();
-  @Output() image_save: EventEmitter<object> = new EventEmitter<object>();
-  @Output() label_click: EventEmitter<object> = new EventEmitter<object>();
-  @Output() label_mousedown: EventEmitter<object> = new EventEmitter<object>();
-  @Output() label_mouseout: EventEmitter<object> = new EventEmitter<object>();
-  @Output() label_mouseover: EventEmitter<object> = new EventEmitter<object>();
-  @Output() label_mouseup: EventEmitter<object> = new EventEmitter<object>();
-  @Output() legend_hide: EventEmitter<object> = new EventEmitter<object>();
-  @Output() legend_item_click: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() legend_item_mousemove: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() legend_item_mouseout: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() legend_item_mouseover: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() legend_marker_click: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() legend_maximize: EventEmitter<object> = new EventEmitter<object>();
-  @Output() legend_minimize: EventEmitter<object> = new EventEmitter<object>();
-  @Output() legend_minimize_click: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() legend_pagination_click: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() legend_show: EventEmitter<object> = new EventEmitter<object>();
-  @Output() legend_drag_mousedown: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() lens_hide: EventEmitter<object> = new EventEmitter<object>();
-  @Output() lens_show: EventEmitter<object> = new EventEmitter<object>();
-  @Output() load: EventEmitter<object> = new EventEmitter<object>();
-  @Output() maps_zoom: EventEmitter<object> = new EventEmitter<object>();
-  @Output() menu_item_click: EventEmitter<object> = new EventEmitter<object>();
-  @Output() modify: EventEmitter<object> = new EventEmitter<object>();
-  @Output() modulesready: EventEmitter<object> = new EventEmitter<object>();
-  @Output() mousewheel: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_add: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_click: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_deselect: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_doubleclick: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_mousedown: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_mouseout: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_mouseover: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_mouseup: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_remove: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_select: EventEmitter<object> = new EventEmitter<object>();
-  @Output() node_set: EventEmitter<object> = new EventEmitter<object>();
-  @Output() objectsinit: EventEmitter<object> = new EventEmitter<object>();
-  @Output() objectsready: EventEmitter<object> = new EventEmitter<object>();
-  @Output() overscroll: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_add: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_click: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_deselect: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_doubleclick: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_hide: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_modify: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_mouseout: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_mouseover: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_remove: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_select: EventEmitter<object> = new EventEmitter<object>();
-  @Output() plot_show: EventEmitter<object> = new EventEmitter<object>();
-  @Output() postzoom: EventEmitter<object> = new EventEmitter<object>();
-  @Output() print: EventEmitter<object> = new EventEmitter<object>();
-  @Output() reload: EventEmitter<object> = new EventEmitter<object>();
-  @Output() render: EventEmitter<object> = new EventEmitter<object>();
-  @Output() resize: EventEmitter<object> = new EventEmitter<object>();
-  @Output() setdata: EventEmitter<object> = new EventEmitter<object>();
-  @Output() shape_click: EventEmitter<object> = new EventEmitter<object>();
-  @Output() shape_mousedown: EventEmitter<object> = new EventEmitter<object>();
-  @Output() shape_mouseout: EventEmitter<object> = new EventEmitter<object>();
-  @Output() shape_mouseover: EventEmitter<object> = new EventEmitter<object>();
-  @Output() shape_mouseup: EventEmitter<object> = new EventEmitter<object>();
-  @Output() source_hide: EventEmitter<object> = new EventEmitter<object>();
-  @Output() source_show: EventEmitter<object> = new EventEmitter<object>();
-  @Output() swipe: EventEmitter<object> = new EventEmitter<object>();
-  @Output() touchemove: EventEmitter<object> = new EventEmitter<object>();
-  @Output() touchend: EventEmitter<object> = new EventEmitter<object>();
-  @Output() touchstart: EventEmitter<object> = new EventEmitter<object>();
-  @Output() zingchart_plugins_selection_tool_mouseup: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() zingchart_plugins_selection_tool_selection: EventEmitter<object> =
-    new EventEmitter<object>();
-  @Output() zoom: EventEmitter<object> = new EventEmitter<object>();
-
   chartId: string;
-  chartWidth: string | number;
   chartHeight: string | number;
+  chartWidth: string | number;
   defaultChartId: string;
-  renderObject: Object;
+  renderObject: any;
+
+  @Output() about_hide: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() about_show: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() animation_end: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() animation_start: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() animation_step: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() beforedestroy: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() bugreport_hide: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() bugreport_show: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() click: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() complete: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() data_export: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() dataexport: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() dataload: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() dataparse: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() dataready: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() destroy: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() dimension_change: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() error: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() feed_clear: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() feed_interval_modify: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() feed_start: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() feed_stop: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() gcomplete: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() getdata: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() gload: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() gparse: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() guide_mousemove: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() guide_mouseout: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() heatmap_mousemove: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() history_back: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() history_forward: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() image_save: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() label_click: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() label_mousedown: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() label_mouseout: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() label_mouseover: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() label_mouseup: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() legend_hide: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() legend_item_click: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() legend_item_mousemove: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_item_mouseout: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_item_mouseover: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_marker_click: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_maximize: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() legend_minimize: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() legend_minimize_click: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_pagination_click: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_show: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() legend_drag_mousedown: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() lens_hide: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() lens_show: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() load: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() maps_zoom: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() menu_item_click: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() modify: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() modulesready: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() mousewheel: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_add: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_click: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_deselect: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_doubleclick: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_mousedown: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_mouseout: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_mouseover: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_mouseup: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_remove: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_select: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() node_set: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() objectsinit: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() objectsready: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() overscroll: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_add: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_click: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_deselect: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_doubleclick: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_hide: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_modify: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_mouseout: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_mouseover: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_remove: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_select: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() plot_show: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() postzoom: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() print: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() reload: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() render: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() resize: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() setdata: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() shape_click: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() shape_mousedown: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() shape_mouseout: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() shape_mouseover: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() shape_mouseup: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() source_hide: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() source_show: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() swipe: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() touchemove: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() touchend: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() touchstart: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() zingchart_plugins_selection_tool_mouseup: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() zingchart_plugins_selection_tool_selection: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() zoom: EventEmitter<Event> = new EventEmitter<Event>();
 
   ngOnInit() {
     this.chartId = this.id || `zingchart-ng-${uuid()}`;
-    METHOD_NAMES.forEach((method) => {
-      this[method] = (args) =>
+
+    METHOD_NAMES.forEach((method: string) => {
+      (this as any)[method] = (args: any) =>
         JSON.stringify(zingchart.exec(this.chartId, method, args));
     });
   }
 
   ngAfterViewInit() {
-    let data = this.config;
+    let data = this.config as any;
     if (typeof data === "string") {
       try {
         data = JSON.parse(data);
@@ -183,7 +180,7 @@ export class ZingchartAngularComponent
     }
     if (this.series) {
       if ("graphset" in this.config) {
-        if (this.config.graphset.length === 1) {
+        if (this.config.graphset && this.config.graphset.length === 1) {
           data["graphset"][0].series = this.series;
         }
       } else {
@@ -201,19 +198,20 @@ export class ZingchartAngularComponent
       height: this.chartHeight,
       output: this.output,
     };
+
     if (this.theme) {
       this.renderObject["defaults"] = this.theme;
     }
 
     // Setup event listeners before rendering
-    EVENT_NAMES.forEach((event) => {
+    EVENT_NAMES.forEach((event: string) => {
       if (
-        this[event] &&
-        this[event].observers &&
-        this[event].observers.length
+        (this as any)[event] &&
+        (this as any)[event].observers &&
+        (this as any)[event].observers.length
       ) {
-        zingchart.bind(this.chartId, event, (result) => {
-          this[event].emit(result);
+        zingchart.bind(this.chartId, event, (result: any) => {
+          (this as any)[event].emit(result);
         });
       }
     });
@@ -225,13 +223,13 @@ export class ZingchartAngularComponent
     zingchart.exec(this.chartId, "destroy");
   }
 
-  ngOnChanges(changes: SimpleChanges) {
+  ngOnChanges(changes: any) {
     if (changes.config) {
       zingchart.exec(this.chartId, "setdata", {
         data: changes.config.currentValue,
       });
     } else if (changes.series) {
-      const setSeriesData = (id, data) => {
+      const setSeriesData = (id: string, data: any) => {
         return zingchart.exec(id, "setseriesdata", {
           graphid: 0,
           data: data,
@@ -241,7 +239,7 @@ export class ZingchartAngularComponent
         this.config.series = changes.series.currentValue;
         setSeriesData(this.chartId, this.config.series);
       } else if ("graphset" in this.config) {
-        if (this.config.graphset.length === 1) {
+        if (this.config.graphset && this.config.graphset.length === 1) {
           this.config.graphset[0].series = changes.series.currentValue;
           setSeriesData(this.chartId, this.config.graphset[0].series);
         }

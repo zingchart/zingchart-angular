@@ -3,24 +3,32 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "strict": false,
     "target": "ES2022",
     "module": "ES2022",
-    "typeRoots": ["node_modules/@types"],
+    "useDefineForClassFields": false,
     "lib": ["ES2022", "dom"],
     "paths": {
-      "zingchart-angular": ["dist/zingchart-angular"]
+      "zingchart-angular": ["dist/zingchart-angular"],
+      "zingchart-angular/zingchart": ["dist/zingchart-angular/zingchart"]
     }
   },
   "angularCompilerOptions": {
-    "enableIvy": false,
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
   }
 }

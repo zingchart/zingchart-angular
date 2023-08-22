@@ -5048,7 +5048,8 @@ declare namespace ZingchartAngular {
      * "highlight-marker" object(s), which allow for custom styling.
      * Default Value: false
      */
-    hightlight?: boolean;
+    highlight?: boolean;
+    hintTs?: boolean;
     /**
      * Venn Diagrams Only: This attribute allow you to set the values for the area to be shared between each node. [30]
      */
@@ -5450,7 +5451,6 @@ declare namespace ZingchartAngular {
     };
     "guide-label"?: guideLabel;
     guideLabel?: guideLabel;
-    highlight?: boolean;
     "highlight-marker"?: highlightMarker;
     highlightMarker?: highlightMarker;
     "highlight-state"?: highlightState;
@@ -10282,6 +10282,7 @@ declare namespace ZingchartAngular {
        */
       type?: string;
     };
+    zoom?: boolean;
   }
   interface scaleY {
     /**
@@ -13045,7 +13046,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets the height of the object. 10 | "20px" | 0.3 | "30%" | ...
      */
-    height?: number;
+    height?: number | string;
     /**
      * Sets the line style of the object. "solid" | "dotted" | "dashed" | "dashdot"
      */
@@ -13058,7 +13059,7 @@ declare namespace ZingchartAngular {
     /**
      * Sets the width of the object. 10 | "20px" | 0.3 | "30%" | ...
      */
-    width?: number;
+    width?: number | string;
     "3d-aspect"?: {
       /**
        * Sets the view angle when using the isometric 3D engine. Value can be between 0 and 90, with the default viewing angle being 45°. 5

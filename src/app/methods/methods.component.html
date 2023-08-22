@@ -1,0 +1,6 @@
+<p>
+  How to hook into ZingCharts API methods system with native Angular syntax.
+  The chart reference passed to the "addPlot" method and executes the "appPlot" ZingChart API method.
+</p>
+<button (click)="addPlot(chart1)">Add Plot</button>
+<zingchart-angular #chart1 [config]="config" [height]="500"></zingchart-angular>

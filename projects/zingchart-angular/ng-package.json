@@ -1,8 +1,14 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/zingchart-angular",
+  "assets": [
+    { "glob": "**/*.d.ts", "input": "src/@types", "output": "@types" }
+  ],
   "lib": {
-    "entryFile": "src/projects.ts"
+    "entryFile": "src/public-api.ts"
   },
-  "allowedNonPeerDependencies": ["zingchart", "zingchart-constants"]
+  "allowedNonPeerDependencies": [
+    "zingchart",
+    "zingchart-constants"
+  ]
 }

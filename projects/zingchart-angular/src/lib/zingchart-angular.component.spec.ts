@@ -1,16 +1,15 @@
-import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
-
+import { ComponentFixture, TestBed } from "@angular/core/testing";
 import { ZingchartAngularComponent } from "./zingchart-angular.component";
 
 describe("ZingchartAngularComponent", () => {
   let component: ZingchartAngularComponent;
   let fixture: ComponentFixture<ZingchartAngularComponent>;
 
-  beforeEach(waitForAsync(() => {
+  beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [ZingchartAngularComponent],
-    }).compileComponents();
-  }));
+    });
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ZingchartAngularComponent);

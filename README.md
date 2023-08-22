@@ -16,11 +16,6 @@ Quickly add charts to your Angular application with our ZingChart component
 This guide assumes some basic working knowledge of Angular and its Object Oriented interface.
 
 ## 1. Install
-
-Install the `zingchart` package via npm
-
-`npm install zingchart`
-
 Install the `zingchart-angular` package via npm
 
 `npm install zingchart-angular`
@@ -33,7 +28,7 @@ Install the `zingchart-angular` package via npm
 You can import the module in your module declaration file. This is typically `app.module.ts` for many hello world examples. 
 
 
-```
+```js
 import { ZingchartAngularModule } from 'zingchart-angular';
 
 @NgModule({
@@ -46,19 +41,16 @@ import { ZingchartAngularModule } from 'zingchart-angular';
 
 ## 3. Define ZingChart in your component
 
-The `zingchart/es6` library is a direct dependency of the `ZingchartAngularModule` and you **do not** have to explicitly import the ZingChart library. 
-
 ### Default Use Case
 
 The simple use case is defining a config (`ZingchartAngular.graphset`) object in your `.component.ts` file:
 
  
-```
+```js
 import { Component } from '@angular/core';
 
 @Component({
   templateUrl: '...',
-  styleUrls: ['...']
 })
 
 export class AppComponent {
@@ -73,25 +65,24 @@ export class AppComponent {
 
 Then add the `zingchart-angular` tag in your `.component.html` file to tie it all together!
 
-```
-  <zingchart-angular [config]="config" [height]="500"></zingchart-angular>
+```html
+<zingchart-angular [config]="config" [height]="500"></zingchart-angular>
 ```
 
 ### Import ZingChart Modules
 
-You must **EXPLICITLY IMPORT MODULE CHARTS**. There is **NO** default
+You must **EXPLICITLY IMPORT MODULES AND ZINGCHART**. There is **NO** default
 export objects so just import them.
 
 ```js
 import { Component } from '@angular/core';
-// EXPLICITLY IMPORT MODULE from node_modules
+// EXPLICITLY IMPORT ZINGCHART AND MAPS MODULES from node_modules
+import "zingchart";
 import "zingchart/modules-es6/zingchart-maps.min.js";
 import "zingchart/modules-es6/zingchart-maps-usa.min.js";
-import zingchart from 'zingchart/es6';
 
 @Component({
   templateUrl: '...',
-  styleUrls: ['...']
 })
 
 export class AppComponent {
@@ -111,9 +102,9 @@ export class AppComponent {
 
 ### `zingchart` Global Objects
 
-If you need access to the `window.zingchart` objects for licensing or development flags.
+If you need access to the `window.zingchart` objects for licensing or development flags, import `zingchart` from `zingchart/es6`.
 
-```javascript
+```js
 import { Component } from '@angular/core';
 import zingchart from 'zingchart/es6';
 
@@ -128,7 +119,6 @@ zingchart.BUILDCODE = ['your_zingchart_license_buildcode'];
 
 @Component({
   templateUrl: '...',
-  styleUrls: ['...']
 })
 
 export class AppComponent {
@@ -147,14 +137,16 @@ export class AppComponent {
 
 The chart configuration (graphset)
 
-```
+```js
 config: ZingchartAngular.graphset = {
   type: 'line',
   series: [{
     values: [3,6,4,6,4,6,4,6]
   }],
 };
+```
 
+```html
 <zingchart-angular [config]="config" [height]="500"></zingchart-angular>
 ```
 
@@ -166,14 +158,17 @@ The id for the DOM element for ZingChart to attach to. If no id is specified, th
 
 Accepts an array of series objects, and overrides a series if it was supplied into the config object. Varies by chart type used - **Refer to the [ZingChart documentation](https://zingchart.com/docs) for more details.**
 
+```js
+series: ZingchartAngular.series = {
+  values: [3,6,4,6,4,6,4,6]
+}
+config: ZingchartAngular.graphset = {
+  type: 'line',
+};
 ```
-  series: ZingchartAngular.series = {
-    values: [3,6,4,6,4,6,4,6]
-  }
-  config: ZingchartAngular.graphset = {
-    type: 'line',
-  };
-    <zingchart-angular [config]="config" [height]="500" [series] = "[series]"></zingchart-angular>
+
+```html
+<zingchart-angular [config]="config" [height]="500" [series] = "[series]"></zingchart-angular>
 ```
 
 ### width [string or number] (optional)
@@ -195,21 +190,18 @@ All [zingchart events](https://www.zingchart.com/docs/api/events) are readily av
 
 `.component.html` file:
 
-```
+```html
 <zingchart-angular [config]="config" [height]="300" (node_click)="nodeClick($event)"></zingchart-angular>
 ```
 
 `.component.ts` file:
 
-```
-  export class AppComponent {
-    ...
-    ngAfterViewInit() {
-      zingchart.node_click = function(event) {
-        console.log('zingchart node clicked!', event);
-      }
-    }
+```js
+export class AppComponent {
+  nodeClick(event: Event) {
+    console.log('zingchart node clicked test!', event);
   }
+}
 ```
 
 For a list of all the events that you can listen to, refer to the complete documentation on https://www.zingchart.com/docs/api/events
@@ -220,20 +212,42 @@ All [zingchart methods](https://www.zingchart.com/docs/api/methods) are readily 
 
 `.component.html` file:
 
-```
+```html
 <zingchart-angular #chart1 [config]="config"></zingchart-angular></zingchart-angular>
-<button (click)="chart1.getdata()">Fetch Data</button>
+
+<button (click)="getData(chart1)">Fetch Data</button>
 ```
 
 `.component.ts` file:
+```js
+import { Component } from '@angular/core';
+
+export class AppComponent {
+  ...
+  getData(chartContext: any) {
+    console.log('Fetching zingchart config object', chartContext.getdata());
+  }
+}
 ```
 
-  export class AppComponent {
-    ...
-    getData() {
-      console.log('Fetching zingchart config object', this.chart.getdata());
-    }
+or alternatively you can use `ViewChild` to access the chart instead of passing a reference of it in the method.
+```html
+<zingchart-angular #chart1 [config]="config"></zingchart-angular></zingchart-angular>
+
+<button (click)="getData()">Fetch Data</button>
+```
+
+`.component.ts` file:
+```js
+import { Component, ViewChild } from '@angular/core';
+
+export class AppComponent {
+  @ViewChild('chart1') chart1: any;
+  ...
+  getData() {
+    console.log('Fetching zingchart config object', this.chart1.getdata());
   }
+}
 ```
 
 For a list of all the methods that you can call and the parameters each method can take, refer to the complete documentation on https://www.zingchart.com/docs/api/methods
@@ -245,5 +259,5 @@ This repository contains a "Hello world" example to give you an easy way to see 
 To start the sample application:
 
 ```
-npm run build && npm run start
+npm run start
 ```

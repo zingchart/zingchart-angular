@@ -1,5 +1,10 @@
-import { AfterContentInit, Component, OnDestroy } from "@angular/core";
-import ZingchartAngular from "projects/zingchart-angular/src/zingchart";
+import {
+  AfterContentInit,
+  Component,
+  OnDestroy,
+  ViewChild,
+} from "@angular/core";
+import ZingchartAngular from "zingchart-angular/zingchart";
 
 @Component({
   selector: "app-root",
@@ -7,18 +12,11 @@ import ZingchartAngular from "projects/zingchart-angular/src/zingchart";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent implements OnDestroy, AfterContentInit {
+  @ViewChild("chart1", { static: false }) chart1: any;
+
   title = "zing-app";
   interval: any;
 
-  series: ZingchartAngular.series = [
-    {
-      alpha: 1,
-      values: [2, 3, 5, 5],
-    },
-  ];
-  shell: ZingchartAngular.graphset = {
-    type: "area",
-  };
   config: ZingchartAngular.graphset = {
     type: "line",
     series: [
@@ -27,6 +25,38 @@ export class AppComponent implements OnDestroy, AfterContentInit {
       },
     ],
   };
+  dynamicConfig: ZingchartAngular.graphset = {
+    type: "area",
+  };
+  mapsConfig: ZingchartAngular.graphset = {
+    shapes: [
+      {
+        type: "zingchart.maps",
+        options: {
+          name: "usa",
+          ignore: ["AK", "HI"],
+        },
+      },
+    ],
+  };
+  series: ZingchartAngular.series = [
+    {
+      alpha: 1,
+      values: [2, 3, 5, 5],
+    },
+  ];
+
+  getData() {
+    console.log("Fetching zingchart config object", this.chart1.getdata());
+  }
+
+  nodeClick(event: Event) {
+    console.log("zingchart node clicked test!", event);
+  }
+
+  onComplete() {
+    console.log("Fetching zingchart config object", this.chart1.getdata());
+  }
 
   ngOnDestroy() {
     window.clearTimeout(this.interval);
