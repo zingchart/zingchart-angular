@@ -1,6 +1,6 @@
 {
   "name": "zing-app",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
