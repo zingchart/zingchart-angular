@@ -1,0 +1,38 @@
+name: deploy
+
+on: 
+  push:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.16]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      # npm ci REQUIRES a package-lock.json 
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build js and modules
+        run: npm run build:app
+      - name: Deploy page
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/zingchart-angular-app
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          destination_dir: ./
+          keep_files: false
+  

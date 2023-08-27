@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng cache clean && ng build zingchart-angular",
+    "build:app": "ng cache clean && ng build --base-href=/zing-app/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "publish": "cd dist/zingchart-angular && npm publish --access public",
