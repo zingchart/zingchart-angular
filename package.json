@@ -7,7 +7,7 @@
     "build": "ng cache clean && ng build zingchart-angular",
     "build:app": "ng cache clean && ng build --base-href=/zingchart-angular/",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "ng test --watch=false --browsers=ChromeHeadless",
     "publish": "cd dist/zingchart-angular && npm publish --access public",
     "publish:tag": "cd dist/zingchart-angular && npm publish --tag beta --access public",
     "publish:test": "cd dist/zingchart-angular && npm publish --dry-run",
