@@ -24,6 +24,8 @@ jobs:
       # npm ci REQUIRES a package-lock.json
       - name: Install Dependencies
         run: npm ci
+      - name: Build library
+        run: npm run build
       - name: Build js and modules
         run: npm run build:app
       - name: Deploy page
