@@ -1,34 +1,34 @@
-import { Component } from '@angular/core';
-import ZingchartAngular from './index';
+import { Component } from "@angular/core";
+import ZingchartAngular from "./index";
 
 @Component({
-  selector: 'app-extend-tdf',
-  templateUrl: './extendTdf.component.html'
+  selector: "app-extend-tdf",
+  templateUrl: "./extendTdf.component.html",
 })
-export class ExtendTdf {
+export class ExtendTdfComponent {
   config: ZingchartAngular.graphset = {
-    type: 'bar',
+    type: "bar",
     title: {
-      text: 'Extend TDF with custom token: data-description'
+      text: "Extend TDF with custom token: data-description",
     },
     plot: {
       tooltip: {
-        text: '%v - %data-description'
-      }
+        text: "%v - %data-description",
+      },
     },
     series: [
       {
         values: [4, 5, 3, 4, 5, 3, 5],
-        'data-description': [
-          'red',
-          'orange',
-          'yellow',
-          'green',
-          'blue',
-          'indigo',
-          'violet'
-        ]
-      }
-    ]
+        "data-description": [
+          "red",
+          "orange",
+          "yellow",
+          "green",
+          "blue",
+          "indigo",
+          "violet",
+        ],
+      },
+    ],
   };
 }

@@ -1,21 +1,23 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
+import { ZingchartAngularComponent } from "./zingchart-angular.component";
 
-import { ZingchartAngularComponent } from './zingchart-angular.component';
-
-describe('ZingchartAngularComponent', () => {
+describe("ZingchartAngularComponent", () => {
   let component: ZingchartAngularComponent;
   let fixture: ComponentFixture<ZingchartAngularComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ZingchartAngularComponent]
+      declarations: [ZingchartAngularComponent],
     });
+  });
+
+  beforeEach(() => {
     fixture = TestBed.createComponent(ZingchartAngularComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

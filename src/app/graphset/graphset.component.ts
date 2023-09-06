@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
+import ZingchartAngular from "zingchart-angular/zingchart";
 
 @Component({
-  selector: 'app-graphset',
-  templateUrl: './graphset.component.html',
+  selector: "app-graphset",
+  templateUrl: "./graphset.component.html",
 })
 export class GraphsetComponent {
   config: ZingchartAngular.data = {
@@ -10,62 +11,62 @@ export class GraphsetComponent {
     graphset: [
       {
         /* Object containing chart data */
-        type: 'line',
+        type: "line",
         /* Size your chart using height/width attributes */
-        height: '200px',
-        width: '100%',
+        height: "200px",
+        width: "100%",
         /* Position your chart using x/y attributes */
-        x: '5%',
-        y: '5%',
+        x: "5%",
+        y: "5%",
         series: [
           {
-            values: [76, 23, 15, 85, 13]
+            values: [76, 23, 15, 85, 13],
           },
           {
-            values: [36, 53, 65, 25, 45]
-          }
-        ]
+            values: [36, 53, 65, 25, 45],
+          },
+        ],
       },
       {
         /* Object containing chart data */
-        type: 'funnel',
-        height: '55%',
-        width: '50%',
-        x: '5%',
-        y: '200px',
+        type: "funnel",
+        height: "55%",
+        width: "50%",
+        x: "5%",
+        y: "200px",
         series: [
           {
-            values: [30]
+            values: [30],
           },
           {
-            values: [15]
+            values: [15],
           },
           {
-            values: [5]
+            values: [5],
           },
           {
-            values: [3]
-          }
-        ]
+            values: [3],
+          },
+        ],
       },
       {
-        type: 'pie',
-        height: '55%',
-        width: '50%',
-        x: '50%',
-        y: '200px',
+        type: "pie",
+        height: "55%",
+        width: "50%",
+        x: "50%",
+        y: "200px",
         series: [
           {
-            values: [15]
+            values: [15],
           },
           {
-            values: [30]
+            values: [30],
           },
           {
-            values: [34]
-          }
-        ]
-      }
-    ]
+            values: [34],
+          },
+        ],
+      },
+    ],
   };
 }

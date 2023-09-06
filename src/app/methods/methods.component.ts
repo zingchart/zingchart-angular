@@ -1,31 +1,29 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from "@angular/core";
+import ZingchartAngular from "zingchart-angular/zingchart";
 
 @Component({
-  selector: 'app-methods',
-  templateUrl: './methods.component.html'
+  selector: "app-methods",
+  templateUrl: "./methods.component.html",
 })
 export class MethodsComponent {
-  constructor(private router: Router) {}
-
   config: ZingchartAngular.graphset = {
-    type: 'bar',
+    type: "bar",
     title: {
-      text: 'API Methods'
+      text: "API Methods",
     },
     series: [
       {
-        values: [4, 5, 3, 4, 5, 3, 5, 4, 11, 12]
-      }
-    ]
+        values: [4, 5, 3, 4, 5, 3, 5, 4, 11, 12],
+      },
+    ],
   };
 
   addPlot(chartContext: any) {
     chartContext.addplot({
       data: {
         values: this._randomData(10),
-        text: 'My new plot'
-      }
+        text: "My new plot",
+      },
     });
   }
 

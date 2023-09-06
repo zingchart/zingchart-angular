@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "zingchart-angular": {
+    "zing-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -16,17 +16,10 @@
             "outputPath": "dist/zingchart-angular-app",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -58,12 +51,15 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "zing-app:build"
+          },
           "configurations": {
             "production": {
-              "browserTarget": "zingchart-angular:build:production"
+              "browserTarget": "zing-app:build:production"
             },
             "development": {
-              "browserTarget": "zingchart-angular:build:development"
+              "browserTarget": "zing-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,46 +67,45 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "zingchart-angular:build"
+            "browserTarget": "zing-app:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "karmaConfig": "karma.conf.js",
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
         }
       }
     },
-    "zingchart-angular-component": {
+    "zingchart-angular": {
       "projectType": "library",
-      "root": "projects/zingchart-angular-component",
-      "sourceRoot": "projects/zingchart-angular-component/src",
+      "root": "projects/zingchart-angular",
+      "sourceRoot": "projects/zingchart-angular/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/zingchart-angular-component/ng-package.json"
+            "project": "projects/zingchart-angular/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/zingchart-angular-component/tsconfig.lib.prod.json"
+              "tsConfig": "projects/zingchart-angular/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/zingchart-angular-component/tsconfig.lib.json"
+              "tsConfig": "projects/zingchart-angular/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -118,10 +113,17 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/zingchart-angular-component/tsconfig.spec.json",
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
+            "tsConfig": "projects/zingchart-angular/tsconfig.spec.json",
+            "karmaConfig": "projects/zingchart-angular/karma.conf.js",
+            "polyfills": ["zone.js", "zone.js/testing"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/zingchart-angular/**/*.ts",
+              "projects/zingchart-angular/**/*.html"
             ]
           }
         }

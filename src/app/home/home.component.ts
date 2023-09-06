@@ -1,21 +1,20 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from "@angular/core";
+import ZingchartAngular from "zingchart-angular/zingchart";
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
+  selector: "app-home",
+  templateUrl: "./home.component.html",
 })
 export class HomeComponent {
-  constructor(private router: Router) {}
   config: ZingchartAngular.graphset = {
-    type: 'bar',
+    type: "bar",
     title: {
-      text: 'Hello ZingChart Angular Edition!'
+      text: "Hello ZingChart Angular Edition!",
     },
     series: [
       {
-        values: [4, 5, 3, 4, 5, 3, 5, 4, 11]
-      }
-    ]
+        values: [4, 5, 3, 4, 5, 3, 5, 4, 11],
+      },
+    ],
   };
 }

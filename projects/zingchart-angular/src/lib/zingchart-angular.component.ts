@@ -1,18 +1,35 @@
-import { AfterViewInit, Component, EventEmitter, Input, OnChanges, OnDestroy, OnInit, Output } from '@angular/core';
-import { v4 as uuid } from 'uuid';
-import zingchart from 'zingchart/es6';
-import constants from 'zingchart-constants';
-import * as ZingchartAngular from '../@types/zingchart';
+import {
+  AfterViewInit,
+  Component,
+  EventEmitter,
+  Input,
+  OnChanges,
+  OnDestroy,
+  OnInit,
+  Output,
+} from "@angular/core";
+import { v4 as uuid } from "uuid";
+import constants from "zingchart-constants";
+import zingchart from "zingchart/es6";
+import ZingchartAngular from "../zingchart";
 
-const { DEFAULT_WIDTH, DEFAULT_HEIGHT, DEFAULT_OUTPUT, EVENT_NAMES, METHOD_NAMES } = constants;
+const {
+  DEFAULT_WIDTH,
+  DEFAULT_HEIGHT,
+  DEFAULT_OUTPUT,
+  EVENT_NAMES,
+  METHOD_NAMES,
+} = constants;
 
 @Component({
-  selector: 'zingchart-angular',
-  template: '',
-  host: {'[id]': 'chartId'},
-  styles: [':host {display: block;}'],
+  selector: "zingchart-angular",
+  template: "",
+  host: { "[id]": "chartId" },
+  styles: [":host {display: block;}"],
 })
-export class ZingchartAngularComponent implements AfterViewInit, OnChanges, OnDestroy, OnInit {
+export class ZingchartAngularComponent
+  implements AfterViewInit, OnChanges, OnDestroy, OnInit
+{
   @Input() config: ZingchartAngular.graphset | ZingchartAngular.data;
   @Input() id: string;
   @Input() width: string | number;
@@ -46,7 +63,8 @@ export class ZingchartAngularComponent implements AfterViewInit, OnChanges, OnDe
   @Output() dimension_change: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() error: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() feed_clear: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() feed_interval_modify: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() feed_interval_modify: EventEmitter<Event> =
+    new EventEmitter<Event>();
   @Output() feed_start: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() feed_stop: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() gcomplete: EventEmitter<Event> = new EventEmitter<Event>();
@@ -66,16 +84,23 @@ export class ZingchartAngularComponent implements AfterViewInit, OnChanges, OnDe
   @Output() label_mouseup: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() legend_hide: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() legend_item_click: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() legend_item_mousemove: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() legend_item_mouseout: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() legend_item_mouseover: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() legend_marker_click: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() legend_item_mousemove: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_item_mouseout: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_item_mouseover: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_marker_click: EventEmitter<Event> =
+    new EventEmitter<Event>();
   @Output() legend_maximize: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() legend_minimize: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() legend_minimize_click: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() legend_pagination_click: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() legend_minimize_click: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() legend_pagination_click: EventEmitter<Event> =
+    new EventEmitter<Event>();
   @Output() legend_show: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() legend_drag_mousedown: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() legend_drag_mousedown: EventEmitter<Event> =
+    new EventEmitter<Event>();
   @Output() lens_hide: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() lens_show: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() load: EventEmitter<Event> = new EventEmitter<Event>();
@@ -126,37 +151,40 @@ export class ZingchartAngularComponent implements AfterViewInit, OnChanges, OnDe
   @Output() touchemove: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() touchend: EventEmitter<Event> = new EventEmitter<Event>();
   @Output() touchstart: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() zingchart_plugins_selection_tool_mouseup: EventEmitter<Event> = new EventEmitter<Event>();
-  @Output() zingchart_plugins_selection_tool_selection: EventEmitter<Event> = new EventEmitter<Event>();
+  @Output() zingchart_plugins_selection_tool_mouseup: EventEmitter<Event> =
+    new EventEmitter<Event>();
+  @Output() zingchart_plugins_selection_tool_selection: EventEmitter<Event> =
+    new EventEmitter<Event>();
   @Output() zoom: EventEmitter<Event> = new EventEmitter<Event>();
 
   ngOnInit() {
     this.chartId = this.id || `zingchart-ng-${uuid()}`;
 
     METHOD_NAMES.forEach((method: string) => {
-      (this as any)[method] = (args: any) => JSON.stringify(zingchart.exec(this.chartId, method, args));
+      (this as any)[method] = (args: any) =>
+        JSON.stringify(zingchart.exec(this.chartId, method, args));
     });
   }
 
   ngAfterViewInit() {
     let data = this.config as any;
-    if (typeof data === 'string') {
+    if (typeof data === "string") {
       try {
         data = JSON.parse(data);
-      } catch(e) {
-        throw new Error('Invalid object');
+      } catch (e) {
+        throw new Error("Invalid object");
       }
     }
     if (this.id) {
       this.chartId = this.id;
     }
     if (this.series) {
-      if ('graphset' in this.config) {
+      if ("graphset" in this.config) {
         if (this.config.graphset && this.config.graphset.length === 1) {
-          data['graphset'][0].series = this.series;
+          data["graphset"][0].series = this.series;
         }
       } else {
-        data['series'] = this.series;
+        data["series"] = this.series;
       }
     }
     this.chartWidth = this.width || DEFAULT_WIDTH;
@@ -169,18 +197,22 @@ export class ZingchartAngularComponent implements AfterViewInit, OnChanges, OnDe
       width: this.chartWidth,
       height: this.chartHeight,
       output: this.output,
-    }
+    };
 
     if (this.theme) {
-      this.renderObject['defaults'] = this.theme;
+      this.renderObject["defaults"] = this.theme;
     }
 
     // Setup event listeners before rendering
-    EVENT_NAMES.forEach((event:string) => {
-      if((this as any)[event] && (this as any)[event].observers && (this as any)[event].observers.length) {
-        zingchart.bind(this.chartId, event, ((result:any) => {
+    EVENT_NAMES.forEach((event: string) => {
+      if (
+        (this as any)[event] &&
+        (this as any)[event].observers &&
+        (this as any)[event].observers.length
+      ) {
+        zingchart.bind(this.chartId, event, (result: any) => {
           (this as any)[event].emit(result);
-        }));
+        });
       }
     });
 
@@ -188,25 +220,25 @@ export class ZingchartAngularComponent implements AfterViewInit, OnChanges, OnDe
   }
 
   ngOnDestroy() {
-    zingchart.exec(this.chartId, 'destroy');  
+    zingchart.exec(this.chartId, "destroy");
   }
 
   ngOnChanges(changes: any) {
     if (changes.config) {
-      zingchart.exec(this.chartId, 'setdata', {
+      zingchart.exec(this.chartId, "setdata", {
         data: changes.config.currentValue,
       });
     } else if (changes.series) {
-      let setSeriesData = (id: string, data: any) =>{
-        return zingchart.exec(id, 'setseriesdata', {
+      const setSeriesData = (id: string, data: any) => {
+        return zingchart.exec(id, "setseriesdata", {
           graphid: 0,
           data: data,
         });
-      }
-      if ('series' in this.config) {
+      };
+      if ("series" in this.config) {
         this.config.series = changes.series.currentValue;
         setSeriesData(this.chartId, this.config.series);
-      } else if ('graphset' in this.config) {
+      } else if ("graphset" in this.config) {
         if (this.config.graphset && this.config.graphset.length === 1) {
           this.config.graphset[0].series = changes.series.currentValue;
           setSeriesData(this.chartId, this.config.graphset[0].series);
@@ -216,7 +248,7 @@ export class ZingchartAngularComponent implements AfterViewInit, OnChanges, OnDe
       const width = (changes.width && changes.width.currentValue) || this.width;
       const height =
         (changes.height && changes.height.currentValue) || this.height;
-      zingchart.exec(this.chartId, 'resize', {
+      zingchart.exec(this.chartId, "resize", {
         width,
         height,
       });

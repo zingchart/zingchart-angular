@@ -1,4 +1,4 @@
-import { default as _ZingchartAngular } from "zingchart-angular/@types/index";
+import { default as _ZingchartAngular } from "zingchart-angular/zingchart";
 
 declare namespace ZingchartAngular {
   interface graphset extends _ZingchartAngular.graphset {
